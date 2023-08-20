@@ -2,10 +2,10 @@ package javaBasic;
 
 import java.util.Scanner;
 
-public class Topic_01_Data_Type {
+public class Topic_01_Variable {
 	
 	// Hàm khởi tạo
-	public Topic_01_Data_Type(){
+	public Topic_01_Variable(){
 	}
 	
 	// Biến global
@@ -23,9 +23,9 @@ public class Topic_01_Data_Type {
 	public static void main (String []agrs) {
 		
 		  System.out.println(studentNumber); System.out.println(statusValue);
-		  System.out.println(Topic_01_Data_Type.BROWSER_NAME);
-		  System.out.println(Topic_01_Data_Type.statusValue);
-		  System.out.println(Topic_01_Data_Type.studentNumber);
+		  System.out.println(Topic_01_Variable.BROWSER_NAME);
+		  System.out.println(Topic_01_Variable.statusValue);
+		  System.out.println(Topic_01_Variable.studentNumber);
 		 
 		
 		int studentPrice =5;
@@ -33,10 +33,10 @@ public class Topic_01_Data_Type {
 		
 		// Khai báo 1 object 
 		// Để dùng hàm global thông qua 1 object đã được khởi tạo
-		Topic_01_Data_Type topic = new Topic_01_Data_Type();
+		Topic_01_Variable topic = new Topic_01_Variable();
 		System.out.println(topic.studentName);
 		
-		System.out.println(Topic_01_Data_Type.BROWSER_NAME);
+		System.out.println(Topic_01_Variable.BROWSER_NAME);
 		
 		
 		// input:khi nào run thì mới nhập dữ liệu vào thông qua console
