@@ -2,7 +2,7 @@ package javaBasic;
 
 import org.testng.annotations.Test;
 
-public class Topic_02_Excercise {
+public class Topic_02_Exercise {
 
 	@Test
 	public void TC_01() {

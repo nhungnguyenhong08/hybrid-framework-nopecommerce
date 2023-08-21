@@ -2,7 +2,7 @@ package javaBasic;
 
 import org.testng.annotations.Test;
 
-public class Topic_04_Excecise {
+public class Topic_04_Exercise {
 
 	@Test
 	public void swapNumber() {
