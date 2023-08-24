@@ -96,6 +96,7 @@ public class Topic_06_Condition_Statement {
 	
 	
 	@Parameters("browser")
+	@Test
 	public void TC_03_IF_ELSE_IF_ELSE(String browserName) {
 		// Có nhiều điều kiện
 		// Best practise: k nên dùng if-else quá nhiều 
