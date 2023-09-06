@@ -77,8 +77,8 @@ public class Level_02_Apply_BasePage_III extends BasePage {
 
 		Assert.assertEquals(getElementText(driver, "//div[@class='result']"), "Your registration completed");
 
-		waitForElementClickable(driver, "//a[@class='ico-register']");
-		clickToElement(driver, "//a[@class='ico-register']");
+		waitForElementClickable(driver, "//div[@class='header-logo']");
+		clickToElement(driver, "//div[@class='header-logo']");
 	}
 
 	@Test

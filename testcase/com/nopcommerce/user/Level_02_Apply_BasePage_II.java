@@ -84,8 +84,8 @@ public class Level_02_Apply_BasePage_II {
 
 		Assert.assertEquals(basePage.getElementText(driver, "//div[@class='result']"), "Your registration completed");
 
-		basePage.waitForElementClickable(driver, "//a[@class='ico-register']");
-		basePage.clickToElement(driver, "//a[@class='ico-register']");
+		basePage.waitForElementClickable(driver, "//div[@class='header-logo']");
+		basePage.clickToElement(driver, "//div[@class='header-logo']");
 	}
 
 	@Test

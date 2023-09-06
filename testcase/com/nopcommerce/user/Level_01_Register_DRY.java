@@ -70,7 +70,7 @@ public class Level_01_Register_DRY {
 
 		Assert.assertEquals(driver.findElement(By.cssSelector("div.result")).getText(), "Your registration completed");
 
-		driver.findElement(By.cssSelector("a.ico-register")).click();
+		driver.findElement(By.cssSelector("div.header-logo")).click();
 	}
 
 	@Test
