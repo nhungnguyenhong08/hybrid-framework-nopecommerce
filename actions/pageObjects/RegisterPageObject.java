@@ -18,7 +18,7 @@ public class RegisterPageObject extends BasePage {
 
 	}
 
-	public String getErrorMessageAtFistnameTextbox() {
+	public String getErrorMessageAtFirstnameTextbox() {
 		waitForElementVisible(driver, RegisterPageUI.FIRST_NAME_ERROR_MESSAGE);
 		return getElementText(driver, RegisterPageUI.FIRST_NAME_ERROR_MESSAGE);
 	}
@@ -70,6 +70,7 @@ public class RegisterPageObject extends BasePage {
 	public void inputToConfirmPasswordTextbox(String confirmPassword) {
 		waitForElementVisible(driver, RegisterPageUI.CONFIRM_PASSWORD_TEXTBOX);
 		sendkeyToElement(driver, RegisterPageUI.CONFIRM_PASSWORD_TEXTBOX, confirmPassword);
+
 	}
 
 	public String getSucessRegisterMessage() {
@@ -77,15 +78,15 @@ public class RegisterPageObject extends BasePage {
 		return getElementText(driver, RegisterPageUI.REGISTER_SUCESS_MESSAGE);
 	}
 
-	public String getErrorExistingEmailMessage() {
-		waitForElementVisible(driver, RegisterPageUI.EXISTING_EMAIL_ERROR_MESSAGE);
-		return getElementText(driver, RegisterPageUI.EXISTING_EMAIL_ERROR_MESSAGE);
-	}
-
 	public void clickToHomeLink() {
 		waitForElementVisible(driver, RegisterPageUI.HOME_LINK);
 		clickToElement(driver, RegisterPageUI.HOME_LINK);
 
+	}
+
+	public String getErrorExistingEmailMessage() {
+		waitForElementVisible(driver, RegisterPageUI.EXISTING_EMAIL_ERROR_MESSAGE);
+		return getElementText(driver, RegisterPageUI.EXISTING_EMAIL_ERROR_MESSAGE);
 	}
 
 }

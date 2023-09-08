@@ -17,8 +17,7 @@ public class RegisterPageUI {
 
 	public static final String REGISTER_SUCESS_MESSAGE = "//div[@class='result']";
 
-	public static final String HOME_LINK = "//div[@class='header-logo']";
-
 	public static final String EXISTING_EMAIL_ERROR_MESSAGE = "//div[contains(@class,'message-error')]//li";
 
+	public static final String HOME_LINK = "//div[@class='header-logo']";
 }
