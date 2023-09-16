@@ -39,6 +39,7 @@ public class BaseTest {
 		}
 		driver.manage().window().setPosition(new Point(0, 0));
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		return driver;
 	}
 

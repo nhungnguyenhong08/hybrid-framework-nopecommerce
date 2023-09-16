@@ -8,32 +8,32 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObjects.nopCommerce.AddressPageObject;
-import pageObjects.nopCommerce.CustomerInforPageObject;
-import pageObjects.nopCommerce.HomePageObject;
-import pageObjects.nopCommerce.LoginPageObject;
-import pageObjects.nopCommerce.MyProductReviewPageObject;
-import pageObjects.nopCommerce.PageGeneratorManager;
-import pageObjects.nopCommerce.RegisterPageObject;
-import pageObjects.nopCommerce.RewardPointsPageObject;
+import commons.PageGeneratorManager;
+import pageObjects.nopCommerce.user.UserAddressPageObject;
+import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
+import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import pageObjects.nopCommerce.user.UserRewardPointsPageObject;
 
 public class Level_07_Switch_Page extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, emailAddress, validPassword;
-	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
-	private LoginPageObject loginPage;
-	private CustomerInforPageObject customerInforPage;
-	private AddressPageObject addressPage;
-	private MyProductReviewPageObject myProductReviewPage;
-	private RewardPointsPageObject rewardPointsPage;
+	private UserHomePageObject homePage;
+	private UserRegisterPageObject registerPage;
+	private UserLoginPageObject loginPage;
+	private UserCustomerInforPageObject customerInforPage;
+	private UserAddressPageObject addressPage;
+	private UserMyProductReviewPageObject myProductReviewPage;
+	private UserRewardPointsPageObject rewardPointsPage;
 
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get("https://demo.nopcommerce.com/");
-		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		firstName = "Automation";
 		lastName = "FC";
