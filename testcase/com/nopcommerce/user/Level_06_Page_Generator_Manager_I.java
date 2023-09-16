@@ -1,7 +1,5 @@
 package com.nopcommerce.user;
 
-import java.util.Random;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -14,7 +12,7 @@ import pageObjects.nopCommerce.HomePageObject;
 import pageObjects.nopCommerce.LoginPageObject;
 import pageObjects.nopCommerce.RegisterPageObject;
 
-public class Level_05_Page_Factory extends BaseTest {
+public class Level_06_Page_Generator_Manager_I extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, invalidEmail, notFoundEmail, existingEmail, validPassword, incorrectPassword;
 	private HomePageObject homePage;
@@ -56,6 +54,7 @@ public class Level_05_Page_Factory extends BaseTest {
 		System.out.println("Pre-Condition - Step 05: Click to home link");
 		registerPage.clickToHomeLink();
 
+		// Click vào home link => chuyển qua homepage
 		homePage = new HomePageObject(driver);
 
 	}
@@ -64,6 +63,7 @@ public class Level_05_Page_Factory extends BaseTest {
 	public void Login_01__Empty_Data() {
 		homePage.clickToLoginLink();
 
+		// Từ trang Home - Click Login link -> qua trang login
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.clickToLoginButton();
@@ -76,6 +76,7 @@ public class Level_05_Page_Factory extends BaseTest {
 	public void Login_02_Invalid_Email() {
 		homePage.clickToLoginLink();
 
+		// Từ trang Home - Click Login link -> qua trang login
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(invalidEmail);
@@ -89,6 +90,7 @@ public class Level_05_Page_Factory extends BaseTest {
 	public void Login_03_Email_Not_Found() {
 		homePage.clickToLoginLink();
 
+		// Từ trang Home - Click Login link -> qua trang login
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(notFoundEmail);
@@ -103,6 +105,7 @@ public class Level_05_Page_Factory extends BaseTest {
 	public void Login_04_Existing_Email_Empty_Password() {
 		homePage.clickToLoginLink();
 
+		// Từ trang Home - Click Login link -> qua trang login
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(existingEmail);
@@ -118,6 +121,7 @@ public class Level_05_Page_Factory extends BaseTest {
 	public void Login_05_Existing_Email_Incorrect_Password() {
 		homePage.clickToLoginLink();
 
+		// Từ trang Home - Click Login link -> qua trang login
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(existingEmail);
@@ -133,6 +137,7 @@ public class Level_05_Page_Factory extends BaseTest {
 	public void Login_06_Valid_Email_Password() {
 		homePage.clickToLoginLink();
 
+		// Từ trang Home - Click Login link -> qua trang login
 		loginPage = new LoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(existingEmail);
@@ -140,6 +145,7 @@ public class Level_05_Page_Factory extends BaseTest {
 
 		loginPage.clickToLoginButton();
 
+		// Login thành công -> HomePage
 		homePage = new HomePageObject(driver);
 
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
@@ -148,12 +154,6 @@ public class Level_05_Page_Factory extends BaseTest {
 	@AfterClass
 	public void afterClass() {
 		driver.quit();
-	}
-
-	public int generateFakeNumber() {
-		Random rand = new Random();
-		return rand.nextInt(9999);
-
 	}
 
 }

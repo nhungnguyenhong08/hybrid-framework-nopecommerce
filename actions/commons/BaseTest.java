@@ -1,5 +1,6 @@
 package commons;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Point;
@@ -38,7 +39,12 @@ public class BaseTest {
 		}
 		driver.manage().window().setPosition(new Point(0, 0));
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get("https://demo.nopcommerce.com/");
 		return driver;
+	}
+
+	protected int generateFakeNumber() {
+		Random rand = new Random();
+		return rand.nextInt(9999);
+
 	}
 }
