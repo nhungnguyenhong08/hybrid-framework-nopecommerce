@@ -426,6 +426,7 @@ public class BasePage {
 
 	// Tối ưu ở bài học Level_09_Dynamic_Locator
 
+	// Cách 1 (Có ít page)
 	public BasePage openPageAtMyAccountByName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
 		clickToElement(driver, BasePageUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
@@ -441,6 +442,12 @@ public class BasePage {
 		default:
 			throw new RuntimeException("Invalid page name at My Account area.");
 		}
+	}
+
+	// Cách 2 (có nhiều page để k phải viết switch case nhiều)
+	public void openPageAtMyAccountByPageName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
+		clickToElement(driver, BasePageUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
 	}
 
 	// Switch role Level_08_Switch_Role
