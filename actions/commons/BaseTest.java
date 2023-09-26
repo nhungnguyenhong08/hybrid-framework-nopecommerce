@@ -31,14 +31,20 @@ public class BaseTest {
 			// Cốc cốc browser trừ đi 5-6 version ra chromdriver (lấy version của trình duyệt cốc cốc - 5/6)
 			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
 			ChromeOptions options = new ChromeOptions();
-			options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+
+			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
+				options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+
+			} else {
+				options.setBinary("...");
+			}
 			driver = new ChromeDriver(options);
 			break;
 		default:
 			throw new RuntimeException("Please enter the correct Browser name");
 		}
 		driver.manage().window().setPosition(new Point(0, 0));
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		return driver;
 	}

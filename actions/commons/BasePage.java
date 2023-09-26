@@ -426,6 +426,7 @@ public class BasePage {
 
 	// Tối ưu ở bài học Level_09_Dynamic_Locator
 
+	// Chỉ dùng 1 trong 2 cách (để tránh nhầm lẫn trong quá trình viết code)
 	// Cách 1 (Có ít page)
 	public BasePage openPageAtMyAccountByName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
@@ -463,6 +464,6 @@ public class BasePage {
 		return PageGeneratorManager.getAdminLoginPage(driver);
 	}
 
-	private long longTimeout = 30;
+	private long longTimeout = GlobalConstants.LONG_TIME_OUT;
 
 }
