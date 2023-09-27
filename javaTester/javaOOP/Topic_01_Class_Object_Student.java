@@ -1,7 +1,7 @@
 package javaOOP;
 
 public class Topic_01_Class_Object_Student {
-	private int studentID;
+	public int studentID;
 	private String studentName;
 	private Float knowledgePoint;
 	private Float practicePoint;
