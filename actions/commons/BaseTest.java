@@ -3,7 +3,6 @@ package commons;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,20 +13,21 @@ public class BaseTest {
 	private WebDriver driver;
 
 	protected WebDriver getBrowserDriver(String browserName) {
-		switch (browserName) {
-		case "chrome":
+		BrowserList browserList = BrowserList.valueOf(browserName.toLowerCase());
+		switch (browserList) {
+		case CHROME:
 			driver = WebDriverManager.chromedriver().create();
 			break;
-		case "firefox":
+		case FIREFOX:
 			driver = WebDriverManager.firefoxdriver().create();
 			break;
-		case "edge":
+		case EDGE:
 			driver = WebDriverManager.edgedriver().create();
 			break;
-		case "opera":
+		case OPERA:
 			driver = WebDriverManager.operadriver().create();
 			break;
-		case "coccoc":
+		case COCCOC:
 			// Cốc cốc browser trừ đi 5-6 version ra chromdriver (lấy version của trình duyệt cốc cốc - 5/6)
 			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
 			ChromeOptions options = new ChromeOptions();
@@ -43,10 +43,67 @@ public class BaseTest {
 		default:
 			throw new RuntimeException("Please enter the correct Browser name");
 		}
-		driver.manage().window().setPosition(new Point(0, 0));
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		return driver;
+	}
+
+	protected WebDriver getBrowserDriver(String browserName, String environmentName) {
+		BrowserList browserList = BrowserList.valueOf(browserName.toLowerCase());
+		switch (browserList) {
+		case CHROME:
+			driver = WebDriverManager.chromedriver().create();
+			break;
+		case FIREFOX:
+			driver = WebDriverManager.firefoxdriver().create();
+			break;
+		case EDGE:
+			driver = WebDriverManager.edgedriver().create();
+			break;
+		case OPERA:
+			driver = WebDriverManager.operadriver().create();
+			break;
+		case COCCOC:
+			// Cốc cốc browser trừ đi 5-6 version ra chromdriver (lấy version của trình duyệt cốc cốc - 5/6)
+			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
+			ChromeOptions options = new ChromeOptions();
+
+			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
+				options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+
+			} else {
+				options.setBinary("...");
+			}
+			driver = new ChromeDriver(options);
+			break;
+		default:
+			throw new RuntimeException("Please enter the correct Browser name");
+		}
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
+		driver.get(getEnvironmentUrl(environmentName));
+		return driver;
+	}
+
+	private String getEnvironmentUrl(String environmentName) {
+		String envUrl = null;
+		EnvironmentList environment = EnvironmentList.valueOf(environmentName.toUpperCase());
+		switch (environment) {
+		case DEV:
+			envUrl = "https://demo.nopcommerce.com/";
+			break;
+		case TESTTING:
+			envUrl = "https://demo.nopcommerce.com/";
+			break;
+		case STAGING:
+			envUrl = "https://demo.nopcommerce.com/";
+			break;
+		case PRODUCTION:
+			envUrl = "https://demo.nopcommerce.com/";
+			break;
+		default:
+			throw new RuntimeException("Please enter the correct Environment name");
+		}
+		return envUrl;
 	}
 
 	protected int generateFakeNumber() {
