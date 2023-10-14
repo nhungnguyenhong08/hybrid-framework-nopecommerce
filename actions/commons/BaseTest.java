@@ -13,7 +13,7 @@ public class BaseTest {
 	private WebDriver driver;
 
 	protected WebDriver getBrowserDriver(String browserName) {
-		BrowserList browserList = BrowserList.valueOf(browserName.toLowerCase());
+		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		switch (browserList) {
 		case CHROME:
 			driver = WebDriverManager.chromedriver().create();

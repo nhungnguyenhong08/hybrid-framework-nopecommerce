@@ -104,7 +104,6 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 	@Test
 	public void Login_05_Existing_Email_Incorrect_Password() {
 		loginPage = homePage.clickToLoginLink();
-		;
 
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox(incorrectPassword);
