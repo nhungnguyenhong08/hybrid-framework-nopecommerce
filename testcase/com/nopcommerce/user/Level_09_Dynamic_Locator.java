@@ -32,7 +32,6 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
-		driver.get("https://demo.nopcommerce.com/");
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		firstName = "Automation";

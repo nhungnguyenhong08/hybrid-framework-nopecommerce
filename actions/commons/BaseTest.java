@@ -48,8 +48,8 @@ public class BaseTest {
 		return driver;
 	}
 
-	protected WebDriver getBrowserDriver(String browserName, String environmentName) {
-		BrowserList browserList = BrowserList.valueOf(browserName.toLowerCase());
+	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
+		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		switch (browserList) {
 		case CHROME:
 			driver = WebDriverManager.chromedriver().create();
@@ -80,11 +80,11 @@ public class BaseTest {
 			throw new RuntimeException("Please enter the correct Browser name");
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.get(getEnvironmentUrl(environmentName));
+		driver.get(appUrl);
 		return driver;
 	}
 
-	private String getEnvironmentUrl(String environmentName) {
+	protected String getEnvironmentUrl(String environmentName) {
 		String envUrl = null;
 		EnvironmentList environment = EnvironmentList.valueOf(environmentName.toUpperCase());
 		switch (environment) {
