@@ -26,7 +26,6 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 		homePage = PageGeneratorManager.getHomePage(driver);
 	}
 
-	@Test
 	public void Table_01_Paging() {
 		homePage.openPagingByPageNumber("10");
 		homePage.sleepInSecond(1);
@@ -62,7 +61,6 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 		homePage.sleepInSecond(3);
 	}
 
-	@Test
 	public void Table_03_Enter_To_Header() {
 		homePage.refreshCurrentPage(driver);
 
@@ -73,6 +71,53 @@ public class Level_10_DataTable_DataGrid extends BaseTest {
 		actualAllCountryValues = homePage.getValueEachRowAtAllPage();
 
 		Assert.assertEquals(actualAllCountryValues, expectedAllCountryValues);
+	}
+
+	@Test
+	public void Table_04_Action_At_Any_Row() {
+		homePage.clickToLoadDataButton();
+		homePage.sleepInSecond(5);
+
+		/*
+		 * // Value để nhập liệu - tham số 1 // Row number: tại row nào // Ex: nhập vào textbox tại dòng số 1/3/5 // Column name: Company/Contact Person/Order Placed
+		 * 
+		 * homePage.enterToTextboxByColumnNameAtRowNumber("Company", "2", "Shopee");
+		 * 
+		 * homePage.enterToTextboxByColumnNameAtRowNumber("Contact Person", "1", "Rose Nguyen");
+		 * 
+		 * homePage.enterToTextboxByColumnNameAtRowNumber("Order Placed", "3", "5");
+		 * 
+		 * homePage.selectDropdownByColumnNameAtRowNumber("Country", "4", "Japan"); homePage.sleepInSecond(3);
+		 * 
+		 * homePage.checkToCheckboxByColumnNameAtRowNumber("NPO?", "3"); homePage.checkToCheckboxByColumnNameAtRowNumber("NPO?", "6");
+		 * 
+		 * homePage.unCheckToCheckboxByColumnNameAtRowNumber("NPO?", "1"); homePage.unCheckToCheckboxByColumnNameAtRowNumber("NPO?", "4");
+		 * homePage.unCheckToCheckboxByColumnNameAtRowNumber("NPO?", "5");
+		 */
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("1", "Insert Row Above");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("3", "Move Up");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("8", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("7", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("6", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("5", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("4", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
 	}
 
 	@AfterClass

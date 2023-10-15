@@ -1,10 +1,10 @@
-package pageObjects.nopCommerce.admin;
+package pageObjects.liveGuru.admin;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import commons.PageGeneratorManagerNopCommerce;
-import pageUIs.nopCommerce.admin.AdminLoginPageUI;
+import commons.PageGeneratorManagerLiveGuru;
+import pageUIs.liveGuru.admin.AdminLoginPageUI;
 
 public class AdminLoginPageObject extends BasePage {
 	private WebDriver driver;
@@ -13,9 +13,9 @@ public class AdminLoginPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void inputToEmailTextbox(String emailAddress) {
-		waitForElementVisible(driver, AdminLoginPageUI.EMAIL_TEXTBOX);
-		sendkeyToElement(driver, AdminLoginPageUI.EMAIL_TEXTBOX, emailAddress);
+	public void inputToUserNameTextbox(String userName) {
+		waitForElementVisible(driver, AdminLoginPageUI.USERNAME_TEXTBOX);
+		sendkeyToElement(driver, AdminLoginPageUI.USERNAME_TEXTBOX, userName);
 	}
 
 	public void inputToPasswordTextbox(String password) {
@@ -26,11 +26,11 @@ public class AdminLoginPageObject extends BasePage {
 	public AdminDashboardPageObject clickToLoginButton() {
 		waitForElementClickable(driver, AdminLoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, AdminLoginPageUI.LOGIN_BUTTON);
-		return PageGeneratorManagerNopCommerce.getAdminDashboardPage(driver);
+		return PageGeneratorManagerLiveGuru.getAdminDashboardPage(driver);
 	}
 
-	public AdminDashboardPageObject loginAsAdmin(String emailAddress, String password) {
-		inputToEmailTextbox(emailAddress);
+	public AdminDashboardPageObject loginAsAdmin(String userName, String password) {
+		inputToUserNameTextbox(userName);
 		inputToPasswordTextbox(password);
 		return clickToLoginButton();
 

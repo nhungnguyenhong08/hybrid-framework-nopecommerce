@@ -3,7 +3,7 @@ package pageObjects.nopCommerce.user;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import commons.PageGeneratorManager;
+import commons.PageGeneratorManagerNopCommerce;
 import pageUIs.nopCommerce.user.HomePageUI;
 
 public class UserHomePageObject extends BasePage {
@@ -20,14 +20,14 @@ public class UserHomePageObject extends BasePage {
 		// return new UserRegisterPageObject(driver);
 
 		// 3
-		return PageGeneratorManager.getUserRegisterPage(driver);
+		return PageGeneratorManagerNopCommerce.getUserRegisterPage(driver);
 
 	}
 
 	public UserLoginPageObject clickToLoginLink() {
 		waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
 		clickToElement(driver, HomePageUI.LOGIN_LINK);
-		return PageGeneratorManager.getUserLoginPage(driver);
+		return PageGeneratorManagerNopCommerce.getUserLoginPage(driver);
 	}
 
 	public boolean isMyAccountLinkDisplayed() {
@@ -38,7 +38,7 @@ public class UserHomePageObject extends BasePage {
 	public UserCustomerInforPageObject clickToMyAccountLink() {
 		waitForElementClickable(driver, HomePageUI.MY_ACCOUNT_LINK);
 		clickToElement(driver, HomePageUI.MY_ACCOUNT_LINK);
-		return PageGeneratorManager.getUserCustomerInforPage(driver);
+		return PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 	}
 
 }

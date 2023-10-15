@@ -1,14 +1,15 @@
-package pageObject.liveGuru;
+package pageObject.liveGuru.user;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import commons.PageGeneratorManagerLiveGuru;
 import pageUIs.liveGuru.RegisterPageUI;
 
-public class RegisterPageObject extends BasePage {
+public class UserRegisterPageObject extends BasePage {
 	private WebDriver driver;
 
-	public RegisterPageObject(WebDriver driver) {
+	public UserRegisterPageObject(WebDriver driver) {
 		this.driver = driver;
 	}
 
@@ -39,10 +40,10 @@ public class RegisterPageObject extends BasePage {
 		sendkeyToElement(driver, RegisterPageUI.PASSWORD_TEXTBOX, password);
 	}
 
-	public MyDashboardPageObject clickToRegisterButton() {
+	public UserMyDashboardPageObject clickToRegisterButton() {
 		waitForElementClickable(driver, RegisterPageUI.REGISTER_BUTTON);
 		clickToElement(driver, RegisterPageUI.REGISTER_BUTTON);
-		return PageGeneratorManager.getMyDashboardPage(driver);
+		return PageGeneratorManagerLiveGuru.getMyDashboardPage(driver);
 	}
 
 }

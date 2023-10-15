@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.GlobalConstants;
-import commons.PageGeneratorManager;
+import commons.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
@@ -29,7 +29,7 @@ public class Level_08_Switch_Role extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName, String environmentName) {
 		driver = getBrowserDriver(browserName, environmentName);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 		userEmailAddress = "automationfc1609@gmail.com";
 		userPassword = "123456";
@@ -54,7 +54,7 @@ public class Level_08_Switch_Role extends BaseTest {
 
 		// User Home Page -> Open Admin page -> Login Page (Admin)
 		userHomePage.openPageUrl(driver, GlobalConstants.ADMIN_PAGE_URL);
-		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
+		adminLoginPage = PageGeneratorManagerNopCommerce.getAdminLoginPage(driver);
 
 		// Login as Admin role
 		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmailAddress, adminPassword);
@@ -68,7 +68,7 @@ public class Level_08_Switch_Role extends BaseTest {
 	public void Role_02_Admin_To_User() {
 		// Login page (Admin) -> Open portal Url -> chuyển qua trang Home Page (User)
 		adminLoginPage.openPageUrl(driver, GlobalConstants.PORTAL_PAGE_URL);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 		// Home Page -> Login Page (user)
 		userLoginPage = userHomePage.clickToLoginLink();

@@ -3,7 +3,7 @@ package pageObjects.nopCommerce.user;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import commons.PageGeneratorManager;
+import commons.PageGeneratorManagerNopCommerce;
 import pageUIs.nopCommerce.user.RegisterPageUI;
 
 public class UserRegisterPageObject extends BasePage {
@@ -82,7 +82,7 @@ public class UserRegisterPageObject extends BasePage {
 	public UserHomePageObject clickToHomeLink() {
 		waitForElementVisible(driver, RegisterPageUI.HOME_LINK);
 		clickToElement(driver, RegisterPageUI.HOME_LINK);
-		return PageGeneratorManager.getUserHomePage(driver);
+		return PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 	}
 

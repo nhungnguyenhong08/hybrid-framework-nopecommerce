@@ -10,18 +10,18 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObject.liveGuru.HomePageObject;
-import pageObject.liveGuru.LoginPageObject;
-import pageObject.liveGuru.MyDashboardPageObject;
-import pageObject.liveGuru.PageGeneratorManager;
-import pageObject.liveGuru.RegisterPageObject;
+import commons.PageGeneratorManagerLiveGuru;
+import pageObject.liveGuru.user.UserHomePageObject;
+import pageObject.liveGuru.user.UserLoginPageObject;
+import pageObject.liveGuru.user.UserMyDashboardPageObject;
+import pageObject.liveGuru.user.UserRegisterPageObject;
 
 public class Level_01_Page_Generator_Manager extends BaseTest {
 	private WebDriver driver;
-	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
-	private LoginPageObject loginPage;
-	private MyDashboardPageObject myDashboardPage;
+	private UserHomePageObject homePage;
+	private UserRegisterPageObject registerPage;
+	private UserLoginPageObject loginPage;
+	private UserMyDashboardPageObject myDashboardPage;
 	private String email, password, firstName, lastName;
 
 	@Parameters("browser")
@@ -29,7 +29,7 @@ public class Level_01_Page_Generator_Manager extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get("http://live.techpanda.org/");
-		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = PageGeneratorManagerLiveGuru.getUserHomePage(driver);
 
 		email = "afc" + generateFakeNumber() + "@mail.vn";
 		password = "123456";

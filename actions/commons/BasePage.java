@@ -163,12 +163,12 @@ public class BasePage {
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem) {
 		Select select = new Select(getWebElement(driver, locatorType));
-		select.selectByValue(textItem);
+		select.selectByVisibleText(textItem);
 	}
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem, String... dynamicValues) {
 		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
-		select.selectByValue(textItem);
+		select.selectByVisibleText(textItem);
 	}
 
 	public String getSelectedItemDefaultDropdown(WebDriver driver, String locatorType) {
@@ -235,15 +235,29 @@ public class BasePage {
 		return getListWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).size();
 	}
 
-	public void checkToDefaultCheckboxRadio(WebDriver driver, String locatorType) {
+	public void checkToDefaultCheckboxOrRadio(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
 		if (!element.isSelected()) {
 			element.click();
 		}
 	}
 
-	public void uncheckToDefaultCheckboxRadio(WebDriver driver, String locatorType) {
+	public void checkToDefaultCheckboxOrRadio(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		if (!element.isSelected()) {
+			element.click();
+		}
+	}
+
+	public void uncheckToDefaultCheckboxOrRadio(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
+		if (element.isSelected()) {
+			element.click();
+		}
+	}
+
+	public void uncheckToDefaultCheckboxOrRadio(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		if (element.isSelected()) {
 			element.click();
 		}
@@ -420,22 +434,22 @@ public class BasePage {
 	public UserAddressPageObject openAddressPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageUI.ADDRESS_LINK);
 		clickToElement(driver, BasePageUI.ADDRESS_LINK);
-		return PageGeneratorManager.getUserAddressPage(driver);
+		return PageGeneratorManagerNopCommerce.getUserAddressPage(driver);
 	}
 
 	public UserMyProductReviewPageObject openMyProductReviewPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
 		clickToElement(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
-		return PageGeneratorManager.getUserMyProductReviewPage(driver);
+		return PageGeneratorManagerNopCommerce.getUserMyProductReviewPage(driver);
 	}
 
 	public UserRewardPointsPageObject openRewardPointsPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageUI.REWARD_POINTS_LINK);
 		clickToElement(driver, BasePageUI.REWARD_POINTS_LINK);
-		return PageGeneratorManager.getUserRewardPointsPage(driver);
+		return PageGeneratorManagerNopCommerce.getUserRewardPointsPage(driver);
 	}
 
-	// Tối ưu ở bài học Level_10_DataTable_DataGrid
+	// Tối ưu ở bài học Level_09_Dynamic_Locator
 
 	// Chỉ dùng 1 trong 2 cách (để tránh nhầm lẫn trong quá trình viết code)
 	// Cách 1 (Có ít page)
@@ -444,13 +458,13 @@ public class BasePage {
 		clickToElement(driver, BasePageUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
 		switch (pageName) {
 		case "Addresses":
-			return PageGeneratorManager.getUserAddressPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserAddressPage(driver);
 		case "My product reviews":
-			return PageGeneratorManager.getUserMyProductReviewPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserMyProductReviewPage(driver);
 		case "Reward points":
-			return PageGeneratorManager.getUserRewardPointsPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserRewardPointsPage(driver);
 		case "Customer info":
-			return PageGeneratorManager.getUserCustomerInforPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 		default:
 			throw new RuntimeException("Invalid page name at My Account area.");
 		}
@@ -466,13 +480,13 @@ public class BasePage {
 	public UserHomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK_AT_USER_PAGE);
 		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_USER_PAGE);
-		return PageGeneratorManager.getUserHomePage(driver);
+		return PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 	}
 
 	public AdminLoginPageObject clickToLogoutLinkAtAdminPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN_PAGE);
 		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN_PAGE);
-		return PageGeneratorManager.getAdminLoginPage(driver);
+		return PageGeneratorManagerNopCommerce.getAdminLoginPage(driver);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIME_OUT;

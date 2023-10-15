@@ -12,7 +12,7 @@ import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointsPageObject;
 
-public class PageGeneratorManager {
+public class PageGeneratorManagerNopCommerce {
 
 	public static UserHomePageObject getUserHomePage(WebDriver driver) {
 		return new UserHomePageObject(driver);
