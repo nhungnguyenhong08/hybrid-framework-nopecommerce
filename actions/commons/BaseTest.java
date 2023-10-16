@@ -6,6 +6,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -54,8 +56,22 @@ public class BaseTest {
 		case CHROME:
 			driver = WebDriverManager.chromedriver().create();
 			break;
+		case H_CHROME:
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless");
+			options.addArguments("window-size=1920x1080");
+			driver = new ChromeDriver(options);
+			break;
 		case FIREFOX:
 			driver = WebDriverManager.firefoxdriver().create();
+			break;
+		case H_FIREFOX:
+			WebDriverManager.chromedriver().setup();
+			FirefoxOptions options1 = new FirefoxOptions();
+			options1.addArguments("--headless");
+			options1.addArguments("window-size=1920x1080");
+			driver = new FirefoxDriver(options1);
 			break;
 		case EDGE:
 			driver = WebDriverManager.edgedriver().create();
@@ -66,15 +82,15 @@ public class BaseTest {
 		case COCCOC:
 			// Cốc cốc browser trừ đi 5-6 version ra chromdriver (lấy version của trình duyệt cốc cốc - 5/6)
 			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
-			ChromeOptions options = new ChromeOptions();
+			ChromeOptions options2 = new ChromeOptions();
 
 			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
-				options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+				options2.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
 
 			} else {
-				options.setBinary("...");
+				options2.setBinary("...");
 			}
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver(options2);
 			break;
 		default:
 			throw new RuntimeException("Please enter the correct Browser name");
