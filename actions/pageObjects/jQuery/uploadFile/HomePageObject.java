@@ -17,12 +17,12 @@ public class HomePageObject extends BasePage {
 
 	public boolean isFileLoadedByName(String fileName) {
 		waitForElementVisible(driver, HomePageUI.FILE_NAME_LOADED, fileName);
-		return isElementDisplay(driver, HomePageUI.FILE_NAME_LOADED, fileName);
+		return isElementDisplayed(driver, HomePageUI.FILE_NAME_LOADED, fileName);
 	}
 
 	public boolean isFileLinkUploadedByName(String fileName) {
 		waitForElementVisible(driver, HomePageUI.FILE_NAME_UPLOADED_LINK, fileName);
-		return isElementDisplay(driver, HomePageUI.FILE_NAME_UPLOADED_LINK, fileName);
+		return isElementDisplayed(driver, HomePageUI.FILE_NAME_UPLOADED_LINK, fileName);
 	}
 
 	public void clickToStartButton() {

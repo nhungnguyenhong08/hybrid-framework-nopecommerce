@@ -14,6 +14,6 @@ public class AdminDashboardPageObject extends BasePage {
 
 	public boolean isDashboardHeaderDisplay() {
 		waitForElementVisible(driver, AdminDashboardPageUI.DASHBOARD_HEADER);
-		return isElementDisplay(driver, AdminDashboardPageUI.DASHBOARD_HEADER);
+		return isElementDisplayed(driver, AdminDashboardPageUI.DASHBOARD_HEADER);
 	}
 }

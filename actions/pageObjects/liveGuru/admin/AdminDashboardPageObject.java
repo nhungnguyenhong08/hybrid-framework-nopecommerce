@@ -15,12 +15,12 @@ public class AdminDashboardPageObject extends BasePage {
 
 	public boolean isDashboardHeaderDisplay() {
 		waitForElementVisible(driver, AdminDashboardPageUI.DASHBOARD_HEADER);
-		return isElementDisplay(driver, AdminDashboardPageUI.DASHBOARD_HEADER);
+		return isElementDisplayed(driver, AdminDashboardPageUI.DASHBOARD_HEADER);
 	}
 
 	public boolean isPopupDisplay() {
 		waitForElementVisible(driver, AdminDashboardPageUI.POP_UP);
-		return isElementDisplay(driver, AdminDashboardPageUI.POP_UP);
+		return isElementDisplayed(driver, AdminDashboardPageUI.POP_UP);
 	}
 
 	public void closePopup() {
@@ -37,12 +37,12 @@ public class AdminDashboardPageObject extends BasePage {
 
 	public boolean isResultDisplay(String userName, String email) {
 		waitForElementVisible(driver, AdminDashboardPageUI.SEARCH_RESULT, userName, email);
-		return isElementDisplay(driver, AdminDashboardPageUI.SEARCH_RESULT, userName, email);
+		return isElementDisplayed(driver, AdminDashboardPageUI.SEARCH_RESULT, userName, email);
 	}
 
 	public boolean isPopupUnDisplay() {
 		waitForElementInvisible(driver, AdminDashboardPageUI.POP_UP);
-		return isElementDisplay(driver, AdminDashboardPageUI.POP_UP);
+		return isElementDisplayed(driver, AdminDashboardPageUI.POP_UP);
 	}
 
 }

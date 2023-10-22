@@ -31,7 +31,7 @@ public class HomePageObject extends BasePage {
 
 	public boolean isPageNumberActived(String pageNumber) {
 		waitForElementVisible(driver, HomePageUI.PAGINAION_PAGE_ACTIVED_BY_NUMBER, pageNumber);
-		return isElementDisplay(driver, HomePageUI.PAGINAION_PAGE_ACTIVED_BY_NUMBER, pageNumber);
+		return isElementDisplayed(driver, HomePageUI.PAGINAION_PAGE_ACTIVED_BY_NUMBER, pageNumber);
 
 	}
 

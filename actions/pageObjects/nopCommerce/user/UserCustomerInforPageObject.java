@@ -14,7 +14,7 @@ public class UserCustomerInforPageObject extends BasePage {
 
 	public boolean isCustomerInforPageDisplay() {
 		waitForElementVisible(driver, CustomerInforPageUI.CUSTOMER_INFOR_HEADER);
-		return isElementDisplay(driver, CustomerInforPageUI.CUSTOMER_INFOR_HEADER);
+		return isElementDisplayed(driver, CustomerInforPageUI.CUSTOMER_INFOR_HEADER);
 	}
 
 }
