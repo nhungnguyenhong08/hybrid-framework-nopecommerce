@@ -1,0 +1,42 @@
+00:26:53.613 [main] INFO  - Register - Step 01: Navigate to 'Register' page
+00:26:54.709 [main] INFO  - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+00:26:54.852 [main] INFO  - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+00:26:55.002 [main] INFO  - Register - Step 04: Enter to Email textbox with value is 'afc1841@gmail.com'
+00:26:55.130 [main] INFO  - Register - Step 05: Enter to Password textbox with value is '123456'
+00:26:55.250 [main] INFO  - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+00:26:55.369 [main] INFO  - Register - Step 07: Enter to 'Register' button
+00:26:56.019 [main] INFO  - Register - Step 08: Verify success message is displayed
+00:26:56.073 [main] INFO  - Register - Step 09: Click to Logout link
+00:26:56.457 [main] INFO  - Login - Step 01: Navigate to Login page
+00:28:21.363 [main] INFO  - Register - Step 01: Navigate to 'Register' page
+00:28:22.318 [main] INFO  - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+00:28:22.467 [main] INFO  - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+00:28:22.600 [main] INFO  - Register - Step 04: Enter to Email textbox with value is 'afc4186@gmail.com'
+00:28:22.715 [main] INFO  - Register - Step 05: Enter to Password textbox with value is '123456'
+00:28:22.815 [main] INFO  - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+00:28:22.924 [main] INFO  - Register - Step 07: Enter to 'Register' button
+00:28:23.585 [main] INFO  - Register - Step 08: Verify success message is displayed
+00:28:23.638 [main] INFO  - Register - Step 09: Click to Logout link
+00:28:24.082 [main] INFO  - Login - Step 01: Navigate to Login page
+00:28:24.427 [main] INFO  - Login - Step 02: Enter to Email textbox with value is 'afc4186@gmail.com'
+00:28:24.552 [main] INFO  - Login - Step 03: Enter to Password textbox with value is '123456'
+00:28:24.695 [main] INFO  - Login - Step 04: Click to Login button
+00:28:25.304 [main] INFO  - Login - Step 05: Verify 'My Account' link is displayed
+00:28:25.367 [main] INFO  - Login - Step 06: Navigate to 'My Account' link
+00:28:25.738 [main] INFO  - Login - Step 07: Verify 'Customer Infor' link is displayed
+00:33:52.465 [main] INFO  - Register - Step 01: Navigate to 'Register' page
+00:33:52.931 [main] INFO  - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+00:33:53.062 [main] INFO  - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+00:33:53.171 [main] INFO  - Register - Step 04: Enter to Email textbox with value is 'afc8068@gmail.com'
+00:33:53.318 [main] INFO  - Register - Step 05: Enter to Password textbox with value is '123456'
+00:33:53.438 [main] INFO  - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+00:33:53.559 [main] INFO  - Register - Step 07: Enter to 'Register' button
+00:33:54.211 [main] INFO  - Register - Step 08: Verify success message is displayed
+00:33:54.264 [main] INFO  - Register - Step 09: Click to Logout link
+00:33:54.648 [main] INFO  - Login - Step 01: Navigate to Login page
+00:33:55.042 [main] INFO  - Login - Step 02: Enter to Email textbox with value is 'afc8068@gmail.com'
+00:33:55.172 [main] INFO  - Login - Step 03: Enter to Password textbox with value is '123456'
+00:33:55.296 [main] INFO  - Login - Step 04: Click to Login button
+00:33:55.909 [main] INFO  - Login - Step 05: Verify 'My Account' link is displayed
+00:33:55.979 [main] INFO  - Login - Step 06: Navigate to 'My Account' link
+00:33:56.396 [main] INFO  - Login - Step 07: Verify 'Customer Infor' link is displayed
