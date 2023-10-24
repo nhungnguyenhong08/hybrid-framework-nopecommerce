@@ -14,3 +14,98 @@
 [24-10-2023 00:45:19.643 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 05: Verify 'My Account' link is displayed
 [24-10-2023 00:45:19.707 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 06: Navigate to 'My Account' link
 [24-10-2023 00:45:20.080 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 07: Verify 'Customer Infor' link is displayed
+[24-10-2023 21:10:39.486 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 01: Navigate to 'Register' page
+[24-10-2023 21:10:40.499 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+[24-10-2023 21:10:40.633 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+[24-10-2023 21:10:40.749 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 04: Enter to Email textbox with value is 'afc6127@gmail.com'
+[24-10-2023 21:10:40.900 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 05: Enter to Password textbox with value is '123456'
+[24-10-2023 21:10:41.012 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+[24-10-2023 21:10:41.120 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 07: Enter to 'Register' button
+[24-10-2023 21:10:41.801 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 08: Verify success message is displayed
+[24-10-2023 21:10:41.858 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 21:10:41.858 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 09: Click to Logout link
+[24-10-2023 21:10:42.249 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 01: Navigate to Login page
+[24-10-2023 21:10:42.629 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 02: Enter to Email textbox with value is 'afc6127@gmail.com'
+[24-10-2023 21:10:42.758 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 03: Enter to Password textbox with value is '123456'
+[24-10-2023 21:10:42.874 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 04: Click to Login button
+[24-10-2023 21:10:43.613 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 05: Verify 'My Account' link is displayed
+[24-10-2023 21:10:43.673 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 21:10:43.674 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 06: Navigate to 'My Account' link
+[24-10-2023 21:10:44.139 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 07: Verify 'Customer Infor' link is displayed
+[24-10-2023 21:10:44.202 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:00:05.404 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 01: Navigate to 'Register' page
+[24-10-2023 22:00:06.436 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+[24-10-2023 22:00:06.569 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+[24-10-2023 22:00:06.666 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 04: Enter to Email textbox with value is 'afc3645@gmail.com'
+[24-10-2023 22:00:06.768 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 05: Enter to Password textbox with value is '123456'
+[24-10-2023 22:00:06.888 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+[24-10-2023 22:00:06.992 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 07: Enter to 'Register' button
+[24-10-2023 22:00:08.370 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 08: Verify success message is displayed
+[24-10-2023 22:00:08.425 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:00:08.425 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 09: Click to Logout link
+[24-10-2023 22:00:08.851 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 01: Navigate to Login page
+[24-10-2023 22:00:09.349 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 02: Enter to Email textbox with value is 'afc3645@gmail.com'
+[24-10-2023 22:00:09.474 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 03: Enter to Password textbox with value is '123456'
+[24-10-2023 22:00:09.593 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 04: Click to Login button
+[24-10-2023 22:00:10.437 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 05: Verify 'My Account' link is displayed
+[24-10-2023 22:00:10.505 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:00:10.505 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 06: Navigate to 'My Account' link
+[24-10-2023 22:00:11.020 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 07: Verify 'Customer Infor' link is displayed
+[24-10-2023 22:00:11.083 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:03:45.921 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 01: Navigate to 'Register' page
+[24-10-2023 22:03:46.383 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+[24-10-2023 22:03:46.504 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+[24-10-2023 22:03:46.604 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 04: Enter to Email textbox with value is 'afc7186@gmail.com'
+[24-10-2023 22:03:46.724 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 05: Enter to Password textbox with value is '123456'
+[24-10-2023 22:03:46.820 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+[24-10-2023 22:03:46.934 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 07: Enter to 'Register' button
+[24-10-2023 22:03:47.606 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 08: Verify success message is displayed
+[24-10-2023 22:03:47.666 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:03:47.666 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 09: Click to Logout link
+[24-10-2023 22:03:48.029 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 01: Navigate to Login page
+[24-10-2023 22:03:48.381 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 02: Enter to Email textbox with value is 'afc7186@gmail.com'
+[24-10-2023 22:03:48.515 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 03: Enter to Password textbox with value is '123456'
+[24-10-2023 22:03:48.615 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 04: Click to Login button
+[24-10-2023 22:03:49.254 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 05: Verify 'My Account' link is displayed
+[24-10-2023 22:03:49.323 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:03:49.324 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 06: Navigate to 'My Account' link
+[24-10-2023 22:03:49.791 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 07: Verify 'Customer Infor' link is displayed
+[24-10-2023 22:03:49.870 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:12:58.249 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 01: Navigate to 'Register' page
+[24-10-2023 22:12:59.278 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+[24-10-2023 22:12:59.399 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+[24-10-2023 22:12:59.495 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 04: Enter to Email textbox with value is 'afc1407@gmail.com'
+[24-10-2023 22:12:59.616 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 05: Enter to Password textbox with value is '123456'
+[24-10-2023 22:12:59.713 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+[24-10-2023 22:12:59.826 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 07: Enter to 'Register' button
+[24-10-2023 22:13:00.496 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 08: Verify success message is displayed
+[24-10-2023 22:13:00.559 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:13:00.560 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 09: Click to Logout link
+[24-10-2023 22:13:00.967 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 01: Navigate to Login page
+[24-10-2023 22:13:01.369 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 02: Enter to Email textbox with value is 'afc1407@gmail.com'
+[24-10-2023 22:13:01.493 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 03: Enter to Password textbox with value is '123456'
+[24-10-2023 22:13:01.616 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 04: Click to Login button
+[24-10-2023 22:13:02.269 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 05: Verify 'My Account' link is displayed
+[24-10-2023 22:13:02.332 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:13:02.332 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 06: Navigate to 'My Account' link
+[24-10-2023 22:13:02.806 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 07: Verify 'Customer Infor' link is displayed
+[24-10-2023 22:13:02.861 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:13:04.664 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 01: Navigate to 'Register' page
+[24-10-2023 22:13:05.598 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+[24-10-2023 22:13:05.722 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+[24-10-2023 22:13:05.819 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 04: Enter to Email textbox with value is 'afc8055@gmail.com'
+[24-10-2023 22:13:05.941 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 05: Enter to Password textbox with value is '123456'
+[24-10-2023 22:13:06.054 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+[24-10-2023 22:13:06.171 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 07: Enter to 'Register' button
+[24-10-2023 22:13:06.985 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 08: Verify success message is displayed
+[24-10-2023 22:13:07.033 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:13:07.033 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 09: Click to Logout link
+[24-10-2023 22:13:07.399 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 01: Navigate to Login page
+[24-10-2023 22:13:07.750 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 02: Enter to Email textbox with value is 'afc8055@gmail.com'
+[24-10-2023 22:13:07.875 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 03: Enter to Password textbox with value is '123456'
+[24-10-2023 22:13:07.992 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 04: Click to Login button
+[24-10-2023 22:13:08.642 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 05: Verify 'My Account' link is displayed
+[24-10-2023 22:13:08.701 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[24-10-2023 22:13:08.701 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 06: Navigate to 'My Account' link
+[24-10-2023 22:13:09.152 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 07: Verify 'Customer Infor' link is displayed
+[24-10-2023 22:13:09.215 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
