@@ -110,6 +110,10 @@ public class BaseTest {
 		return driver;
 	}
 
+	public WebDriver getDriver() {
+		return this.driver;
+	}
+
 	protected String getEnvironmentUrl(String environmentName) {
 		String envUrl = null;
 		EnvironmentList environment = EnvironmentList.valueOf(environmentName.toUpperCase());
@@ -150,7 +154,7 @@ public class BaseTest {
 		} catch (Throwable e) {
 			pass = false;
 
-			// Add lỗi vào ReportNG
+			// Add lỗi vào ReportNGListener
 			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
 			Reporter.getCurrentTestResult().setThrowable(e);
 		}
