@@ -15,7 +15,7 @@
     <classes>
    <!--Trigger Common Register run first --> 
      <!-- <class name="com.nopcommerce.common.Common_01_Register_Cookies"/> --> 
-      <class name="com.nopcommerce.user.Level_18_Custom_Close_Browser"/>
+      <class name="com.nopcommerce.user.Level_19_Patern_Object"/>
     </classes>
   </test> 
  
