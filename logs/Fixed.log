@@ -298,3 +298,43 @@
 [31-10-2023 22:17:23.904 INFO com.nopcommerce.user.Level_18_Custom_Close_Browser] - Pre-Condition - Step 08: Verify success message is displayed
 [31-10-2023 22:17:24.047 INFO com.nopcommerce.user.Level_18_Custom_Close_Browser] - OS name = windows 11
 [31-10-2023 22:17:24.048 INFO com.nopcommerce.user.Level_18_Custom_Close_Browser] - Driver instance name = chromedriver: chrome on windows (d7be4c9a68e48e65fac53ebec2c56053)
+[05-11-2023 21:50:23.558 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 01: Navigate to 'Register' page
+[05-11-2023 21:50:24.072 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+[05-11-2023 21:50:24.203 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+[05-11-2023 21:50:24.303 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 04: Enter to Email textbox with value is 'afc8661@gmail.com'
+[05-11-2023 21:50:24.407 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 05: Enter to Password textbox with value is '123456'
+[05-11-2023 21:50:24.527 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+[05-11-2023 21:50:24.646 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 07: Enter to 'Register' button
+[05-11-2023 21:50:25.844 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 08: Verify success message is displayed
+[05-11-2023 21:50:26.122 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 01: Navigate to Login page
+[05-11-2023 21:50:26.912 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 02: Enter to Email textbox with value is 'afc8661@gmail.com'
+[05-11-2023 21:50:27.038 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 03: Enter to Password textbox with value is '123456'
+[05-11-2023 21:50:27.138 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 04: Click to Login button
+[05-11-2023 21:50:27.805 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 05: Verify 'My Account' link is displayed
+[05-11-2023 21:50:28.100 INFO com.nopcommerce.user.Level_19_Patern_Object] - OS name = windows 11
+[05-11-2023 21:50:28.100 INFO com.nopcommerce.user.Level_19_Patern_Object] - Driver instance name = chromedriver: chrome on windows (77d99af24220700394642c399c44bd8e)
+[05-11-2023 23:08:36.213 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 01: Navigate to 'Register' page
+[05-11-2023 23:08:37.229 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 02: Click to radio button 'Male'
+[05-11-2023 23:08:37.307 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[05-11-2023 23:08:37.431 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[05-11-2023 23:08:37.528 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[05-11-2023 23:08:37.646 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[05-11-2023 23:08:37.746 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1996'
+[05-11-2023 23:08:37.862 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 08: Enter to Email textbox with value is 'afc6284@gmail.com'
+[05-11-2023 23:08:38.036 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 09: Enter to Password textbox with value is '123456'
+[05-11-2023 23:08:38.160 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[05-11-2023 23:08:38.283 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 11: Enter to 'Register' button
+[05-11-2023 23:08:38.950 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 12: Verify success message is displayed
+[05-11-2023 23:08:39.008 INFO com.nopcommerce.user.Level_19_Patern_Object] - Register - Step 13: Click to Logout link
+[05-11-2023 23:08:39.983 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 01: Navigate to Login page
+[05-11-2023 23:08:40.737 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 02: Enter to Email textbox with value is 'afc6284@gmail.com'
+[05-11-2023 23:08:40.866 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 03: Enter to Password textbox with value is '123456'
+[05-11-2023 23:08:40.962 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 04: Click to Login button
+[05-11-2023 23:08:41.591 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 05: Verify 'My Account' link is displayed
+[05-11-2023 23:08:41.662 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 01: Navigate to 'My Account' link
+[05-11-2023 23:08:42.135 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[05-11-2023 23:08:42.216 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 03: Verify 'First Name' value is correctly
+[05-11-2023 23:08:42.274 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 04: Verify 'Lase Name' value is correctly
+[05-11-2023 23:08:42.337 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 05: Verify 'Email' value is correctly
+[05-11-2023 23:08:42.398 INFO com.nopcommerce.user.Level_19_Patern_Object] - OS name = windows 11
+[05-11-2023 23:08:42.398 INFO com.nopcommerce.user.Level_19_Patern_Object] - Driver instance name = chromedriver: chrome on windows (3bba8859c8440277fc54d7c40e602530)
