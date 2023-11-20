@@ -338,3 +338,49 @@
 [05-11-2023 23:08:42.337 INFO com.nopcommerce.user.Level_19_Patern_Object] - Login - Step 05: Verify 'Email' value is correctly
 [05-11-2023 23:08:42.398 INFO com.nopcommerce.user.Level_19_Patern_Object] - OS name = windows 11
 [05-11-2023 23:08:42.398 INFO com.nopcommerce.user.Level_19_Patern_Object] - Driver instance name = chromedriver: chrome on windows (3bba8859c8440277fc54d7c40e602530)
+[19-11-2023 23:23:27.498 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[19-11-2023 23:23:31.804 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 02: Enter to Username textbox with value: automationfc
+[19-11-2023 23:23:37.206 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[19-11-2023 23:23:37.306 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[19-11-2023 23:23:39.091 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 01: Click to 'Posts' menu link
+[19-11-2023 23:23:39.778 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 02: Get 'Search Posts' page Url
+[19-11-2023 23:23:39.782 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 03: Click to 'Add New' button
+[19-11-2023 23:23:41.132 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 04: Enter to post title
+[19-11-2023 23:23:41.424 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 05: Enter to post body
+[19-11-2023 23:23:41.933 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 06: Click to 'Publish' button
+[19-11-2023 23:23:42.250 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 07: Verify 'Post published.' message is displayed
+[19-11-2023 23:23:43.603 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[19-11-2023 23:23:43.650 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 01: Open 'Search Post' page
+[19-11-2023 23:23:44.331 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - OS name = windows 11
+[19-11-2023 23:23:44.332 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Driver instance name = chromedriver: chrome on windows (7cffb884a7069ba38e475e3770489385)
+[20-11-2023 21:33:07.339 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[20-11-2023 21:33:10.489 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 02: Enter to Username textbox with value: automationfc
+[20-11-2023 21:33:10.653 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[20-11-2023 21:33:10.755 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[20-11-2023 21:33:12.600 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 01: Click to 'Posts' menu link
+[20-11-2023 21:33:14.153 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 02: Get 'Search Posts' page Url
+[20-11-2023 21:33:14.156 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 03: Click to 'Add New' button
+[20-11-2023 21:33:19.506 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 04: Enter to post title
+[20-11-2023 21:33:19.748 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 05: Enter to post body
+[20-11-2023 21:33:20.186 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 06: Click to 'Publish' button
+[20-11-2023 21:33:20.321 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 07: Verify 'Post published.' message is displayed
+[20-11-2023 21:33:22.088 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[20-11-2023 21:33:22.132 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 01: Open 'Search Post' page
+[20-11-2023 21:33:23.626 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - OS name = windows 11
+[20-11-2023 21:33:23.626 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Driver instance name = chromedriver: chrome on windows (63b2d39713b3b7e7ee8a1ae2b85752c7)
+[20-11-2023 21:50:13.439 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[20-11-2023 21:50:15.397 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 02: Enter to Username textbox with value: automationfc
+[20-11-2023 21:50:15.566 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[20-11-2023 21:50:15.669 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[20-11-2023 21:50:16.965 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 01: Click to 'Posts' menu link
+[20-11-2023 21:50:17.756 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 02: Get 'Search Posts' page Url
+[20-11-2023 21:50:17.759 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 03: Click to 'Add New' button
+[20-11-2023 21:50:19.094 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 04: Enter to post title
+[20-11-2023 21:50:19.376 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 05: Enter to post body
+[20-11-2023 21:50:19.872 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 06: Click to 'Publish' button
+[20-11-2023 21:50:20.211 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 07: Click to 'Pre Publish' button
+[20-11-2023 21:50:20.312 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 08: Verify 'Post published.' message is displayed
+[20-11-2023 21:50:21.912 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[20-11-2023 21:50:21.957 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 01: Open 'Search Post' page
+[20-11-2023 21:50:23.672 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - OS name = windows 11
+[20-11-2023 21:50:23.672 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Driver instance name = chromedriver: chrome on windows (8829fe25aa61d81bab3d49b777e0ed4f)

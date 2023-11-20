@@ -14,15 +14,13 @@
   
   <test name="Run on Chrome"> 
   	<parameter name="browser" value ="chrome"/>
-   <!--<classes>-->
+  <classes>
    <!--Trigger Common Register run first --> 
      <!-- <class name="com.nopcommerce.common.Common_01_Register_Cookies"/> --> 
-     <!-- <class name="com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search"/>-->
-   <!-- </classes>-->
-    
-    <packages>
-    	<package name ="com.wordpress.admin" />
-    </packages>
-  </test> 
- 
+    <class name="com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search"/>
+ </classes>
+  	<!-- <packages>-->
+    	<!-- <package name ="com.wordpress.admin" /> -->
+	<!-- </packages> -->
+  </test>   
 </suite> 

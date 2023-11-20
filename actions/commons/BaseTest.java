@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.joda.time.DateTime;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -93,24 +94,27 @@ public class BaseTest {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		switch (browserList) {
 		case CHROME:
-			driver = WebDriverManager.chromedriver().create();
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.setAcceptInsecureCerts(true);
+			driver = new ChromeDriver(options);
 			break;
 		case H_CHROME:
 			WebDriverManager.chromedriver().setup();
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless");
-			options.addArguments("window-size=1920x1080");
-			driver = new ChromeDriver(options);
+			ChromeOptions options1 = new ChromeOptions();
+			options1.addArguments("--headless");
+			options1.addArguments("window-size=1920x1080");
+			driver = new ChromeDriver(options1);
 			break;
 		case FIREFOX:
 			driver = WebDriverManager.firefoxdriver().create();
 			break;
 		case H_FIREFOX:
 			WebDriverManager.chromedriver().setup();
-			FirefoxOptions options1 = new FirefoxOptions();
-			options1.addArguments("--headless");
-			options1.addArguments("window-size=1920x1080");
-			driver = new FirefoxDriver(options1);
+			FirefoxOptions options2 = new FirefoxOptions();
+			options2.addArguments("--headless");
+			options2.addArguments("window-size=1920x1080");
+			driver = new FirefoxDriver(options2);
 			break;
 		case EDGE:
 			driver = WebDriverManager.edgedriver().create();
@@ -121,15 +125,15 @@ public class BaseTest {
 		case COCCOC:
 			// Cốc cốc browser trừ đi 5-6 version ra chromdriver (lấy version của trình duyệt cốc cốc - 5/6)
 			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
-			ChromeOptions options2 = new ChromeOptions();
+			ChromeOptions options3 = new ChromeOptions();
 
 			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
-				options2.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+				options3.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
 
 			} else {
-				options2.setBinary("...");
+				options3.setBinary("...");
 			}
-			driver = new ChromeDriver(options2);
+			driver = new ChromeDriver(options3);
 			break;
 		default:
 			throw new RuntimeException("Please enter the correct Browser name");
@@ -265,5 +269,34 @@ public class BaseTest {
 				e.printStackTrace();
 			}
 		}
+	}
+
+	protected String getCurrentDate() {
+		DateTime nowUTC = new DateTime();
+		int day = nowUTC.getDayOfMonth();
+		if (day < 10) {
+			String dayValue = "0" + day;
+			return dayValue;
+		}
+		return String.valueOf(day);
+	}
+
+	protected String getCurrentMonth() {
+		DateTime now = new DateTime();
+		int month = now.getMonthOfYear();
+		if (month < 10) {
+			String monthValue = "0" + month;
+			return monthValue;
+		}
+		return String.valueOf(month);
+	}
+
+	protected String getCurrentYear() {
+		DateTime now = new DateTime();
+		return now.getYear() + "";
+	}
+
+	protected String getCurrentDay() {
+		return getCurrentDate() + "/" + getCurrentMonth() + "/" + getCurrentYear();
 	}
 }
