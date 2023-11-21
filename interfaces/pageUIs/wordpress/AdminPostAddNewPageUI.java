@@ -1,4 +1,4 @@
-package pageUIs.wordpress.admin;
+package pageUIs.wordpress;
 
 public class AdminPostAddNewPageUI {
 	public static final String TITLE_TEXTBOX = "css=h1.wp-block-post-title";
