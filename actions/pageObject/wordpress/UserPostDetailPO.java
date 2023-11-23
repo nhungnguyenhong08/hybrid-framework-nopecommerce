@@ -13,22 +13,27 @@ public class UserPostDetailPO extends BasePage {
 	}
 
 	public boolean isPostInforDisplayedWithPostTitle(String postTitle) {
-		waitForAllElementVisible(driver, UserPostDetailPageUI.POST_TITLE_TEXT, postTitle);
+		waitForElementVisible(driver, UserPostDetailPageUI.POST_TITLE_TEXT, postTitle);
 		return isElementDisplayed(driver, UserPostDetailPageUI.POST_TITLE_TEXT, postTitle);
 	}
 
 	public boolean isPostInforDisplayedWithPostBody(String postTitle, String postBody) {
-		waitForAllElementVisible(driver, UserPostDetailPageUI.POST_BODY_TEXT_BY_POST_TITLE, postTitle, postBody);
+		waitForElementVisible(driver, UserPostDetailPageUI.POST_BODY_TEXT_BY_POST_TITLE, postTitle, postBody);
 		return isElementDisplayed(driver, UserPostDetailPageUI.POST_BODY_TEXT_BY_POST_TITLE, postTitle, postBody);
 	}
 
 	public boolean isPostInforDisplayedWithPostAuthor(String postTitle, String authorName) {
-		waitForAllElementVisible(driver, UserPostDetailPageUI.POST_AUTHOR_TEXT_BY_POST_TITLE, postTitle, authorName);
+		waitForElementVisible(driver, UserPostDetailPageUI.POST_AUTHOR_TEXT_BY_POST_TITLE, postTitle, authorName);
 		return isElementDisplayed(driver, UserPostDetailPageUI.POST_AUTHOR_TEXT_BY_POST_TITLE, postTitle, authorName);
 	}
 
 	public boolean isPostInforDisplayedWithPostCurrentDay(String postTitle, String currentDay) {
-		waitForAllElementVisible(driver, UserPostDetailPageUI.POST_CURRENT_DATE_BY_POST_TITLE, postTitle, currentDay);
+		waitForElementVisible(driver, UserPostDetailPageUI.POST_CURRENT_DATE_BY_POST_TITLE, postTitle, currentDay);
 		return isElementDisplayed(driver, UserPostDetailPageUI.POST_CURRENT_DATE_BY_POST_TITLE, postTitle, currentDay);
+	}
+
+	public boolean isPostInforDisplayedWithPostCurrentDayEdited(String editPostTile, String currentDay) {
+		waitForElementVisible(driver, UserPostDetailPageUI.POST_CURRENT_DATE_BY_POST_TITLE_EDITED, editPostTile, currentDay);
+		return isElementDisplayed(driver, UserPostDetailPageUI.POST_CURRENT_DATE_BY_POST_TITLE_EDITED, editPostTile, currentDay);
 	}
 }

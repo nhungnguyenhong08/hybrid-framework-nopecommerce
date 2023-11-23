@@ -19,6 +19,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObject.wordpress.AdminDashboardPO;
 import pageObject.wordpress.PageGeneratorManager;
 import pageObject.wordpress.UserHomePO;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
@@ -167,9 +168,14 @@ public class BasePage {
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue) {
-		WebElement element = getWebElement(driver, locatorType);
+		WebElement element = this.getWebElement(driver, locatorType);
 		element.clear();
 		element.sendKeys(textValue);
+	}
+
+	public void clearValueInElementByDeleteKey(WebDriver driver, String locatorType) {
+		WebElement element = this.getWebElement(driver, locatorType);
+		element.sendKeys(Keys.chord(Keys.CONTROL), "a", Keys.DELETE);
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue, String... dynamicValues) {
@@ -303,6 +309,19 @@ public class BasePage {
 	public boolean isElementUndisplayed(WebDriver driver, String locatorType) {
 		overrideImplicitTimeout(driver, shortTimeout);
 		List<WebElement> elements = getListWebElement(driver, locatorType);
+		overrideImplicitTimeout(driver, longTimeout);
+		if (elements.size() == 0) {
+			return true;
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public boolean isElementUndisplayed(WebDriver driver, String locator, String... dynamicValues) {
+		overrideImplicitTimeout(driver, shortTimeout);
+		List<WebElement> elements = getListWebElement(driver, getDynamicXpath(locator, dynamicValues));
 		overrideImplicitTimeout(driver, longTimeout);
 		if (elements.size() == 0) {
 			return true;
@@ -655,6 +674,11 @@ public class BasePage {
 	public UserHomePO openEndUserSite(WebDriver driver, String userUrl) {
 		openPageUrl(driver, userUrl);
 		return PageGeneratorManager.getUserHomePage(driver);
+	}
+
+	public AdminDashboardPO openAdminSite(WebDriver driver, String adminUrl) {
+		openPageUrl(driver, adminUrl);
+		return PageGeneratorManager.getAdminDashboardPage(driver);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIME_OUT;

@@ -31,4 +31,8 @@ public class PageGeneratorManager {
 	public static UserPostDetailPO getUserPageDetailPage(WebDriver driver) {
 		return new UserPostDetailPO(driver);
 	}
+
+	public static UserSearchPostPO getUserSearchPostPage(WebDriver driver) {
+		return new UserSearchPostPO(driver);
+	}
 }

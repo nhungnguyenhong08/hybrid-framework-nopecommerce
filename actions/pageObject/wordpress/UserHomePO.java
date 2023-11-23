@@ -13,22 +13,22 @@ public class UserHomePO extends BasePage {
 	}
 
 	public boolean isPostInforDisplayedWithPostTitle(String postTitle) {
-		waitForAllElementVisible(driver, UserHomePageUI.POST_TITLE_TEXT, postTitle);
+		waitForElementVisible(driver, UserHomePageUI.POST_TITLE_TEXT, postTitle);
 		return isElementDisplayed(driver, UserHomePageUI.POST_TITLE_TEXT, postTitle);
 	}
 
 	public boolean isPostInforDisplayedWithPostBody(String postTitle, String postBody) {
-		waitForAllElementVisible(driver, UserHomePageUI.POST_BODY_TEXT_BY_POST_TITLE, postTitle, postBody);
+		waitForElementVisible(driver, UserHomePageUI.POST_BODY_TEXT_BY_POST_TITLE, postTitle, postBody);
 		return isElementDisplayed(driver, UserHomePageUI.POST_BODY_TEXT_BY_POST_TITLE, postTitle, postBody);
 	}
 
 	public boolean isPostInforDisplayedWithPostAuthor(String postTitle, String authorName) {
-		waitForAllElementVisible(driver, UserHomePageUI.POST_AUTHOR_TEXT_BY_POST_TITLE, postTitle, authorName);
+		waitForElementVisible(driver, UserHomePageUI.POST_AUTHOR_TEXT_BY_POST_TITLE, postTitle, authorName);
 		return isElementDisplayed(driver, UserHomePageUI.POST_AUTHOR_TEXT_BY_POST_TITLE, postTitle, authorName);
 	}
 
 	public boolean isPostInforDisplayedWithPostCurrentDay(String postTitle, String currentDay) {
-		waitForAllElementVisible(driver, UserHomePageUI.POST_CURRENT_DATE_BY_POST_TITLE, postTitle, currentDay);
+		waitForElementVisible(driver, UserHomePageUI.POST_CURRENT_DATE_BY_POST_TITLE, postTitle, currentDay);
 		return isElementDisplayed(driver, UserHomePageUI.POST_CURRENT_DATE_BY_POST_TITLE, postTitle, currentDay);
 	}
 
@@ -36,6 +36,26 @@ public class UserHomePO extends BasePage {
 		waitForElementClickable(driver, UserHomePageUI.POST_TITLE_TEXT, postTitle);
 		clickToElement(driver, UserHomePageUI.POST_TITLE_TEXT, postTitle);
 		return PageGeneratorManager.getUserPageDetailPage(driver);
+	}
+
+	public boolean isPostInforDisplayedWithPostCurrentDayEdited(String editPostTile, String currentDay) {
+		waitForElementVisible(driver, UserHomePageUI.POST_CURRENT_DATE_BY_POST_TITLE_EDITED, editPostTile, currentDay);
+		return isElementDisplayed(driver, UserHomePageUI.POST_CURRENT_DATE_BY_POST_TITLE_EDITED, editPostTile, currentDay);
+	}
+
+	public boolean isPostInforUndisplayedWithPostTitle(String editPostTile) {
+		return isElementUndisplayed(driver, UserHomePageUI.POST_TITLE_TEXT, editPostTile);
+	}
+
+	public void enterToSearchTextbox(String editPostTile) {
+		waitForElementVisible(driver, UserHomePageUI.SEARCH_TEXTBOX, editPostTile);
+		sendkeyToElement(driver, UserHomePageUI.SEARCH_TEXTBOX, editPostTile);
+	}
+
+	public UserSearchPostPO clickToSearchButton() {
+		waitForElementClickable(driver, UserHomePageUI.SEARCH_BUTTON);
+		clickToElement(driver, UserHomePageUI.SEARCH_BUTTON);
+		return PageGeneratorManager.getUserSearchPostPage(driver);
 	}
 
 }

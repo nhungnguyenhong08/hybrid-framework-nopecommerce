@@ -25,9 +25,9 @@ public class AdminPostAddNewPO extends BasePage {
 		sendkeyToElement(driver, AdminPostAddNewPageUI.BODY_TEXTBOX, postBodyValue);
 	}
 
-	public void clickToPublishButton() {
-		waitForElementClickable(driver, AdminPostAddNewPageUI.PUBLISH_BUTTON);
-		clickToElement(driver, AdminPostAddNewPageUI.PUBLISH_BUTTON);
+	public void clickToPublishOrUpdateButton() {
+		waitForElementClickable(driver, AdminPostAddNewPageUI.PUBLISH_OR_UPDATE_BUTTON);
+		clickToElement(driver, AdminPostAddNewPageUI.PUBLISH_OR_UPDATE_BUTTON);
 	}
 
 	public void clickToPrePublishButton() {
