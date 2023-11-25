@@ -1,0 +1,54 @@
+[23-11-2023 22:44:44.784 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[23-11-2023 22:44:46.729 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 02: Enter to Username textbox with value: automationfc
+[23-11-2023 22:44:46.898 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 03: Enter to Password textbox with value: automationfc
+[23-11-2023 22:44:47.011 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 04: Click to Login button
+[23-11-2023 22:44:48.299 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 01: Click to 'Posts' menu link
+[23-11-2023 22:44:49.083 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 02: Get 'Search Posts' page Url
+[23-11-2023 22:44:49.089 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 03: Click to 'Add New' button
+[23-11-2023 22:44:50.430 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 04: Enter to post title
+[23-11-2023 22:44:50.712 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 05: Enter to post body
+[23-11-2023 22:44:51.237 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 06: Click to 'Publish' button
+[23-11-2023 22:44:51.565 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 07: Click to 'Pre Publish' button
+[23-11-2023 22:44:51.653 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Create_Post - Step 08: Verify 'Post published.' message is displayed
+[23-11-2023 22:44:53.122 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:53.161 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 01: Open 'Search Post' page
+[23-11-2023 22:44:53.821 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 02: Enter to Search textbox
+[23-11-2023 22:44:53.942 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 03: Click to 'Search Posts' button
+[23-11-2023 22:44:55.122 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 04: Verify Search table contains 'Live Coding Title 941'
+[23-11-2023 22:44:55.197 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:55.197 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 05: Verify Search table contains 'Automation Admin'
+[23-11-2023 22:44:55.274 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:55.275 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 06: Open End User site
+[23-11-2023 22:44:55.914 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 07: Verify Post infor displayed at Home page
+[23-11-2023 22:44:55.981 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:56.044 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:56.104 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:56.167 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:56.167 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 08: Click to Post title
+[23-11-2023 22:44:56.748 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Search_Post - Step 09: Verify Post infor displayed at Post detail page
+[23-11-2023 22:44:56.812 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:56.873 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:56.938 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:57.000 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:44:57.003 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 01: Open Admin site
+[23-11-2023 22:44:57.644 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 02: Click to 'Posts' menu link
+[23-11-2023 22:44:58.310 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 03: Enter to Search textbox
+[23-11-2023 22:44:58.441 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 04: Click to 'Search Posts' button
+[23-11-2023 22:44:59.579 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 05: Click to Post title link and navigate to Edit Post page
+[23-11-2023 22:45:00.708 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 06: Enter to post title
+[23-11-2023 22:45:00.938 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 07: Enter to post body
+[23-11-2023 22:45:01.434 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 08: Click to 'Update' button
+[23-11-2023 22:45:01.742 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 09: Verify 'Post updated.' message is displayed
+[23-11-2023 22:45:02.485 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:45:02.485 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 10: Open 'Search Post' page
+[23-11-2023 22:45:04.135 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 11: Enter to Search textbox
+[23-11-2023 22:45:04.254 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 12: Click to 'Search Posts' button
+[23-11-2023 22:45:05.372 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 13: Verify Search table contains 'Edit title 941'
+[23-11-2023 22:45:05.456 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:45:05.456 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 14: Verify Search table contains 'Automation Admin'
+[23-11-2023 22:45:05.541 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:45:05.542 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 15: Open End User site
+[23-11-2023 22:45:06.065 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Edit_Post - Step 16: Verify Post infor displayed at Home page
+[23-11-2023 22:45:06.121 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:45:06.235 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -------------------------- 
+[23-11-2023 22:45:06.349 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] -  -------------------------- PASSED -----------------

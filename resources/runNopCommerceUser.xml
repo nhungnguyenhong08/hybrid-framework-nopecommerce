@@ -10,8 +10,8 @@
   </listeners>
 
   <parameter name = "environment" value = "DEV" />
-  <test name="Run on Chrome"> 
-  	<parameter name="browser" value ="chrome"/>
+  <test name="Run on EDGE"> 
+  	<parameter name="browser" value ="edge"/>
     <classes>
    <!--Trigger Common Register run first --> 
      <!-- <class name="com.nopcommerce.common.Common_01_Register_Cookies"/> --> 

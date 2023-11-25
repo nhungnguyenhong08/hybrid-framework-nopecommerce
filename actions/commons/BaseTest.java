@@ -2,6 +2,7 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -13,6 +14,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
@@ -58,10 +62,23 @@ public class BaseTest {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		switch (browserList) {
 		case CHROME:
-			driver = WebDriverManager.chromedriver().create();
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options1 = new ChromeOptions();
+			options1.setAcceptInsecureCerts(true);
+			driver = new ChromeDriver(options1);
 			break;
 		case FIREFOX:
-			driver = WebDriverManager.firefoxdriver().create();
+			WebDriverManager.firefoxdriver().setup();
+			// Add extention to Firefox
+			FirefoxProfile profile = new FirefoxProfile();
+			File translate = new File(GlobalConstants.PROJECT_PATH + "\\browserExtensions\\to_google_translate-4.2.0.xpi");
+			profile.addExtension(translate);
+			profile.setAcceptUntrustedCertificates(true);
+			profile.setAssumeUntrustedCertificateIssuer(false);
+			FirefoxOptions options2 = new FirefoxOptions();
+			options2.setProfile(profile);
+
+			driver = new FirefoxDriver(options2);
 			break;
 		case EDGE:
 			driver = WebDriverManager.edgedriver().create();
@@ -95,7 +112,9 @@ public class BaseTest {
 		switch (browserList) {
 		case CHROME:
 			WebDriverManager.chromedriver().setup();
+			File file = new File(GlobalConstants.PROJECT_PATH + "\\browserExtensions\\Google-Dịch.crx");
 			ChromeOptions options = new ChromeOptions();
+			options.addExtensions(file);
 			options.setAcceptInsecureCerts(true);
 			driver = new ChromeDriver(options);
 			break;
@@ -107,7 +126,18 @@ public class BaseTest {
 			driver = new ChromeDriver(options1);
 			break;
 		case FIREFOX:
-			driver = WebDriverManager.firefoxdriver().create();
+			WebDriverManager.firefoxdriver().setup();
+
+			// Add extention to Firefox
+			FirefoxProfile profile = new FirefoxProfile();
+			File translate = new File(GlobalConstants.PROJECT_PATH + "\\browserExtensions\\to_google_translate-4.2.0.xpi");
+			profile.addExtension(translate);
+			profile.setAcceptUntrustedCertificates(true);
+			profile.setAssumeUntrustedCertificateIssuer(false);
+			FirefoxOptions options4 = new FirefoxOptions();
+			options4.setProfile(profile);
+
+			driver = new FirefoxDriver(options4);
 			break;
 		case H_FIREFOX:
 			WebDriverManager.chromedriver().setup();
@@ -298,5 +328,15 @@ public class BaseTest {
 
 	protected String getCurrentDay() {
 		return getCurrentDate() + "/" + getCurrentMonth() + "/" + getCurrentYear();
+	}
+
+	protected void showBrowserConsoleLogs(WebDriver driver) {
+		if (driver.toString().contains("chrome")) {
+			LogEntries logs = driver.manage().logs().get("browser");
+			List<LogEntry> logList = logs.getAll();
+			for (LogEntry logging : logList) {
+				log.info(" --------------- " + logging.getLevel().toString() + " ------------- \n" + logging.getMessage());
+			}
+		}
 	}
 }
