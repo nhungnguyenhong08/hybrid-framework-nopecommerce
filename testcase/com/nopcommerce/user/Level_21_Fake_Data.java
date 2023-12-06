@@ -15,25 +15,28 @@ import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import utilities.DataHelper;
 
-public class Level_19_Patern_Object extends BaseTest {
+public class Level_21_Fake_Data extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, emailAddress, validPassword, date, month, year;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
 	private UserCustomerInforPageObject customerInforPage;
+	private DataHelper dataFaker;
 
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
-		log.debug("aaaaaaa");
-		firstName = "Automation";
-		lastName = "FC";
-		emailAddress = "afc" + generateFakeNumber() + "@gmail.com";
-		validPassword = "123456";
+		dataFaker = DataHelper.gerDataHelper();
+
+		firstName = dataFaker.getFirstName();
+		lastName = dataFaker.getLastName();
+		emailAddress = dataFaker.getEmailAddress();
+		validPassword = dataFaker.getPassword();
 		date = "10";
 		month = "August";
 		year = "1996";

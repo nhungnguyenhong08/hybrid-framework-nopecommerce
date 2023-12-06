@@ -16,7 +16,7 @@ public class MethodListener implements IInvokedMethodListener {
 
 	@Override
 	public void beforeInvocation(IInvokedMethod method, ITestResult result) {
-		log.debug("Before invocation of " + method.getTestMethod().getMethodName());
+		// log.debug("Before invocation of " + method.getTestMethod().getMethodName());
 	}
 
 	@Override
