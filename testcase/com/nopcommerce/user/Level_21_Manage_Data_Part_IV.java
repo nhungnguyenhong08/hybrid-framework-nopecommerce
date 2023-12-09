@@ -9,37 +9,38 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.nopcommerce.data.UserDataMapper;
+
 import commons.BaseTest;
 import commons.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
-import utilities.DataHelper;
 
-public class Level_21_Fake_Data extends BaseTest {
+public class Level_21_Manage_Data_Part_IV extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, emailAddress, validPassword, date, month, year;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
 	private UserCustomerInforPageObject customerInforPage;
-	private DataHelper dataFaker;
+	UserDataMapper userData;
 
-	@Parameters("browser")
+	@Parameters({ "browser" })
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
-		dataFaker = DataHelper.gerDataHelper();
+		userData = UserDataMapper.getUserData();
 
-		firstName = dataFaker.getFirstName();
-		lastName = dataFaker.getLastName();
-		emailAddress = dataFaker.getEmailAddress();
-		validPassword = dataFaker.getPassword();
-		date = "10";
-		month = "August";
-		year = "1996";
+		firstName = userData.getFirstName();
+		lastName = userData.getLastName();
+		emailAddress = userData.getEmailAddress() + generateFakeNumber() + "@fakemail.com";
+		validPassword = userData.getPassword();
+		date = userData.getDate();
+		month = userData.getMonth();
+		year = userData.getYear();
 	}
 
 	@Test

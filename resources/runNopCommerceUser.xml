@@ -8,14 +8,18 @@
     <!-- <listener class-name="org.uncommons.reportng.HTMLReporter"/>-->
    <!--  <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>-->
   </listeners>
-
+  
+  <!-- Global: Best-->
   <parameter name = "environment" value = "DEV" />
-  <test name="Run on EDGE"> 
-  	<parameter name="browser" value ="edge"/>
+  <parameter name = "url" value = "https://..." />
+  <parameter name = "browser" value = "CHROME" />
+
+  
+  <test name="Run on Chrome"> 
     <classes>
    <!--Trigger Common Register run first --> 
      <!-- <class name="com.nopcommerce.common.Common_01_Register_Cookies"/> --> 
-      <class name="com.nopcommerce.user.Level_21_Fake_Data"/>
+      <class name="com.nopcommerce.user.Level_21_Manage_Data_Part_IV"/>
     </classes>
   </test> 
  
