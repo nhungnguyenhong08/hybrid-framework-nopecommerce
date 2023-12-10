@@ -9,5 +9,15 @@
 	"login":{
 		"username": "Automation",
 		"password": "123465"
-	}
+	},
+	"subjects": [
+		{
+			"name": "Math",
+			"point": 10.0
+		},
+		{
+			"name": "Physical",
+			"point": 9.5
+		}
+	]
 }

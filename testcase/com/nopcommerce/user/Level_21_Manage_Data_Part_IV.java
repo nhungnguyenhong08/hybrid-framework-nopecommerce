@@ -41,6 +41,12 @@ public class Level_21_Manage_Data_Part_IV extends BaseTest {
 		date = userData.getDate();
 		month = userData.getMonth();
 		year = userData.getYear();
+
+		System.out.println(userData.getSubjects().get(0).getName());
+		System.out.println(userData.getSubjects().get(0).getPoint());
+
+		System.out.println(userData.getSubjects().get(1).getName());
+		System.out.println(userData.getSubjects().get(1).getName());
 	}
 
 	@Test
