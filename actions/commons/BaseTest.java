@@ -185,10 +185,10 @@ public class BaseTest {
 			envUrl = "https://demo.nopcommerce.com/";
 			break;
 		case TESTTING:
-			envUrl = "https://demo.nopcommerce.com/";
+			envUrl = "https://testing.nopcommerce.com/";
 			break;
 		case STAGING:
-			envUrl = "https://demo.nopcommerce.com/";
+			envUrl = "https://staging.nopcommerce.com/";
 			break;
 		case PRODUCTION:
 			envUrl = "https://demo.nopcommerce.com/";

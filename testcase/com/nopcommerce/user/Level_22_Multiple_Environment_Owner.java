@@ -2,6 +2,7 @@ package com.nopcommerce.user;
 
 import java.util.Random;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -17,8 +18,9 @@ import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import utilities.Environment;
 
-public class Level_21_Manage_Data_Part_IV extends BaseTest {
+public class Level_22_Multiple_Environment_Owner extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, emailAddress, validPassword, date, month, year;
 	private UserHomePageObject homePage;
@@ -26,11 +28,23 @@ public class Level_21_Manage_Data_Part_IV extends BaseTest {
 	private UserLoginPageObject loginPage;
 	private UserCustomerInforPageObject customerInforPage;
 	UserDataMapper userData;
+	Environment environment;
 
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
 	public void beforeClass(String browserName, String environmentName) {
-		driver = getBrowserDriver(browserName, environmentName);
+		ConfigFactory.setProperty("env", environmentName);
+		environment = ConfigFactory.create(Environment.class);
+
+		driver = getBrowserDriver(browserName, environment.appUrl());
+
+		System.out.println(environment.appUrl());
+		System.out.println(environment.appPassword());
+		System.out.println(environment.appUsername());
+		System.out.println(environment.dbUsername());
+		System.out.println(environment.dbHostname());
+		System.out.println(environment.dbPassword());
+
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 		userData = UserDataMapper.getUserData();
 
@@ -138,6 +152,7 @@ public class Level_21_Manage_Data_Part_IV extends BaseTest {
 		closeBrowserDriver();
 	}
 
+	@Test
 	public int generateFakeNumber() {
 		Random rand = new Random();
 		return rand.nextInt(9999);

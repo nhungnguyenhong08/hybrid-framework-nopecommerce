@@ -10,7 +10,7 @@
   </listeners>
   
   <!-- Global: Best-->
-  <!-- <parameter name = "environment" value = "testing" /> -->
+  <parameter name = "url" value = "https://demo.nopcommerce.com/" />
   <!-- <parameter name = "url" value = "https://..." />-->
   <parameter name = "browser" value = "CHROME" />
 
@@ -19,7 +19,7 @@
     <classes>
    <!--Trigger Common Register run first --> 
      <!-- <class name="com.nopcommerce.common.Common_01_Register_Cookies"/> --> 
-      <class name="com.nopcommerce.user.User_01_Register"/>
+      <class name="com.nopcommerce.user.Level_22_Multiple_Environment_Parameter"/>
     </classes>
   </test> 
  
