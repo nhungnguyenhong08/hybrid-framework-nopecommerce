@@ -658,6 +658,16 @@ public class BasePage {
 		return getElemnetAttribute(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
 	}
 
+	public void openHeaderUpperPageByName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.HEADER_UPPER_PAGE_BY_NAME, pageName);
+		clickToElement(driver, BasePageNopCommerceUI.HEADER_UPPER_PAGE_BY_NAME, pageName);
+	}
+
+	public void openFooterPageByName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.FOOTER_PAGE, pageName);
+		clickToElement(driver, BasePageNopCommerceUI.FOOTER_PAGE, pageName);
+	}
+
 	// Switch role Level_08_Switch_Role
 	public UserHomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_AT_USER_PAGE);

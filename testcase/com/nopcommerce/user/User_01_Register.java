@@ -1,7 +1,5 @@
 package com.nopcommerce.user;
 
-import java.util.Random;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -203,13 +201,8 @@ public class User_01_Register extends BaseTest {
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
+		log.info("Post-Condition: Close browser");
 		closeBrowserDriver();
-	}
-
-	public int generateFakeNumber() {
-		Random rand = new Random();
-		return rand.nextInt(9999);
-
 	}
 
 }
