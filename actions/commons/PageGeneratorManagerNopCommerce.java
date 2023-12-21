@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
-import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserMyAccountPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
@@ -26,8 +26,8 @@ public class PageGeneratorManagerNopCommerce {
 		return new UserLoginPageObject(driver);
 	}
 
-	public static UserCustomerInforPageObject getUserCustomerInforPage(WebDriver driver) {
-		return new UserCustomerInforPageObject(driver);
+	public static UserMyAccountPageObject getUserMyAccountPage(WebDriver driver) {
+		return new UserMyAccountPageObject(driver);
 	}
 
 	public static UserAddressPageObject getUserAddressPage(WebDriver driver) {

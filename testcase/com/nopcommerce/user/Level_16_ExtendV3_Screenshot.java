@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManagerNopCommerce;
-import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserMyAccountPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
@@ -23,7 +23,7 @@ public class Level_16_ExtendV3_Screenshot extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
-	private UserCustomerInforPageObject customerInforPage;
+	private UserMyAccountPageObject customerInforPage;
 
 	@Parameters("browser")
 	@BeforeClass
@@ -74,7 +74,7 @@ public class Level_16_ExtendV3_Screenshot extends BaseTest {
 
 		customerInforPage = homePage.clickToMyAccountLink();
 
-		Assert.assertFalse(customerInforPage.isCustomerInforPageDisplay());
+		Assert.assertFalse(customerInforPage.isMyAccountPageDisplayed());
 	}
 
 	@AfterClass

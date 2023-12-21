@@ -336,3 +336,388 @@
 [19-12-2023 23:04:03.293 INFO com.nopcommerce.user.User_01_Register] - Register_06 - Step 08: Verify error message displayed
 [19-12-2023 23:04:03.350 INFO com.nopcommerce.user.User_01_Register] - OS name = windows 11
 [19-12-2023 23:04:03.350 INFO com.nopcommerce.user.User_01_Register] - Driver instance name = chromedriver: chrome on windows (d923561beaa5caf20b735ad0d10a120f)
+[20-12-2023 22:23:38.676 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 01: Open browser 'CHROME'
+[20-12-2023 22:23:42.889 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 01: Click to Register link
+[20-12-2023 22:23:43.426 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Jolie'
+[20-12-2023 22:23:43.547 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Block'
+[20-12-2023 22:23:43.677 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Email textbox with value is 'mac.kiehn@hotmail.com'
+[20-12-2023 22:23:43.788 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Password textbox with value is 'c5#A1w5vX5'
+[20-12-2023 22:23:43.900 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'c5#A1w5vX5'
+[20-12-2023 22:23:44.012 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Click to Register button
+[20-12-2023 22:23:44.667 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 04: Verify sucessful message displayed
+[20-12-2023 22:23:44.729 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 05: Click to home link
+[20-12-2023 22:23:45.135 INFO com.nopcommerce.user.User_02_Login] - Login_01 - Step 01: Click to Login link
+[20-12-2023 22:23:45.512 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 01: Click to Login button
+[20-12-2023 22:23:45.586 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 01: Click to Login link
+[20-12-2023 22:23:45.677 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 01: Click to Login link
+[20-12-2023 22:23:46.022 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 02: Enter to Email textbox with value is 'afc@afc.com@.vn'
+[20-12-2023 22:23:46.145 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 03: Click to Login button
+[20-12-2023 22:23:46.222 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 04: Verify error message at Email textbox displayed
+[20-12-2023 22:23:46.292 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 01: Click to Login link
+[20-12-2023 22:23:46.658 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 02: Enter to Email textbox with value is 'dallas.bergstrom@hotmail.com'
+[20-12-2023 22:23:46.795 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 03: Click to Login button
+[20-12-2023 22:23:47.181 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 04: Verify error message at Email textbox displayed
+[20-12-2023 22:23:47.241 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 01: Click to Login link
+[20-12-2023 22:23:47.619 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 02: Enter to Email textbox with value is 'mac.kiehn@hotmail.com'
+[20-12-2023 22:23:47.746 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 02: Enter to Passowd textbox with empty value
+[20-12-2023 22:23:47.841 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 03: Click to Login button
+[20-12-2023 22:23:48.205 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 04: Verify error message displayed
+[20-12-2023 22:23:48.257 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 01: Click to Login link
+[20-12-2023 22:23:48.625 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 02: Enter to Email textbox with value is 'mac.kiehn@hotmail.com'
+[20-12-2023 22:23:48.748 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 03: Enter to Password textbox with value is '654321'
+[20-12-2023 22:23:48.842 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 04: Click to Login button
+[20-12-2023 22:23:49.196 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 05: Verify error message displayed
+[20-12-2023 22:23:49.247 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 01: Click to Login link
+[20-12-2023 22:23:49.589 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 02: Enter to Email textbox with value is 'mac.kiehn@hotmail.com'
+[20-12-2023 22:23:49.694 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 03: Enter to Password textbox with value is 'c5#A1w5vX5'
+[20-12-2023 22:23:49.811 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 04: Click to Login button
+[20-12-2023 22:23:50.881 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 05: Verify Home page Displayed
+[20-12-2023 22:23:50.945 INFO com.nopcommerce.user.User_02_Login] - Post-Condition: Close browser
+[20-12-2023 22:23:50.945 INFO com.nopcommerce.user.User_02_Login] - OS name = windows 11
+[20-12-2023 22:23:50.945 INFO com.nopcommerce.user.User_02_Login] - Driver instance name = chromedriver: chrome on windows (a0e725742b330fccd1611f28f537a476)
+[20-12-2023 22:25:05.686 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 01: Open browser 'CHROME'
+[20-12-2023 22:25:07.723 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 01: Click to Register link
+[20-12-2023 22:25:08.195 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Aaron'
+[20-12-2023 22:25:08.333 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Kshlerin'
+[20-12-2023 22:25:08.440 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Email textbox with value is 'louie.welch@hotmail.com'
+[20-12-2023 22:25:08.556 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Password textbox with value is '5u1lH1n$'
+[20-12-2023 22:25:08.675 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is '5u1lH1n$'
+[20-12-2023 22:25:08.792 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Click to Register button
+[20-12-2023 22:25:09.398 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 04: Verify sucessful message displayed
+[20-12-2023 22:25:09.447 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 05: Click to home link
+[20-12-2023 22:25:09.837 INFO com.nopcommerce.user.User_02_Login] - Login_01 - Step 01: Click to Login link
+[20-12-2023 22:25:10.162 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 01: Click to Login button
+[20-12-2023 22:25:10.256 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 01: Click to Login link
+[20-12-2023 22:25:10.339 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 01: Click to Login link
+[20-12-2023 22:25:10.681 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 02: Enter to Email textbox with value is 'afc@afc.com@.vn'
+[20-12-2023 22:25:10.808 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 03: Click to Login button
+[20-12-2023 22:25:10.889 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 04: Verify error message at Email textbox displayed
+[20-12-2023 22:25:10.942 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 01: Click to Login link
+[20-12-2023 22:25:11.275 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 02: Enter to Email textbox with value is 'neida.osinski@hotmail.com'
+[20-12-2023 22:25:11.409 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 03: Click to Login button
+[20-12-2023 22:25:11.757 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 04: Verify error message at Email textbox displayed
+[20-12-2023 22:25:11.819 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 01: Click to Login link
+[20-12-2023 22:25:12.193 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 02: Enter to Email textbox with value is 'louie.welch@hotmail.com'
+[20-12-2023 22:25:12.328 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 02: Enter to Passowd textbox with empty value
+[20-12-2023 22:25:12.440 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 03: Click to Login button
+[20-12-2023 22:25:12.773 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 04: Verify error message displayed
+[20-12-2023 22:25:12.830 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 01: Click to Login link
+[20-12-2023 22:25:13.193 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 02: Enter to Email textbox with value is 'louie.welch@hotmail.com'
+[20-12-2023 22:25:13.304 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 03: Enter to Password textbox with value is '654321'
+[20-12-2023 22:25:13.421 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 04: Click to Login button
+[20-12-2023 22:25:13.776 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 05: Verify error message displayed
+[20-12-2023 22:25:13.823 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 01: Click to Login link
+[20-12-2023 22:25:14.149 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 02: Enter to Email textbox with value is 'louie.welch@hotmail.com'
+[20-12-2023 22:25:14.259 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 03: Enter to Password textbox with value is '5u1lH1n$'
+[20-12-2023 22:25:14.375 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 04: Click to Login button
+[20-12-2023 22:25:14.962 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 05: Verify Home page Displayed
+[20-12-2023 22:25:15.052 INFO com.nopcommerce.user.User_02_Login] - Post-Condition: Close browser
+[20-12-2023 22:25:15.053 INFO com.nopcommerce.user.User_02_Login] - OS name = windows 11
+[20-12-2023 22:25:15.053 INFO com.nopcommerce.user.User_02_Login] - Driver instance name = chromedriver: chrome on windows (b546b92d0bf328e25724310fe91f6f17)
+[20-12-2023 22:27:31.570 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 01: Open browser 'CHROME'
+[20-12-2023 22:27:33.698 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 01: Click to Register link
+[20-12-2023 22:27:34.771 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Ludivina'
+[20-12-2023 22:27:34.890 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Cremin'
+[20-12-2023 22:27:35.012 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Email textbox with value is 'malcolm.rosenbaum@yahoo.com'
+[20-12-2023 22:27:35.158 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Password textbox with value is 'xymY3YH33'
+[20-12-2023 22:27:35.285 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'xymY3YH33'
+[20-12-2023 22:27:35.401 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Click to Register button
+[20-12-2023 22:27:36.043 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[20-12-2023 22:27:36.101 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 05: Click to home link
+[20-12-2023 22:27:36.501 INFO com.nopcommerce.user.User_02_Login] - Login_01 - Step 01: Click to Login link
+[20-12-2023 22:27:36.875 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 01: Click to Login button
+[20-12-2023 22:27:36.951 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 01: Click to Login link
+[20-12-2023 22:27:37.031 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 01: Click to Login link
+[20-12-2023 22:27:37.403 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 02: Enter to Email textbox with value is 'afc@afc.com@.vn'
+[20-12-2023 22:27:37.536 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 03: Click to Login button
+[20-12-2023 22:27:37.620 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 04: Verify error message at Email textbox displayed
+[20-12-2023 22:27:37.668 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 01: Click to Login link
+[20-12-2023 22:27:38.024 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 02: Enter to Email textbox with value is 'modesta.reichert@hotmail.com'
+[20-12-2023 22:27:38.139 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 03: Click to Login button
+[20-12-2023 22:27:38.514 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 04: Verify error message at Email textbox displayed
+[20-12-2023 22:27:38.574 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 01: Click to Login link
+[20-12-2023 22:27:38.920 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 02: Enter to Email textbox with value is 'malcolm.rosenbaum@yahoo.com'
+[20-12-2023 22:27:39.058 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 02: Enter to Passowd textbox with empty value
+[20-12-2023 22:27:39.149 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 03: Click to Login button
+[20-12-2023 22:27:39.514 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 04: Verify error message displayed
+[20-12-2023 22:27:39.571 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 01: Click to Login link
+[20-12-2023 22:27:39.930 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 02: Enter to Email textbox with value is 'malcolm.rosenbaum@yahoo.com'
+[20-12-2023 22:27:40.063 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 03: Enter to Password textbox with value is '$H6Vxh@Rg'
+[20-12-2023 22:27:40.190 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 04: Click to Login button
+[20-12-2023 22:27:40.562 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 05: Verify error message displayed
+[20-12-2023 22:27:40.625 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 01: Click to Login link
+[20-12-2023 22:27:41.006 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 02: Enter to Email textbox with value is 'malcolm.rosenbaum@yahoo.com'
+[20-12-2023 22:27:41.149 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 03: Enter to Password textbox with value is 'xymY3YH33'
+[20-12-2023 22:27:41.274 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 04: Click to Login button
+[20-12-2023 22:27:41.914 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 05: Verify Home page Displayed
+[20-12-2023 22:27:41.981 INFO com.nopcommerce.user.User_02_Login] - Post-Condition: Close browser
+[20-12-2023 22:27:41.982 INFO com.nopcommerce.user.User_02_Login] - OS name = windows 11
+[20-12-2023 22:27:41.982 INFO com.nopcommerce.user.User_02_Login] - Driver instance name = chromedriver: chrome on windows (e81a085504a608c1a21a2bae906bc9d6)
+[20-12-2023 22:29:02.284 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 01: Open browser 'CHROME'
+[20-12-2023 22:29:04.660 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 01: Click to Register link
+[20-12-2023 22:29:05.299 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Johnie'
+[20-12-2023 22:29:05.427 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Considine'
+[20-12-2023 22:29:05.554 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Email textbox with value is 'kareen.feeney@yahoo.com'
+[20-12-2023 22:29:05.667 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Password textbox with value is 'Yp@6c9H$%'
+[20-12-2023 22:29:05.782 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'Yp@6c9H$%'
+[20-12-2023 22:29:05.909 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 03: Click to Register button
+[20-12-2023 22:29:06.633 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[20-12-2023 22:29:06.680 INFO com.nopcommerce.user.User_02_Login] - Pre-Condition - Step 05: Click to home link
+[20-12-2023 22:29:07.107 INFO com.nopcommerce.user.User_02_Login] - Login_01 - Step 01: Click to Login link
+[20-12-2023 22:29:07.499 INFO com.nopcommerce.user.User_02_Login] - Login_01 - Step 02: Click to Login button
+[20-12-2023 22:29:07.572 INFO com.nopcommerce.user.User_02_Login] - Login_01 - Step 03: Click to Login link
+[20-12-2023 22:29:07.654 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 01: Click to Login link
+[20-12-2023 22:29:08.045 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 02: Enter to Email textbox with value is 'afc@afc.com@.vn'
+[20-12-2023 22:29:08.172 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 03: Click to Login button
+[20-12-2023 22:29:08.257 INFO com.nopcommerce.user.User_02_Login] - Login_02 - Step 04: Verify error message at Email textbox displayed
+[20-12-2023 22:29:08.308 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 01: Click to Login link
+[20-12-2023 22:29:08.732 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 02: Enter to Email textbox with value is 'genoveva.lesch@hotmail.com'
+[20-12-2023 22:29:08.867 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 03: Click to Login button
+[20-12-2023 22:29:09.320 INFO com.nopcommerce.user.User_02_Login] - Login_03 - Step 04: Verify error message at Email textbox displayed
+[20-12-2023 22:29:09.384 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 01: Click to Login link
+[20-12-2023 22:29:09.758 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 02: Enter to Email textbox with value is 'kareen.feeney@yahoo.com'
+[20-12-2023 22:29:09.875 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 02: Enter to Passowd textbox with empty value
+[20-12-2023 22:29:09.989 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 03: Click to Login button
+[20-12-2023 22:29:10.383 INFO com.nopcommerce.user.User_02_Login] - Login_04 - Step 04: Verify error message displayed
+[20-12-2023 22:29:10.442 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 01: Click to Login link
+[20-12-2023 22:29:10.861 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 02: Enter to Email textbox with value is 'kareen.feeney@yahoo.com'
+[20-12-2023 22:29:10.996 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 03: Enter to Password textbox with value is 'UTb9Mqwg0'
+[20-12-2023 22:29:11.114 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 04: Click to Login button
+[20-12-2023 22:29:11.504 INFO com.nopcommerce.user.User_02_Login] - Login_05 - Step 05: Verify error message displayed
+[20-12-2023 22:29:11.577 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 01: Click to Login link
+[20-12-2023 22:29:11.989 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 02: Enter to Email textbox with value is 'kareen.feeney@yahoo.com'
+[20-12-2023 22:29:12.126 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 03: Enter to Password textbox with value is 'Yp@6c9H$%'
+[20-12-2023 22:29:12.253 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 04: Click to Login button
+[20-12-2023 22:29:12.990 INFO com.nopcommerce.user.User_02_Login] - Login_06 - Step 05: Verify Home page Displayed
+[20-12-2023 22:29:13.052 INFO com.nopcommerce.user.User_02_Login] - Post-Condition: Close browser
+[20-12-2023 22:29:13.053 INFO com.nopcommerce.user.User_02_Login] - OS name = windows 11
+[20-12-2023 22:29:13.053 INFO com.nopcommerce.user.User_02_Login] - Driver instance name = chromedriver: chrome on windows (58655d466ce4c90abd9058884a605ff9)
+[21-12-2023 21:52:22.495 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Open browser 'CHROME'
+[21-12-2023 21:52:25.895 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Click to Register link
+[21-12-2023 21:52:26.374 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Arnoldo'
+[21-12-2023 21:52:26.501 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Zboncak'
+[21-12-2023 21:52:26.630 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Email textbox with value is 'dane.gutmann@gmail.com'
+[21-12-2023 21:52:26.740 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Password textbox with value is 'nM$%U8!86'
+[21-12-2023 21:52:26.866 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'nM$%U8!86'
+[21-12-2023 21:52:26.985 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Click to Register button
+[21-12-2023 21:52:27.583 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[21-12-2023 21:52:27.652 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 05: Click to home link
+[21-12-2023 21:52:28.007 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 06: Click to Login link
+[21-12-2023 21:52:48.336 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Open browser 'CHROME'
+[21-12-2023 21:52:50.694 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Click to Register link
+[21-12-2023 21:52:51.872 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Soon'
+[21-12-2023 21:52:51.984 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Larkin'
+[21-12-2023 21:52:52.094 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Email textbox with value is 'tamie.kemmer@yahoo.com'
+[21-12-2023 21:52:52.229 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Password textbox with value is 'C7%338&^'
+[21-12-2023 21:52:52.348 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'C7%338&^'
+[21-12-2023 21:52:52.465 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Click to Register button
+[21-12-2023 21:52:53.149 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[21-12-2023 21:52:53.214 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 05: Click to home link
+[21-12-2023 21:52:53.621 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 06: Click to Login link
+[21-12-2023 21:52:53.993 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 07: Enter to Email textbox with value is 'tamie.kemmer@yahoo.com'
+[21-12-2023 21:52:54.123 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 08: Enter to Password textbox with value is 'C7%338&^'
+[21-12-2023 21:52:54.239 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 09: Click to Login button
+[21-12-2023 21:52:54.959 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 10: Verify Home page Displayed
+[21-12-2023 21:52:55.050 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 01: Click to My account link
+[21-12-2023 21:52:55.417 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 02: Update gender with value is'Female'
+[21-12-2023 21:52:58.317 INFO com.nopcommerce.user.User_03_My_Account] - Post-Condition: Close browser
+[21-12-2023 21:52:58.317 INFO com.nopcommerce.user.User_03_My_Account] - OS name = windows 11
+[21-12-2023 21:52:58.317 INFO com.nopcommerce.user.User_03_My_Account] - Driver instance name = chromedriver: chrome on windows (2a116f75cf627bb6ed1c77d017c7c368)
+[21-12-2023 21:52:58.323 INFO com.nopcommerce.user.User_03_My_Account] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MIA', ip: '192.168.108.106', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.110, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\thaiv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a116f75cf627bb6ed1c77d017c7c368
+[21-12-2023 21:56:06.538 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Open browser 'CHROME'
+[21-12-2023 21:56:10.155 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Click to Register link
+[21-12-2023 21:56:10.672 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Hunter'
+[21-12-2023 21:56:10.788 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Krajcik'
+[21-12-2023 21:56:10.913 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Email textbox with value is 'adam.rippin@hotmail.com'
+[21-12-2023 21:56:11.047 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Password textbox with value is 'qZ%9VV9M6h6'
+[21-12-2023 21:56:11.147 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'qZ%9VV9M6h6'
+[21-12-2023 21:56:11.283 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Click to Register button
+[21-12-2023 21:56:11.991 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[21-12-2023 21:56:12.047 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 05: Click to home link
+[21-12-2023 21:56:12.437 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 06: Click to Login link
+[21-12-2023 21:56:12.882 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 07: Enter to Email textbox with value is 'adam.rippin@hotmail.com'
+[21-12-2023 21:56:13.013 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 08: Enter to Password textbox with value is 'qZ%9VV9M6h6'
+[21-12-2023 21:56:13.138 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 09: Click to Login button
+[21-12-2023 21:56:14.069 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 10: Verify Home page Displayed
+[21-12-2023 21:56:14.184 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 01: Click to My account link
+[21-12-2023 21:56:14.648 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 02: Update gender with value is'Female'
+[21-12-2023 21:56:14.728 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 03: Update First name with value is'Automation'
+[21-12-2023 21:56:14.845 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 04: Update Last name with value is'FC'
+[21-12-2023 21:56:14.979 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 05: Update Date with value is'1'
+[21-12-2023 21:56:15.101 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 06: Update Month with value is'January'
+[21-12-2023 21:56:15.324 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 07: Update Year with value is'1999'
+[21-12-2023 21:56:15.540 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 08: Update Email with value is'automationfc.vn@gmail.com'
+[21-12-2023 21:56:15.709 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 09: Update Company name with value is'Automation FC'
+[21-12-2023 21:56:15.866 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 10: Click to 'Save' button
+[21-12-2023 21:56:16.722 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 11: Verify Gender was updated with value 'Female'
+[21-12-2023 21:56:16.765 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 21:56:16.765 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 12: Verify Firstname was updated with value 'Automation'
+[21-12-2023 21:56:16.827 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 21:56:16.828 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 13: Verify Lastname was updated with value 'FC'
+[21-12-2023 21:56:16.900 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 21:56:16.900 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 14: Verify Date was updated with value '1'
+[21-12-2023 21:56:17.031 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 21:56:17.031 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 15: Verify Month was updated with value 'January'
+[21-12-2023 21:56:17.129 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 21:56:17.129 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 16: Verify Year was updated with value '1999'
+[21-12-2023 21:56:17.537 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 21:56:17.538 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 17: Verify Email was updated with value 'automationfc.vn@gmail.com'
+[21-12-2023 21:56:17.652 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 21:56:17.652 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 18: Verify Company name was updated with value 'Automation FC'
+[21-12-2023 21:56:17.733 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 21:56:17.891 INFO com.nopcommerce.user.User_03_My_Account] - Post-Condition: Close browser
+[21-12-2023 21:56:17.892 INFO com.nopcommerce.user.User_03_My_Account] - OS name = windows 11
+[21-12-2023 21:56:17.893 INFO com.nopcommerce.user.User_03_My_Account] - Driver instance name = chromedriver: chrome on windows (9ac6f2dec00a0ec0f32c7088a6170765)
+[21-12-2023 22:06:58.001 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Open browser 'CHROME'
+[21-12-2023 22:07:00.325 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Click to Register link
+[21-12-2023 22:07:00.815 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Denis'
+[21-12-2023 22:07:00.940 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Torphy'
+[21-12-2023 22:07:01.044 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Email textbox with value is 'glenna.hegmann@hotmail.com'
+[21-12-2023 22:07:01.188 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Password textbox with value is 'an&M$hDc6'
+[21-12-2023 22:07:01.310 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'an&M$hDc6'
+[21-12-2023 22:07:01.440 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Click to Register button
+[21-12-2023 22:07:02.097 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[21-12-2023 22:07:02.146 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 05: Verify Home page displayed
+[21-12-2023 22:07:32.296 INFO com.nopcommerce.user.User_03_My_Account] - Post-Condition: Close browser
+[21-12-2023 22:07:32.296 INFO com.nopcommerce.user.User_03_My_Account] - OS name = windows 11
+[21-12-2023 22:07:32.296 INFO com.nopcommerce.user.User_03_My_Account] - Driver instance name = chromedriver: chrome on windows (287ad875854aa34b94c36dca8ce84bf7)
+[21-12-2023 22:35:24.906 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Open browser 'CHROME'
+[21-12-2023 22:35:27.201 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Click to Register link
+[21-12-2023 22:35:27.680 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Stanley'
+[21-12-2023 22:35:27.800 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Hayes'
+[21-12-2023 22:35:27.908 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Email textbox with value is 'angela.harvey@yahoo.com'
+[21-12-2023 22:35:28.022 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Password textbox with value is 'Get&G6YLlM'
+[21-12-2023 22:35:28.126 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'Get&G6YLlM'
+[21-12-2023 22:35:28.254 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Click to Register button
+[21-12-2023 22:35:28.949 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[21-12-2023 22:35:29.011 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 05: Click to home link
+[21-12-2023 22:35:29.392 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 06: Click to Login link
+[21-12-2023 22:35:29.769 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 07: Enter to Email textbox with value is 'angela.harvey@yahoo.com'
+[21-12-2023 22:35:29.906 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 08: Enter to Password textbox with value is 'Get&G6YLlM'
+[21-12-2023 22:35:30.010 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 09: Click to Login button
+[21-12-2023 22:35:30.666 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 10: Verify Home page Displayed
+[21-12-2023 22:35:30.753 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 01: Click to My account link
+[21-12-2023 22:35:31.158 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 02: Update gender with value is'Female'
+[21-12-2023 22:35:31.243 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 03: Update First name with value is'Automation'
+[21-12-2023 22:35:31.355 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 04: Update Last name with value is'FC'
+[21-12-2023 22:35:31.459 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 05: Update Date with value is'1'
+[21-12-2023 22:35:31.559 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 06: Update Month with value is'January'
+[21-12-2023 22:35:31.648 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 07: Update Year with value is'1999'
+[21-12-2023 22:35:31.744 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 08: Update Email with value is'automationfc.vn@gmail.com'
+[21-12-2023 22:35:31.867 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 09: Update Company name with value is'Automation FC'
+[21-12-2023 22:35:31.985 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 10: Click to 'Save' button
+[21-12-2023 22:35:32.365 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 11: Verify Gender was updated with value 'Female'
+[21-12-2023 22:35:32.412 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:32.412 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 12: Verify Firstname was updated with value 'Automation'
+[21-12-2023 22:35:32.471 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:32.472 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 13: Verify Lastname was updated with value 'FC'
+[21-12-2023 22:35:32.533 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:32.534 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 14: Verify Date was updated with value '1'
+[21-12-2023 22:35:32.629 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:32.631 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 15: Verify Month was updated with value 'January'
+[21-12-2023 22:35:32.754 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:32.754 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 16: Verify Year was updated with value '1999'
+[21-12-2023 22:35:33.199 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:33.199 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 17: Verify Email was updated with value 'automationfc.vn@gmail.com'
+[21-12-2023 22:35:33.317 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:33.318 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 18: Verify Company name was updated with value 'Automation FC'
+[21-12-2023 22:35:33.440 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:33.651 INFO com.nopcommerce.user.User_03_My_Account] - Post-Condition: Close browser
+[21-12-2023 22:35:33.652 INFO com.nopcommerce.user.User_03_My_Account] - OS name = windows 11
+[21-12-2023 22:35:33.652 INFO com.nopcommerce.user.User_03_My_Account] - Driver instance name = chromedriver: chrome on windows (a49805dda72fed1c719051f5afc3261a)
+[21-12-2023 22:35:42.331 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Open browser 'CHROME'
+[21-12-2023 22:35:46.592 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Click to Register link
+[21-12-2023 22:35:47.117 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Lora'
+[21-12-2023 22:35:47.240 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Moore'
+[21-12-2023 22:35:47.371 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Email textbox with value is 'manual.aufderhar@gmail.com'
+[21-12-2023 22:35:47.483 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Password textbox with value is 'kokgm7*Ge'
+[21-12-2023 22:35:47.611 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'kokgm7*Ge'
+[21-12-2023 22:35:47.703 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Click to Register button
+[21-12-2023 22:35:48.339 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[21-12-2023 22:35:48.388 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 05: Click to home link
+[21-12-2023 22:35:48.780 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 06: Click to Login link
+[21-12-2023 22:35:49.152 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 07: Enter to Email textbox with value is 'manual.aufderhar@gmail.com'
+[21-12-2023 22:35:49.284 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 08: Enter to Password textbox with value is 'kokgm7*Ge'
+[21-12-2023 22:35:49.403 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 09: Click to Login button
+[21-12-2023 22:35:50.042 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 10: Verify Home page Displayed
+[21-12-2023 22:35:50.188 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 01: Click to My account link
+[21-12-2023 22:35:50.621 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 02: Update gender with value is'Female'
+[21-12-2023 22:35:50.707 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 03: Update First name with value is'Automation'
+[21-12-2023 22:35:50.840 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 04: Update Last name with value is'FC'
+[21-12-2023 22:35:50.963 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 05: Update Date with value is'1'
+[21-12-2023 22:35:51.150 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 06: Update Month with value is'January'
+[21-12-2023 22:35:51.400 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 07: Update Year with value is'1999'
+[21-12-2023 22:35:51.690 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 08: Update Email with value is'automationfc.vn@gmail.com'
+[21-12-2023 22:35:51.846 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 09: Update Company name with value is'Automation FC'
+[21-12-2023 22:35:51.978 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 10: Click to 'Save' button
+[21-12-2023 22:35:52.369 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 11: Verify Gender was updated with value 'Female'
+[21-12-2023 22:35:52.426 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:52.427 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 12: Verify Firstname was updated with value 'Automation'
+[21-12-2023 22:35:52.534 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:52.535 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 13: Verify Lastname was updated with value 'FC'
+[21-12-2023 22:35:52.656 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:52.657 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 14: Verify Date was updated with value '1'
+[21-12-2023 22:35:52.847 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:52.848 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 15: Verify Month was updated with value 'January'
+[21-12-2023 22:35:53.060 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:53.060 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 16: Verify Year was updated with value '1999'
+[21-12-2023 22:35:53.658 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:53.658 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 17: Verify Email was updated with value 'automationfc.vn@gmail.com'
+[21-12-2023 22:35:53.710 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:53.711 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 18: Verify Company name was updated with value 'Automation FC'
+[21-12-2023 22:35:53.771 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:35:53.869 INFO com.nopcommerce.user.User_03_My_Account] - Post-Condition: Close browser
+[21-12-2023 22:35:53.870 INFO com.nopcommerce.user.User_03_My_Account] - OS name = windows 11
+[21-12-2023 22:35:53.870 INFO com.nopcommerce.user.User_03_My_Account] - Driver instance name = chromedriver: chrome on windows (c41bf1e34130fbb7e5e4adb36466e002)
+[21-12-2023 22:45:47.409 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Open browser 'CHROME'
+[21-12-2023 22:45:49.598 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Click to Register link
+[21-12-2023 22:45:50.088 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Jc'
+[21-12-2023 22:45:50.221 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Kihn'
+[21-12-2023 22:45:50.346 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Email textbox with value is 'fernande.mann@hotmail.com'
+[21-12-2023 22:45:50.468 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Password textbox with value is 'JPcSZR61^G&'
+[21-12-2023 22:45:50.581 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'JPcSZR61^G&'
+[21-12-2023 22:45:50.710 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Click to Register button
+[21-12-2023 22:45:51.322 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[21-12-2023 22:45:51.376 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 05: Click to home link
+[21-12-2023 22:45:51.727 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 06: Click to Login link
+[21-12-2023 22:45:52.147 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 07: Enter to Email textbox with value is 'fernande.mann@hotmail.com'
+[21-12-2023 22:45:52.274 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 08: Enter to Password textbox with value is 'JPcSZR61^G&'
+[21-12-2023 22:45:52.395 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 09: Click to Login button
+[21-12-2023 22:45:52.986 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 10: Verify Home page Displayed
+[21-12-2023 22:45:53.081 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 01: Click to My account link
+[21-12-2023 22:45:53.425 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 02: Update gender with value is'Female'
+[21-12-2023 22:45:53.509 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 03: Update First name with value is'Automation'
+[21-12-2023 22:45:53.624 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 04: Update Last name with value is'FC'
+[21-12-2023 22:45:53.730 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 05: Update Date with value is'1'
+[21-12-2023 22:45:53.848 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 06: Update Month with value is'January'
+[21-12-2023 22:45:53.971 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 07: Update Year with value is'1999'
+[21-12-2023 22:45:54.106 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 08: Update Email with value is'agnus.weimann@hotmail.com'
+[21-12-2023 22:45:54.228 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 09: Update Company name with value is'Automation FC'
+[21-12-2023 22:45:54.350 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 10: Click to 'Save' button
+[21-12-2023 22:45:55.200 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 10: Verify update message successfully displayed
+[21-12-2023 22:45:55.273 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 11: Verify Gender was updated with value 'Female'
+[21-12-2023 22:45:55.347 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:45:55.347 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 12: Verify Firstname was updated with value 'Automation'
+[21-12-2023 22:45:55.402 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:45:55.403 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 13: Verify Lastname was updated with value 'FC'
+[21-12-2023 22:45:55.470 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:45:55.470 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 14: Verify Date was updated with value '1'
+[21-12-2023 22:45:55.566 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:45:55.566 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 15: Verify Month was updated with value 'January'
+[21-12-2023 22:45:55.669 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:45:55.670 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 16: Verify Year was updated with value '1999'
+[21-12-2023 22:45:56.168 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:45:56.168 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 17: Verify Email was updated with value 'agnus.weimann@hotmail.com'
+[21-12-2023 22:45:56.236 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:45:56.237 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 18: Verify Company name was updated with value 'Automation FC'
+[21-12-2023 22:45:56.347 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[21-12-2023 22:45:56.457 INFO com.nopcommerce.user.User_03_My_Account] - Post-Condition: Close browser
+[21-12-2023 22:45:56.458 INFO com.nopcommerce.user.User_03_My_Account] - OS name = windows 11
+[21-12-2023 22:45:56.459 INFO com.nopcommerce.user.User_03_My_Account] - Driver instance name = chromedriver: chrome on windows (2eedec53e6060e98773189adec94211e)

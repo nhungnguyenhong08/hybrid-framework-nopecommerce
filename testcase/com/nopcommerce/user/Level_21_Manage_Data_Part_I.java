@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManagerNopCommerce;
-import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserMyAccountPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
@@ -23,7 +23,7 @@ public class Level_21_Manage_Data_Part_I extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
-	private UserCustomerInforPageObject customerInforPage;
+	private UserMyAccountPageObject customerInforPage;
 	private DataHelper dataFaker;
 
 	@Parameters("browser")
@@ -113,7 +113,7 @@ public class Level_21_Manage_Data_Part_I extends BaseTest {
 		customerInforPage = homePage.clickToMyAccountLink();
 
 		log.info("Login - Step 02: Verify 'Customer Infor' link is displayed");
-		Assert.assertTrue(customerInforPage.isCustomerInforPageDisplay());
+		Assert.assertTrue(customerInforPage.isMyAccountPageDisplayed());
 
 		log.info("Login - Step 03: Verify 'First Name' value is correctly");
 		Assert.assertEquals(customerInforPage.getTextboxValueByID(driver, "FirstName"), firstName);

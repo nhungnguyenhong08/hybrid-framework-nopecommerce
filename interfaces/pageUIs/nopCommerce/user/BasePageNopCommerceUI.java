@@ -17,4 +17,5 @@ public class BasePageNopCommerceUI {
 	public static final String DYNAMIC_CHECKBOX_BY_LABEL = "xpath=//label[contains(text(),'%s')]//following-sibling::input";
 	public static final String HEADER_UPPER_PAGE_BY_NAME = "xpath=//div[@class='header-upper']//a[text()='%s']";
 	public static final String FOOTER_PAGE = "xpath=//div[@class='footer']//a[text()='%s']";
+
 }

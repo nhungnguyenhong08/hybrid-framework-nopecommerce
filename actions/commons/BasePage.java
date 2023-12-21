@@ -199,6 +199,12 @@ public class BasePage {
 		return select.getFirstSelectedOption().getText();
 	}
 
+	public String getSelectedItemDefaultDropdown(WebDriver driver, String locator, String... params) {
+		locator = getDynamicXpath(locator, params);
+		Select select = new Select(getWebElement(driver, locator));
+		return select.getFirstSelectedOption().getText();
+	}
+
 	public boolean isDropdownMultiple(WebDriver driver, String locatorType) {
 		Select select = new Select(getWebElement(driver, locatorType));
 		return select.isMultiple();
@@ -230,11 +236,11 @@ public class BasePage {
 		}
 	}
 
-	public String getElemnetAttribute(WebDriver driver, String locatorType, String attributeName) {
+	public String getElementAttribute(WebDriver driver, String locatorType, String attributeName) {
 		return getWebElement(driver, locatorType).getAttribute(attributeName);
 	}
 
-	public String getElemnetAttribute(WebDriver driver, String locatorType, String attributeName, String... dynamicValues) {
+	public String getElementAttribute(WebDriver driver, String locatorType, String attributeName, String... dynamicValues) {
 		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).getAttribute(attributeName);
 	}
 
@@ -338,6 +344,11 @@ public class BasePage {
 
 	public boolean isElementSelected(WebDriver driver, String locatorType) {
 		return getWebElement(driver, locatorType).isSelected();
+	}
+
+	public boolean isElementSelected(WebDriver driver, String locator, String... dynamicValues) {
+		locator = getDynamicXpath(locator, dynamicValues);
+		return getWebElement(driver, locator).isSelected();
 	}
 
 	public void switchToFrame(WebDriver driver, String locatorType) {
@@ -557,7 +568,7 @@ public class BasePage {
 		case "Reward points":
 			return PageGeneratorManagerNopCommerce.getUserRewardPointsPage(driver);
 		case "Customer info":
-			return PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserMyAccountPage(driver);
 		default:
 			throw new RuntimeException("Invalid page name at My Account area.");
 		}
@@ -655,7 +666,7 @@ public class BasePage {
 	 */
 	public String getTextboxValueByID(WebDriver driver, String textboxID) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
-		return getElemnetAttribute(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
+		return getElementAttribute(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
 	}
 
 	public void openHeaderUpperPageByName(WebDriver driver, String pageName) {
@@ -666,6 +677,21 @@ public class BasePage {
 	public void openFooterPageByName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.FOOTER_PAGE, pageName);
 		clickToElement(driver, BasePageNopCommerceUI.FOOTER_PAGE, pageName);
+	}
+
+	public String getValueOfTextboxByID(WebDriver driver, String textboxID, String attributeName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		return getElementAttribute(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, attributeName, textboxID);
+	}
+
+	public String getValueSelectedOfDropboxByName(WebDriver driver, String dropdownName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
+		return getSelectedItemDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
+	}
+
+	public boolean isRadioButtonByLabelTextSelected(WebDriver driver, String radioButtonLabelName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, radioButtonLabelName);
+		return isElementSelected(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, radioButtonLabelName);
 	}
 
 	// Switch role Level_08_Switch_Role

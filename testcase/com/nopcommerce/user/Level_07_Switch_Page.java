@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
-import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserMyAccountPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
@@ -23,7 +23,7 @@ public class Level_07_Switch_Page extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
-	private UserCustomerInforPageObject customerInforPage;
+	private UserMyAccountPageObject myAccountPage;
 	private UserAddressPageObject addressPage;
 	private UserMyProductReviewPageObject myProductReviewPage;
 	private UserRewardPointsPageObject rewardPointsPage;
@@ -69,15 +69,15 @@ public class Level_07_Switch_Page extends BaseTest {
 
 	@Test
 	public void User_03_My_Account() {
-		customerInforPage = homePage.clickToMyAccountLink();
-		Assert.assertTrue(customerInforPage.isCustomerInforPageDisplay());
+		myAccountPage = homePage.clickToMyAccountLink();
+		Assert.assertTrue(myAccountPage.isMyAccountPageDisplayed());
 	}
 
 	@Test
 	public void User_04_Switch_Page() {
 
 		// Customer Infor -> Address
-		addressPage = customerInforPage.openAddressPage(driver);
+		addressPage = myAccountPage.openAddressPage(driver);
 
 		// Address -> My product review
 		myProductReviewPage = addressPage.openMyProductReviewPage(driver);

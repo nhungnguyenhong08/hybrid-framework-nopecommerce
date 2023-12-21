@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
-import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserMyAccountPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
@@ -23,7 +23,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
-	private UserCustomerInforPageObject customerInforPage;
+	private UserMyAccountPageObject customerInforPage;
 	private UserAddressPageObject addressPage;
 	private UserMyProductReviewPageObject myProductReviewPage;
 	private UserRewardPointsPageObject rewardPointsPage;
@@ -63,7 +63,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 
 		customerInforPage = homePage.clickToMyAccountLink();
-		Assert.assertTrue(customerInforPage.isCustomerInforPageDisplay());
+		Assert.assertTrue(customerInforPage.isMyAccountPageDisplayed());
 	}
 
 	@Test
@@ -101,7 +101,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 		rewardPointsPage = (UserRewardPointsPageObject) addressPage.openPageAtMyAccountByName(driver, "Reward points");
 
 		// Reward point -> Customer info
-		customerInforPage = (UserCustomerInforPageObject) rewardPointsPage.openPageAtMyAccountByName(driver, "Customer info");
+		customerInforPage = (UserMyAccountPageObject) rewardPointsPage.openPageAtMyAccountByName(driver, "Customer info");
 	}
 
 	@Test
@@ -125,7 +125,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 
 		// Reward point -> Customer info
 		rewardPointsPage.openPageAtMyAccountByPageName(driver, "Customer info");
-		customerInforPage = PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
+		customerInforPage = PageGeneratorManagerNopCommerce.getUserMyAccountPage(driver);
 	}
 
 	@AfterClass
