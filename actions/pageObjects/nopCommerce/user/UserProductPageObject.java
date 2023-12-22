@@ -25,13 +25,11 @@ public class UserProductPageObject extends BasePage {
 	public void inputToReviewTextBox(WebDriver driver, String reviewText) {
 		waitForElementVisible(driver, ProductPageUI.REVIEW_TEXTAREA);
 		sendkeyToElement(driver, ProductPageUI.REVIEW_TEXTAREA, reviewText);
-
 	}
 
 	public void AddProductRatingByValue(WebDriver driver, String reviewRating) {
 		waitForElementClickable(driver, ProductPageUI.PRODUCT_RATING, reviewRating);
 		clickToElement(driver, ProductPageUI.PRODUCT_RATING, reviewRating);
-
 	}
 
 	public boolean isSuccessMessageDisplayed() {
