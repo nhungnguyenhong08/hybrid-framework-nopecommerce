@@ -40,10 +40,10 @@ public class UserHomePageObject extends BasePage {
 	}
 
 	@Step("Navigate to My Account page")
-	public UserMyAccountPageObject clickToMyAccountLink() {
+	public UserCustomerInforPageObject clickToMyAccountLink() {
 		waitForElementClickable(driver, HomePageUI.MY_ACCOUNT_LINK);
 		clickToElement(driver, HomePageUI.MY_ACCOUNT_LINK);
-		return PageGeneratorManagerNopCommerce.getUserMyAccountPage(driver);
+		return PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 	}
 
 }

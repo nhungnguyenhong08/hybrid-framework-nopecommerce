@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManagerNopCommerce;
-import pageObjects.nopCommerce.user.UserMyAccountPageObject;
+import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
@@ -22,7 +22,7 @@ public class Level_21_Manage_Data_Part_II extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
-	private UserMyAccountPageObject customerInforPage;
+	private UserCustomerInforPageObject customerInforPage;
 
 	@Parameters({ "browser", "firstname", "lastname", "email", "password", "date", "month", "year" })
 	@BeforeClass

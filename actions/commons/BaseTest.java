@@ -103,6 +103,7 @@ public class BaseTest {
 			throw new RuntimeException("Please enter the correct Browser name");
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		return driver;
 	}
@@ -169,6 +170,7 @@ public class BaseTest {
 			throw new RuntimeException("Please enter the correct Browser name");
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 		driver.get(appUrl);
 		return driver;
 	}

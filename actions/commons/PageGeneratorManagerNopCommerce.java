@@ -5,10 +5,12 @@ import org.openqa.selenium.WebDriver;
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
-import pageObjects.nopCommerce.user.UserMyAccountPageObject;
+import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
+import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserProductPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointsPageObject;
 
@@ -26,8 +28,8 @@ public class PageGeneratorManagerNopCommerce {
 		return new UserLoginPageObject(driver);
 	}
 
-	public static UserMyAccountPageObject getUserMyAccountPage(WebDriver driver) {
-		return new UserMyAccountPageObject(driver);
+	public static UserCustomerInforPageObject getUserCustomerInforPage(WebDriver driver) {
+		return new UserCustomerInforPageObject(driver);
 	}
 
 	public static UserAddressPageObject getUserAddressPage(WebDriver driver) {
@@ -42,6 +44,14 @@ public class PageGeneratorManagerNopCommerce {
 		return new UserRewardPointsPageObject(driver);
 	}
 
+	public static UserChangePasswordPageObject getUserChangPasswordPage(WebDriver driver) {
+		return new UserChangePasswordPageObject(driver);
+	}
+
+	public static UserProductPageObject getUserProductPage(WebDriver driver) {
+		return new UserProductPageObject(driver);
+	}
+
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {
 		return new AdminLoginPageObject(driver);
 	}
@@ -49,4 +59,5 @@ public class PageGeneratorManagerNopCommerce {
 	public static AdminDashboardPageObject getAdminDashboardPage(WebDriver driver) {
 		return new AdminDashboardPageObject(driver);
 	}
+
 }

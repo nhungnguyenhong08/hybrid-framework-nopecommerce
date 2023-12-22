@@ -12,7 +12,7 @@ import commons.GlobalConstants;
 import commons.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
-import pageObjects.nopCommerce.user.UserMyAccountPageObject;
+import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 
@@ -21,7 +21,7 @@ public class Level_08_Switch_Role extends BaseTest {
 	private String userEmailAddress, userPassword, adminEmailAddress, adminPassword;
 	private UserHomePageObject userHomePage;
 	private UserLoginPageObject userLoginPage;
-	private UserMyAccountPageObject userCustomerInforPage;
+	private UserCustomerInforPageObject userCustomerInforPage;
 	private AdminLoginPageObject adminLoginPage;
 	private AdminDashboardPageObject adminDashboardPage;
 

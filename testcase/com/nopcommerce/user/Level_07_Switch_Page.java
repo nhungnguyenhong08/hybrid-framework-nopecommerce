@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
-import pageObjects.nopCommerce.user.UserMyAccountPageObject;
+import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
@@ -23,7 +23,7 @@ public class Level_07_Switch_Page extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
-	private UserMyAccountPageObject myAccountPage;
+	private UserCustomerInforPageObject myAccountPage;
 	private UserAddressPageObject addressPage;
 	private UserMyProductReviewPageObject myProductReviewPage;
 	private UserRewardPointsPageObject rewardPointsPage;

@@ -178,6 +178,11 @@ public class BasePage {
 		element.sendKeys(Keys.chord(Keys.CONTROL), "a", Keys.DELETE);
 	}
 
+	public void clearValueInElementByDeleteKey(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebElement element = this.getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		element.sendKeys(Keys.chord(Keys.CONTROL), "a", Keys.DELETE);
+	}
+
 	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue, String... dynamicValues) {
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		element.clear();
@@ -362,6 +367,11 @@ public class BasePage {
 	public void hoverMouseToElement(WebDriver driver, String locatorType) {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locatorType)).perform();
+	}
+
+	public void hoverMouseToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		Actions action = new Actions(driver);
+		action.moveToElement(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues))).perform();
 	}
 
 	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key) {
@@ -568,7 +578,9 @@ public class BasePage {
 		case "Reward points":
 			return PageGeneratorManagerNopCommerce.getUserRewardPointsPage(driver);
 		case "Customer info":
-			return PageGeneratorManagerNopCommerce.getUserMyAccountPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
+		case "Change password":
+			return PageGeneratorManagerNopCommerce.getUserChangPasswordPage(driver);
 		default:
 			throw new RuntimeException("Invalid page name at My Account area.");
 		}
@@ -692,6 +704,19 @@ public class BasePage {
 	public boolean isRadioButtonByLabelTextSelected(WebDriver driver, String radioButtonLabelName) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, radioButtonLabelName);
 		return isElementSelected(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, radioButtonLabelName);
+	}
+
+	public void closeBarNotification(WebDriver driver) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.BAR_NOTIFICATION_CLOSE_BUTTON);
+		clickToElement(driver, BasePageNopCommerceUI.BAR_NOTIFICATION_CLOSE_BUTTON);
+		sleepInSecond(3);
+	}
+
+	public void clickToSublistAtTopMenuByText(WebDriver driver, String menuText, String sublistText) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_TOP_MENU_BY_TEXT, menuText);
+		hoverMouseToElement(driver, BasePageNopCommerceUI.DYNAMIC_TOP_MENU_BY_TEXT, menuText);
+		sleepInSecond(2);
+		clickToElementByJS(driver, BasePageNopCommerceUI.DYNAMIC_TOP_SUB_MENU_BY_TEXT, menuText, sublistText);
 	}
 
 	// Switch role Level_08_Switch_Role
