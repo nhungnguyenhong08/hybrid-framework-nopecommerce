@@ -1,0 +1,59 @@
+[22-12-2023 21:56:34.107 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Open browser 'CHROME'
+[22-12-2023 21:56:37.328 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Click to Register link
+[22-12-2023 21:56:38.526 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Shelby'
+[22-12-2023 21:56:38.658 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Pagac'
+[22-12-2023 21:56:38.781 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Email textbox with value is 'freddy.harvey@gmail.com'
+[22-12-2023 21:56:38.895 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Password textbox with value is 'F4z6!9#v7'
+[22-12-2023 21:56:38.997 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'F4z6!9#v7'
+[22-12-2023 21:56:39.122 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Click to Register button
+[22-12-2023 21:56:39.786 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[22-12-2023 21:56:39.849 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 05: Click to home link
+[22-12-2023 21:56:40.211 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 06: Click to Login link
+[22-12-2023 21:56:40.599 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 07: Enter to Email textbox with value is 'freddy.harvey@gmail.com'
+[22-12-2023 21:56:40.718 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 08: Enter to Password textbox with value is 'F4z6!9#v7'
+[22-12-2023 21:56:40.838 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 09: Click to Login button
+[22-12-2023 21:56:41.571 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 10: Verify Home page Displayed
+[22-12-2023 21:56:41.716 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 01: Click to My account link
+[22-12-2023 21:56:42.120 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 02: Update gender with value is'Female'
+[22-12-2023 21:56:42.209 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 03: Update First name with value is'Automation'
+[22-12-2023 21:56:42.330 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 04: Update Last name with value is'FC'
+[22-12-2023 21:56:42.444 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 05: Update Date with value is'1'
+[22-12-2023 21:56:42.565 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 06: Update Month with value is'January'
+[22-12-2023 21:56:42.747 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 07: Update Year with value is'1999'
+[22-12-2023 21:56:42.971 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 08: Update Email with value is'kiesha.mcclure@gmail.com'
+[22-12-2023 21:56:43.182 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 09: Update Company name with value is'Automation FC'
+[22-12-2023 21:56:43.329 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 10: Click to 'Save' button
+[22-12-2023 21:56:44.105 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 11: Verify update message successfully displayed
+[22-12-2023 21:56:44.196 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 12: Verify Gender was updated with value 'Female'
+[22-12-2023 21:56:44.289 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[22-12-2023 21:56:44.291 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 13: Verify Firstname was updated with value 'Automation'
+[22-12-2023 21:56:44.398 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[22-12-2023 21:56:44.399 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 14: Verify Lastname was updated with value 'FC'
+[22-12-2023 21:56:44.472 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[22-12-2023 21:56:44.474 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 15: Verify Date was updated with value '1'
+[22-12-2023 21:56:44.659 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[22-12-2023 21:56:44.659 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 16: Verify Month was updated with value 'January'
+[22-12-2023 21:56:44.828 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[22-12-2023 21:56:44.829 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 17: Verify Year was updated with value '1999'
+[22-12-2023 21:56:45.483 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[22-12-2023 21:56:45.484 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 18: Verify Email was updated with value 'kiesha.mcclure@gmail.com'
+[22-12-2023 21:56:45.582 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[22-12-2023 21:56:45.582 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 19: Verify Company name was updated with value 'Automation FC'
+[22-12-2023 21:56:45.700 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[22-12-2023 21:56:45.784 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 01: Click To Addresses page at list box menu
+[22-12-2023 21:56:46.236 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 02: Click To 'Add new; button
+[22-12-2023 21:56:46.644 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 03: Add First Name with value is'Automation'
+[22-12-2023 21:56:46.764 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 04: Add Last Name with value is'FC'
+[22-12-2023 21:56:46.898 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 05: Add Email address with value is'kiesha.mcclure@gmail.com'
+[22-12-2023 21:56:47.017 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 06: Add Company name with value is'Automation FC'
+[22-12-2023 21:56:47.196 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 07: Select item in Country dropdown with value is'Viet Nam'
+[22-12-2023 21:56:47.341 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 08: Select item in State/ province dropdown with value is'Other'
+[22-12-2023 21:56:47.667 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 09: Add City with value is'Da Nang'
+[22-12-2023 21:56:47.861 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 10: Add Address1 with value is'123/04 Le Lai'
+[22-12-2023 21:56:48.018 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 11: Add Address2 with value is'234/5 hai Phong'
+[22-12-2023 21:56:48.171 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 12: Add Zip/ postal code with value is'550000'
+[22-12-2023 21:56:48.340 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 13: Add Phone number with value is'0123456789'
+[22-12-2023 21:56:48.519 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 14: Add Fax number with value is'0987654321'
+[22-12-2023 21:56:48.728 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 15: Click to 'Save' button
+[22-12-2023 21:56:50.230 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 16: Verify update message successfully displayed
+[22-12-2023 21:56:50.330 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 17: Verify all information was

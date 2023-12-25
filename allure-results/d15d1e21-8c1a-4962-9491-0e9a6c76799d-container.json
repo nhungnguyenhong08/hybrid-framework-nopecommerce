@@ -1,0 +1,1 @@
+{"uuid":"d15d1e21-8c1a-4962-9491-0e9a6c76799d","name":"NopCommerce - User","children":["3e29d3f2-f056-4e0d-9ca8-9568f212fcec"],"befores":[{"name":"deleteFileInReport","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1703253393185,"stop":1703253393188}],"afters":[],"start":1703253393178,"stop":1703253413900}

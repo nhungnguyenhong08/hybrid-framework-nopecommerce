@@ -1,0 +1,59 @@
+[23-12-2023 00:04:20.186 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Open browser 'CHROME'
+[23-12-2023 00:04:22.518 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 01: Click to Register link
+[23-12-2023 00:04:23.506 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Derrick'
+[23-12-2023 00:04:23.628 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'MacGyver'
+[23-12-2023 00:04:23.751 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Email textbox with value is 'graig.hoppe@hotmail.com'
+[23-12-2023 00:04:23.864 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Password textbox with value is '38^6!@&j6'
+[23-12-2023 00:04:23.989 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is '38^6!@&j6'
+[23-12-2023 00:04:24.104 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 03: Click to Register button
+[23-12-2023 00:04:24.726 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[23-12-2023 00:04:24.786 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 05: Click to home link
+[23-12-2023 00:04:25.117 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 06: Click to Login link
+[23-12-2023 00:04:25.472 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 07: Enter to Email textbox with value is 'graig.hoppe@hotmail.com'
+[23-12-2023 00:04:25.604 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 08: Enter to Password textbox with value is '38^6!@&j6'
+[23-12-2023 00:04:25.733 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 09: Click to Login button
+[23-12-2023 00:04:26.338 INFO com.nopcommerce.user.User_03_My_Account] - Pre-Condition - Step 10: Verify Home page Displayed
+[23-12-2023 00:04:26.434 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 01: Click to My account link
+[23-12-2023 00:04:26.904 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 02: Update gender with value is'Female'
+[23-12-2023 00:04:26.983 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 03: Update First name with value is'Automation'
+[23-12-2023 00:04:27.098 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 04: Update Last name with value is'FC'
+[23-12-2023 00:04:27.203 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 05: Update Date with value is'1'
+[23-12-2023 00:04:27.330 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 06: Update Month with value is'January'
+[23-12-2023 00:04:27.491 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 07: Update Year with value is'1999'
+[23-12-2023 00:04:27.679 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 08: Update Email with value is'malcolm.raynor@hotmail.com'
+[23-12-2023 00:04:27.823 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 09: Update Company name with value is'Automation FC'
+[23-12-2023 00:04:27.956 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 10: Click to 'Save' button
+[23-12-2023 00:04:28.533 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 11: Verify update message successfully displayed
+[23-12-2023 00:04:28.588 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 12: Verify Gender was updated with value 'Female'
+[23-12-2023 00:04:28.643 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[23-12-2023 00:04:28.646 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 13: Verify Firstname was updated with value 'Automation'
+[23-12-2023 00:04:28.754 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[23-12-2023 00:04:28.755 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 14: Verify Lastname was updated with value 'FC'
+[23-12-2023 00:04:28.832 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[23-12-2023 00:04:28.833 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 15: Verify Date was updated with value '1'
+[23-12-2023 00:04:28.939 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[23-12-2023 00:04:28.939 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 16: Verify Month was updated with value 'January'
+[23-12-2023 00:04:29.079 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[23-12-2023 00:04:29.079 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 17: Verify Year was updated with value '1999'
+[23-12-2023 00:04:29.707 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[23-12-2023 00:04:29.707 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 18: Verify Email was updated with value 'malcolm.raynor@hotmail.com'
+[23-12-2023 00:04:29.784 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[23-12-2023 00:04:29.785 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 19: Verify Company name was updated with value 'Automation FC'
+[23-12-2023 00:04:29.862 INFO com.nopcommerce.user.User_03_My_Account] -  -------------------------- PASSED -------------------------- 
+[23-12-2023 00:04:29.984 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 01: Click To Addresses page at list box menu
+[23-12-2023 00:04:30.407 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 02: Click To 'Add new; button
+[23-12-2023 00:04:30.781 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 03: Add First Name with value is'Automation'
+[23-12-2023 00:04:30.907 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 04: Add Last Name with value is'FC'
+[23-12-2023 00:04:31.007 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 05: Add Email address with value is'malcolm.raynor@hotmail.com'
+[23-12-2023 00:04:31.143 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 06: Add Company name with value is'Automation FC'
+[23-12-2023 00:04:31.325 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 07: Select item in Country dropdown with value is'Viet Nam'
+[23-12-2023 00:04:31.453 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 08: Select item in State/ province dropdown with value is'Other'
+[23-12-2023 00:04:31.747 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 09: Add City with value is'Da Nang'
+[23-12-2023 00:04:31.980 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 10: Add Address1 with value is'123/04 Le Lai'
+[23-12-2023 00:04:32.166 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 11: Add Address2 with value is'234/5 hai Phong'
+[23-12-2023 00:04:32.355 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 12: Add Zip/ postal code with value is'550000'
+[23-12-2023 00:04:32.499 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 13: Add Phone number with value is'0123456789'
+[23-12-2023 00:04:32.703 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 14: Add Fax number with value is'0987654321'
+[23-12-2023 00:04:32.898 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_02 - Step 15: Click to 'Save' button
+[23-12-2023 00:04:33.606 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01 - Step 16: Verify update message successfully displayed
+[23-12-2023 00:04:33.668 INFO com.nopcommerce.user.User_03_My_Account] - MyAccount_01: Step 17: Verify all infor
