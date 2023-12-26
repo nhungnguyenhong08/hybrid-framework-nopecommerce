@@ -686,7 +686,7 @@ public class BasePage {
 		clickToElement(driver, BasePageNopCommerceUI.HEADER_UPPER_PAGE_BY_NAME, pageName);
 	}
 
-	public void openFooterPageByName(WebDriver driver, String pageName) {
+	public void openFooterPageByText(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.FOOTER_PAGE, pageName);
 		clickToElement(driver, BasePageNopCommerceUI.FOOTER_PAGE, pageName);
 	}
