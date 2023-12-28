@@ -719,6 +719,22 @@ public class BasePage {
 		clickToElementByJS(driver, BasePageNopCommerceUI.DYNAMIC_TOP_SUB_MENU_BY_TEXT, menuText, sublistText);
 	}
 
+	public void selectItemInDefaultDropdownByTextLabel(WebDriver driver, String dropdownLabel, String textItem) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_TEXT, dropdownLabel);
+		selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_TEXT, textItem, dropdownLabel);
+	}
+
+	public void uncheckToRadioButtonByLabelText(WebDriver driver, String checkboxLabel) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, checkboxLabel);
+		uncheckToDefaultCheckboxOrRadio(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, checkboxLabel);
+	}
+
+	public void checkToRadioButtonByLabelText(WebDriver driver, String checkboxLabel) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, checkboxLabel);
+		checkToDefaultCheckboxOrRadio(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, checkboxLabel);
+
+	}
+
 	// Switch role Level_08_Switch_Role
 	public UserHomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_AT_USER_PAGE);
