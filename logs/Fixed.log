@@ -2716,3 +2716,6 @@ Session ID: 8a9925088fa6b54e83843e9fe6806b60
 [28-12-2023 21:30:13.230 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Post-Condition: Close browser
 [28-12-2023 21:30:13.231 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - OS name = windows 11
 [28-12-2023 21:30:13.231 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Driver instance name = chromedriver: chrome on windows (99baca7364d0cf9e163f267623786979)
+[03-01-2024 22:19:17.430 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Pre-Condition - Step 01: Open browser and admin url
+[03-01-2024 22:20:02.350 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - OS name = windows 11
+[03-01-2024 22:20:02.350 INFO com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search] - Driver instance name = chromedriver: chrome on windows (dc4f272d75da1cb07e1699a502f027fb)

@@ -1,6 +1,7 @@
 package jdbcTest;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -20,20 +21,30 @@ public class SQLServerJTDSTestConnection {
 
 		Statement statement = conn.createStatement();
 
-		String sql = "SELECT * FROM [automationtest].[dbo].[Product_Type];";
+		String sql = "SELECT * FROM [automationtest].[dbo].[BRANCH];";
+		String insertSql = "INSERT INTO [automationtest].[dbo].[BRANCH]([ADDRESS],[CITY],[NAME],[STATE],[ZIP_CODE]) VALUES ('106 Tran Quoc Tuan','Da Nang','Software Testing','DNG','610000');";
+		String paramSql = "Select emp.Emp_Id, emp.First_Name, emp.Title, emp.Dept_ID from [automationtest].[dbo].[EMPLOYEE] emp where emp.Title like ? and emp.Dept_Id = ?";
+
+		// int rowCount = statement.executeUpdate(insertSql);
+		// System.out.println("Row count affected = " + rowCount);
 
 		// Thực thi câu lệnh SQL trả về đối tượng ResultSet.
-		ResultSet rs = statement.executeQuery(sql);
+		// ResultSet rs = statement.executeQuery(sql);
+
+		PreparedStatement pstm = conn.prepareStatement(paramSql);
+		pstm.setString(1, "%ent");
+		pstm.setInt(2, 3);
+
+		ResultSet rs = pstm.executeQuery();
 
 		// Duyệt trên kết quả trả về
 		while (rs.next()) {
 			// Di chuyển con trỏ xuống bản ghi kế tiếp.
-			String empFirstName = rs.getString(1);
-			String empLastName = rs.getString("NAME");
-
 			System.out.println("--------------------");
-			System.out.println("Emp Firstname:" + empFirstName);
-			System.out.println("Emp Lastname:" + empLastName);
+			System.out.println(rs.getInt(1));
+			System.out.println(rs.getString(2));
+			System.out.println(rs.getString(3));
+			System.out.println(rs.getInt(4));
 		}
 		// Đóng kết nối
 		conn.close();
