@@ -1,6 +1,11 @@
 package pageObjects.nopCommerce.user;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import commons.BasePage;
 import pageUIs.nopCommerce.user.ProductPageUI;
@@ -40,6 +45,93 @@ public class UserProductPageObject extends BasePage {
 	public String getProductReviewPage() {
 		waitForElementVisible(driver, ProductPageUI.REVIEW_PAGE_HEADER);
 		return getElementText(driver, ProductPageUI.REVIEW_PAGE_HEADER);
+	}
+
+	public boolean isProductNameSortAscending() {
+		ArrayList<String> productUIList = new ArrayList<String>();
+		List<WebElement> productNameText = getListWebElement(driver, ProductPageUI.LIST_PRODUCT_NAME_TEXT);
+		for (WebElement productName : productNameText) {
+			productUIList.add(productName.getText());
+		}
+		ArrayList<String> productSortList = new ArrayList<String>();
+		for (String product : productUIList) {
+			productSortList.add(product);
+		}
+		Collections.sort(productSortList);
+		return productSortList.equals(productUIList);
+	}
+
+	public boolean isProductNameSortDescending() {
+		ArrayList<String> productUIList = new ArrayList<String>();
+		List<WebElement> productNameText = getListWebElement(driver, ProductPageUI.LIST_PRODUCT_NAME_TEXT);
+		for (WebElement productName : productNameText) {
+			productUIList.add(productName.getText());
+		}
+		ArrayList<String> productSortList = new ArrayList<String>();
+		for (String product : productUIList) {
+			productSortList.add(product);
+		}
+		Collections.sort(productSortList);
+		Collections.reverse(productSortList);
+		return productSortList.equals(productUIList);
+	}
+
+	public boolean isProductPriceSortAscending() {
+		ArrayList<String> productUIList = new ArrayList<String>();
+		List<WebElement> productPriceText = getListWebElement(driver, ProductPageUI.LIST_PRODUCT_PRICE_TEXT);
+		for (WebElement productPrice : productPriceText) {
+			productUIList.add(productPrice.getText().replace("$", ""));
+		}
+		ArrayList<String> productSortList = new ArrayList<String>();
+		for (String product : productUIList) {
+			productSortList.add(product);
+		}
+		Collections.sort(productSortList);
+		return productSortList.equals(productUIList);
+	}
+
+	public boolean isProductPriceSortDesscending() {
+		ArrayList<String> productUIList = new ArrayList<String>();
+		List<WebElement> productPriceText = getListWebElement(driver, ProductPageUI.LIST_PRODUCT_PRICE_TEXT);
+		for (WebElement productPrice : productPriceText) {
+			productUIList.add(productPrice.getText().replace("$", ""));
+		}
+		ArrayList<String> productSortList = new ArrayList<String>();
+		for (String product : productUIList) {
+			productSortList.add(product);
+		}
+		Collections.sort(productSortList);
+		Collections.reverse(productSortList);
+		return productSortList.equals(productUIList);
+	}
+
+	public boolean isProductNumberDisplayAsExpected(WebDriver driver, int productNumerExpected) {
+		waitForAllElementVisible(driver, ProductPageUI.TOTAL_SEARCH_PRODUCT);
+		int numberProduct = getElementSize(driver, ProductPageUI.TOTAL_SEARCH_PRODUCT);
+		if (numberProduct > productNumerExpected) {
+			return false;
+		}
+		return true;
+	}
+
+	public boolean isPaginationDisplayed(WebDriver driver) {
+		waitForElementVisible(driver, ProductPageUI.PRODUCT_PAGINATION);
+		return isElementDisplayed(driver, ProductPageUI.PRODUCT_PAGINATION);
+	}
+
+	public boolean isPaginationIconDisplay(WebDriver driver, String iconText) {
+		waitForElementVisible(driver, ProductPageUI.DYNAMIC_PAGINATION_ICON_AND_NUMBERPAGE_BY_TEXT, iconText);
+		return isElementDisplayed(driver, ProductPageUI.DYNAMIC_PAGINATION_ICON_AND_NUMBERPAGE_BY_TEXT, iconText);
+	}
+
+	public void clickToPaginationLink(WebDriver driver, String pageNumber) {
+		waitForElementClickable(driver, ProductPageUI.DYNAMIC_PAGINATION_ICON_AND_NUMBERPAGE_BY_TEXT, pageNumber);
+		clickToElement(driver, ProductPageUI.DYNAMIC_PAGINATION_ICON_AND_NUMBERPAGE_BY_TEXT, pageNumber);
+	}
+
+	public boolean isPaginationUnDisplayed(WebDriver driver) {
+		waitForElementInvisible(driver, ProductPageUI.PRODUCT_PAGINATION);
+		return isElementUndisplayed(driver, ProductPageUI.PRODUCT_PAGINATION);
 	}
 
 }

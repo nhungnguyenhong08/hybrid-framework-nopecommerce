@@ -18,8 +18,8 @@
   <test name="Run on Chrome"> 
     <classes>
    <!--Trigger Common Register run first --> 
-     <!-- <class name="com.nopcommerce.common.Common_01_Register_Cookies"/> --> 
-      <class name="com.nopcommerce.user.User_04_Search_Advanced_Search"/>
+      <class name="com.nopcommerce.common.Common_01_Register_Cookies"/>
+      <class name="com.nopcommerce.user.User_05_Sort_Display_Paging"/>
     </classes>
   </test> 
  

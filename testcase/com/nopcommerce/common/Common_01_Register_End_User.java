@@ -10,6 +10,7 @@ import commons.BaseTest;
 import commons.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import utilities.DataHelper;
 
 public class Common_01_Register_End_User extends BaseTest {
 	private WebDriver driver;
@@ -17,17 +18,19 @@ public class Common_01_Register_End_User extends BaseTest {
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	public static String emailAddress, password;
+	private DataHelper dataFaker;
 
 	@Parameters("browser")
 	@BeforeTest(description = "Create new common User for all Classes Test")
 	public void Register(String browserName) {
 		driver = getBrowserDriver(browserName);
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
+		dataFaker = DataHelper.gerDataHelper();
 
-		firstName = "Automation";
-		lastName = "FC";
-		emailAddress = "afc" + generateFakeNumber() + "@gmail.com";
-		password = "123456";
+		firstName = dataFaker.getFirstName();
+		lastName = dataFaker.getLastName();
+		emailAddress = dataFaker.getEmailAddress();
+		password = dataFaker.getPassword();
 
 		log.info("Pre-Condition - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.clickToRegisterLink();

@@ -5,7 +5,6 @@ import java.util.Set;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -14,6 +13,7 @@ import commons.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import utilities.DataHelper;
 
 public class Common_01_Register_Cookies extends BaseTest {
 	private WebDriver driver;
@@ -22,17 +22,19 @@ public class Common_01_Register_Cookies extends BaseTest {
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
 	public static Set<Cookie> loggedCookies;
+	private DataHelper dataFaker;
 
 	@Parameters("browser")
 	@BeforeTest(description = "Create new common User for all Classes Test")
 	public void Register(String browserName) {
 		driver = getBrowserDriver(browserName);
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
+		dataFaker = DataHelper.gerDataHelper();
 
-		firstName = "Automation";
-		lastName = "FC";
-		emailAddress = "afc" + generateFakeNumber() + "@gmail.com";
-		password = "123456";
+		firstName = dataFaker.getFirstName();
+		lastName = dataFaker.getLastName();
+		emailAddress = dataFaker.getEmailAddress();
+		password = dataFaker.getPassword();
 
 		log.info("Pre-Condition - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.clickToRegisterLink();
@@ -78,10 +80,7 @@ public class Common_01_Register_Cookies extends BaseTest {
 		for (Cookie cookie : loggedCookies) {
 			System.out.println("Cookie at Common Class:" + cookie);
 		}
-	}
 
-	@AfterTest
-	public void afterTest() {
 		driver.quit();
 	}
 
