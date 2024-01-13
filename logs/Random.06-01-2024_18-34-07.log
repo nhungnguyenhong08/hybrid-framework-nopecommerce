@@ -1,0 +1,56 @@
+[06-01-2024 18:34:10.181 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[06-01-2024 18:34:10.745 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Latasha'
+[06-01-2024 18:34:10.875 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Mraz'
+[06-01-2024 18:34:10.976 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'karrie.ledner@yahoo.com'
+[06-01-2024 18:34:11.102 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '$19O669#!Xn'
+[06-01-2024 18:34:11.219 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '$19O669#!Xn'
+[06-01-2024 18:34:11.326 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[06-01-2024 18:34:11.987 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[06-01-2024 18:34:12.044 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 18:34:12.044 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[06-01-2024 18:34:12.397 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[06-01-2024 18:34:13.116 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'karrie.ledner@yahoo.com'
+[06-01-2024 18:34:13.256 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '$19O669#!Xn'
+[06-01-2024 18:34:13.360 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[06-01-2024 18:34:14.011 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-Condition - Step 01: Open browser 'CHROME'
+[06-01-2024 18:34:15.828 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-condition - Step 02: Navigate to Login page
+[06-01-2024 18:34:16.834 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-condition - Step 03: Set cookie and reload page
+[06-01-2024 18:34:20.234 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-Condition - Step 04: Verify Home page Displayed
+[06-01-2024 18:34:20.424 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 18:34:23.052 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 02: Click To 'Sort by' dropdown
+[06-01-2024 18:34:23.219 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 03: Click To 'Display per page' dropdown
+[06-01-2024 18:34:23.333 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 04: Products names are sorted in ascending Order
+[06-01-2024 18:34:23.391 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 18:34:23.393 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 18:34:25.958 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 02: Click To 'Sort by' dropdown
+[06-01-2024 18:34:26.096 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 03: Click To 'Display per page' dropdown
+[06-01-2024 18:34:26.212 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 04: Products names are sorted in ascending Order
+[06-01-2024 18:34:27.268 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 18:34:27.273 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 18:34:29.892 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 02: Click To 'Sort by' dropdown
+[06-01-2024 18:34:30.013 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 03: Click To 'Display per page' dropdown
+[06-01-2024 18:34:30.113 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 04: Products price is sorted in ascending Order
+[06-01-2024 18:34:31.195 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 18:34:31.198 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 18:34:33.744 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 02: Click To 'Sort by' dropdown
+[06-01-2024 18:34:33.862 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 03: Click To 'Display per page' dropdown
+[06-01-2024 18:34:33.967 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 04: Products price is sorted in descending Order
+[06-01-2024 18:34:35.028 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 18:34:35.031 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 18:34:37.609 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 02: Click To 'Display per page' dropdown
+[06-01-2024 18:34:37.721 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 03: Verify Product page size is correct
+[06-01-2024 18:34:37.885 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- FAILED -------------------------- 
+[06-01-2024 18:34:37.886 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 04: Verify pagination is dispalyed
+[06-01-2024 18:34:38.099 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 18:34:38.099 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 05: Verify pagination next icon is dispalyed
+[06-01-2024 18:34:38.180 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 18:34:38.180 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - TC_05_Display: Step 06: Click To Page 2 link
+[06-01-2024 18:34:38.269 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - TC_05_Display: Step 07: Verify pagination Previous icon is dispalyed
+[06-01-2024 18:34:38.846 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 18:34:38.923 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 18:34:39.189 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Post-Condition: Close browser
+[06-01-2024 18:34:39.190 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - OS name = windows 11
+[06-01-2024 18:34:39.190 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Driver instance name = chromedriver: chrome on windows (1871ec63f0fe0b80afc60756cfb4435a)
+[06-01-2024 18:34:39.641 INFO com.nopcommerce.common.Common_01_Register_Cookies] - OS name = windows 11
+[06-01-2024 18:34:39.641 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Driver instance name = chromedriver: chrome on windows (2a1f11553c40728dac8b59180154be79)
+[06-01-2024 18:34:39.647 INFO com.nopcommerce.common.Common_01_Register_Cookies] - java.net.ConnectE

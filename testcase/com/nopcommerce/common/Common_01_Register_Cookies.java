@@ -17,7 +17,7 @@ import utilities.DataHelper;
 
 public class Common_01_Register_Cookies extends BaseTest {
 	private WebDriver driver;
-	private String firstName, lastName, emailAddress, password;
+	public static String firstName, lastName, emailAddress, password;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;

@@ -12,4 +12,9 @@ public class ProductPageUI {
 	public static final String TOTAL_SEARCH_PRODUCT = "xpath=//div[@class='product-grid']//div[@class='item-box']";
 	public static final String PRODUCT_PAGINATION = "css=div.products-wrapper div.pager";
 	public static final String DYNAMIC_PAGINATION_ICON_AND_NUMBERPAGE_BY_TEXT = "xpath=//div[@class='pager']//li/a[text()='%s']";
+	public static final String DYNAMIC_OVER_VIEW_BUTTON_BY_TEXT = "xpath=//div[@class='overview-buttons']//button[text()='%s']";
+	public static final String WISH_LIST_LINK_AT_HEADER = "xpath=//div[@class='header-links-wrapper']//li//span[text()='Wishlist']";
+	public static final String PRODUCT_BY_ORDER = "xpath=//div[@class='item-grid']/div[%s]";
+	public static final String PRODUCT_DETAIL_NAME = "xpath=//div[@class='product-name']//h1";
+
 }

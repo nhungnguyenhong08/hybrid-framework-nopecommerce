@@ -1,0 +1,56 @@
+[06-01-2024 19:15:59.241 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[06-01-2024 19:15:59.774 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'James'
+[06-01-2024 19:15:59.891 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Rutherford'
+[06-01-2024 19:16:00.022 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'ivana.schultz@hotmail.com'
+[06-01-2024 19:16:00.135 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is 's@9t%Dc4A'
+[06-01-2024 19:16:00.252 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is 's@9t%Dc4A'
+[06-01-2024 19:16:00.375 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[06-01-2024 19:16:01.041 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[06-01-2024 19:16:01.100 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:01.100 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[06-01-2024 19:16:01.484 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[06-01-2024 19:16:02.217 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'ivana.schultz@hotmail.com'
+[06-01-2024 19:16:02.354 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is 's@9t%Dc4A'
+[06-01-2024 19:16:02.477 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[06-01-2024 19:16:03.216 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-Condition - Step 01: Open browser 'CHROME'
+[06-01-2024 19:16:06.183 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-condition - Step 02: Navigate to Login page
+[06-01-2024 19:16:07.789 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-condition - Step 03: Set cookie and reload page
+[06-01-2024 19:16:11.201 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-Condition - Step 04: Verify Home page Displayed
+[06-01-2024 19:16:11.295 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 19:16:14.848 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 02: Click To 'Sort by' dropdown
+[06-01-2024 19:16:14.991 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 03: Click To 'Display per page' dropdown
+[06-01-2024 19:16:15.192 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 04: Products names are sorted in ascending Order
+[06-01-2024 19:16:15.322 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:15.456 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 19:16:18.081 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 02: Click To 'Sort by' dropdown
+[06-01-2024 19:16:18.229 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 03: Click To 'Display per page' dropdown
+[06-01-2024 19:16:18.434 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 04: Products names are sorted in ascending Order
+[06-01-2024 19:16:19.542 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:19.666 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:19.678 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 19:16:23.381 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 02: Click To 'Sort by' dropdown
+[06-01-2024 19:16:23.546 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 03: Click To 'Display per page' dropdown
+[06-01-2024 19:16:23.641 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 04: Products price is sorted in ascending Order
+[06-01-2024 19:16:24.734 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:24.783 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:24.792 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 19:16:27.442 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 02: Click To 'Sort by' dropdown
+[06-01-2024 19:16:27.582 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 03: Click To 'Display per page' dropdown
+[06-01-2024 19:16:27.676 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 04: Products price is sorted in descending Order
+[06-01-2024 19:16:28.240 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:28.313 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:28.316 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 19:16:35.383 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 02: Click To 'Display per page' dropdown
+[06-01-2024 19:16:35.487 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 03: Verify Product page size is correct
+[06-01-2024 19:16:36.047 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:36.127 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:36.127 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 04: Verify pagination is dispalyed
+[06-01-2024 19:16:36.257 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:36.258 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 05: Verify pagination next icon is dispalyed
+[06-01-2024 19:16:36.349 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:36.350 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - TC_05_Display: Step 06: Click To Page 2 link
+[06-01-2024 19:16:36.439 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - TC_05_Display: Step 07: Verify pagination Previous icon is dispalyed
+[06-01-2024 19:16:37.018 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:37.160 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:16:37.174 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_06 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[06-01-2024 

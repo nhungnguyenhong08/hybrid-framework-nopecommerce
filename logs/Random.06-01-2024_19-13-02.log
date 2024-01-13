@@ -1,0 +1,56 @@
+[06-01-2024 19:13:02.746 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 01: Open browser 'CHROME'
+[06-01-2024 19:13:05.297 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 01: Click to Register link
+[06-01-2024 19:13:06.685 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Norbert'
+[06-01-2024 19:13:06.810 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Douglas'
+[06-01-2024 19:13:06.905 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 03: Enter to Email textbox with value is 'valery.frami@gmail.com'
+[06-01-2024 19:13:07.016 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 03: Enter to Password textbox with value is 'la8Sa16#$'
+[06-01-2024 19:13:07.139 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 03: Enter to Confirm password textbox with value is 'la8Sa16#$'
+[06-01-2024 19:13:07.251 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 03: Click to Register button
+[06-01-2024 19:13:08.023 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 04: Verify sucessful registration message displayed
+[06-01-2024 19:13:08.073 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 05: Click to home link
+[06-01-2024 19:13:08.468 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 06: Click to Login link
+[06-01-2024 19:13:08.891 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 07: Enter to Email textbox with value is 'valery.frami@gmail.com'
+[06-01-2024 19:13:09.005 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 08: Enter to Password textbox with value is 'la8Sa16#$'
+[06-01-2024 19:13:09.136 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 09: Click to Login button
+[06-01-2024 19:13:09.894 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Pre-Condition - Step 10: Verify Home page Displayed
+[06-01-2024 19:13:10.001 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_01 - Step 01: Click to 'Search' link in the footer area
+[06-01-2024 19:13:10.433 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_01 - Step 02: Click to 'Search' button
+[06-01-2024 19:13:10.872 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_01 - Step 03: Verify search error message displayed
+[06-01-2024 19:13:10.928 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:13:11.030 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_02 - Step 01: Click to 'Search' link in the footer area
+[06-01-2024 19:13:11.440 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_02 - Step 02: Enter to 'Search keyword' with value is 'Macbook pro 2050'
+[06-01-2024 19:13:11.592 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_02 - Step 03: Click to 'Search' button
+[06-01-2024 19:13:12.069 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_02 - Step 04: Verify search error message displayed
+[06-01-2024 19:13:12.112 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:13:12.125 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_03 - Step 01: Click to 'Search' link in the footer area
+[06-01-2024 19:13:12.635 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_03 - Step 02: Enter to 'Search keyword' with value is 'Lenovo'
+[06-01-2024 19:13:12.752 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_03 - Step 03: Click to 'Search' button
+[06-01-2024 19:13:13.260 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_03 - Step 04: Verify 2 product displayed
+[06-01-2024 19:13:13.344 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:13:13.344 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_03 - Step 05: Verify products is displayed
+[06-01-2024 19:13:13.418 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:13:13.507 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:13:13.507 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_04 - Step 01: Click to 'Search' link in the footer area
+[06-01-2024 19:13:13.984 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_04 - Step 02: Enter to 'Search keyword' with value is 'ThinkPad X1 Carbon'
+[06-01-2024 19:13:14.118 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_04 - Step 03: Click to 'Search' button
+[06-01-2024 19:13:14.558 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_04 - Step 04: Verify 1 product displayed
+[06-01-2024 19:13:14.623 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:13:14.624 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_04 - Step 05: Verify products is displayed
+[06-01-2024 19:13:14.717 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:13:14.734 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_05 - Step 01: Click to 'Search' link in the footer area
+[06-01-2024 19:13:15.228 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_05 - Step 02: Enter to 'Search keyword' with value is 'Apple Macbook Pro'
+[06-01-2024 19:13:15.396 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_05 - Step 03: Click to 'Advanced search' checkbox
+[06-01-2024 19:13:15.489 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_05 - Step 04: Select item in 'Category' dropdown with value'Computers'
+[06-01-2024 19:13:15.692 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_05 - Step 05: Uncheck to 'Automatically search sub categories' checkbox
+[06-01-2024 19:13:15.821 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_05 - Step 06: Click to 'Search' button
+[06-01-2024 19:13:16.370 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_05 - Step 07: Verify search error message displayed
+[06-01-2024 19:13:16.432 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:13:16.435 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_06 - Step 01: Click to 'Search' link in the footer area
+[06-01-2024 19:13:16.863 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_06 - Step 02: Enter to 'Search keyword' with value is 'Apple Macbook Pro'
+[06-01-2024 19:13:17.044 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_06 - Step 03: Click to 'Advanced search' checkbox
+[06-01-2024 19:13:17.126 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_06 - Step 04: Select item in 'Category'dropdown with value'Computers'
+[06-01-2024 19:13:17.347 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_06 - Step 05: Click to 'Automatically search sub categories' checkbox
+[06-01-2024 19:13:17.583 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_06 - Step 06: Click to 'Search' button
+[06-01-2024 19:13:18.104 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] - Search_06 - Step 07: Verify 1 product displayed
+[06-01-2024 19:13:18.153 INFO com.nopcommerce.user.User_04_Search_Advanced_Search] -  -------------------------- PASSED -------------------------- 
+[06-01-2024 19:13:18.153 INFO c

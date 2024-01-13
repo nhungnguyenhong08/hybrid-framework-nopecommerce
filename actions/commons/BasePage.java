@@ -706,6 +706,11 @@ public class BasePage {
 		return isElementSelected(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, radioButtonLabelName);
 	}
 
+	public String getSuccessMessageAtBarNotification(WebDriver driver) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.SUCCESS_MESSAGE_AT_BAR_NOTIFICATION);
+		return getElementText(driver, BasePageNopCommerceUI.SUCCESS_MESSAGE_AT_BAR_NOTIFICATION);
+	}
+
 	public void closeBarNotification(WebDriver driver) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.BAR_NOTIFICATION_CLOSE_BUTTON);
 		clickToElement(driver, BasePageNopCommerceUI.BAR_NOTIFICATION_CLOSE_BUTTON);

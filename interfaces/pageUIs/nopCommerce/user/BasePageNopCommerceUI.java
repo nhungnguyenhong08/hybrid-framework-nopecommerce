@@ -23,5 +23,6 @@ public class BasePageNopCommerceUI {
 	public static final String BAR_NOTIFICATION_CLOSE_BUTTON = "css=div.bar-notification.success span.close";
 	public static final String DYNAMIC_TOP_MENU_BY_TEXT = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(),'%s')]";
 	public static final String DYNAMIC_TOP_SUB_MENU_BY_TEXT = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(),'%s')]/parent::li//a[contains(text(),'%s')]";
+	public static final String SUCCESS_MESSAGE_AT_BAR_NOTIFICATION = "css=div.bar-notification.success p";
 
 }

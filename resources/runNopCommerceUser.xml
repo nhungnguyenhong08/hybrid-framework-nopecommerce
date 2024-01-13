@@ -19,7 +19,7 @@
     <classes>
    <!--Trigger Common Register run first --> 
       <class name="com.nopcommerce.common.Common_01_Register_Cookies"/>
-      <class name="com.nopcommerce.user.User_05_Sort_Display_Paging"/>
+      <class name="com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product"/>
     </classes>
   </test> 
  

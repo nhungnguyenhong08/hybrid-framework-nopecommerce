@@ -134,4 +134,24 @@ public class UserProductPageObject extends BasePage {
 		return isElementUndisplayed(driver, ProductPageUI.PRODUCT_PAGINATION);
 	}
 
+	public void clickToOverviewButtonByText(WebDriver driver, String buttonName) {
+		waitForElementClickable(driver, ProductPageUI.DYNAMIC_OVER_VIEW_BUTTON_BY_TEXT, buttonName);
+		clickToElement(driver, ProductPageUI.DYNAMIC_OVER_VIEW_BUTTON_BY_TEXT, buttonName);
+	}
+
+	public void openWishlistPageByLink(WebDriver driver) {
+		waitForElementClickable(driver, ProductPageUI.WISH_LIST_LINK_AT_HEADER);
+		clickToElement(driver, ProductPageUI.WISH_LIST_LINK_AT_HEADER);
+	}
+
+	public void clickToProductToSeeDetailByOrder(WebDriver driver, String productOrder) {
+		waitForElementClickable(driver, ProductPageUI.PRODUCT_BY_ORDER, productOrder);
+		clickToElement(driver, ProductPageUI.PRODUCT_BY_ORDER, productOrder);
+	}
+
+	public String getValueOfViewedProduct(WebDriver driver2) {
+		waitForElementVisible(driver, ProductPageUI.PRODUCT_DETAIL_NAME);
+		return getElementText(driver, ProductPageUI.PRODUCT_DETAIL_NAME);
+	}
+
 }
