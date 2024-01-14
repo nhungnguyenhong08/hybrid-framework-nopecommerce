@@ -17,14 +17,16 @@ public class UserCompareProductPageObject extends BasePage {
 		return isElementDisplayed(driver, CompareProductPageUI.DYNAMIC_PRODUCT_NAME_BY_TEXT, productName);
 	}
 
-	public boolean isRemoveButtonByProductNameDisplayed(WebDriver driver, String productName, int indexColumn) {
-		waitForElementVisible(driver, CompareProductPageUI.REMOVE_BUTTON_BY_PRODUCT_NAME, productName, String.valueOf(indexColumn));
-		return isElementDisplayed(driver, CompareProductPageUI.REMOVE_BUTTON_BY_PRODUCT_NAME, productName, String.valueOf(indexColumn));
+	public boolean isRemoveButtonByProductNameDisplayed(WebDriver driver, String productName) {
+		int columnIndex = getElementSize(driver, CompareProductPageUI.COLUMN_INDEX_BY_PRODUCT_NAME, productName);
+		waitForElementVisible(driver, CompareProductPageUI.REMOVE_BUTTON_BY_PRODUCT_NAME, String.valueOf(columnIndex));
+		return isElementDisplayed(driver, CompareProductPageUI.REMOVE_BUTTON_BY_PRODUCT_NAME, String.valueOf(columnIndex));
 	}
 
-	public boolean isPriceTextByProductNameAtRowNameDisplayed(WebDriver driver2, String productName, int indexColumn) {
-		waitForElementVisible(driver, CompareProductPageUI.PRICCE_BY_PRODUCT_NAME, productName, String.valueOf(indexColumn));
-		return isElementDisplayed(driver, CompareProductPageUI.PRICCE_BY_PRODUCT_NAME, productName, String.valueOf(indexColumn));
+	public boolean isPriceTextByProductNameAtRowNameDisplayed(WebDriver driver, String productName) {
+		int columnIndex = getElementSize(driver, CompareProductPageUI.COLUMN_INDEX_BY_PRODUCT_NAME, productName);
+		waitForElementVisible(driver, CompareProductPageUI.PRICCE_BY_PRODUCT_NAME, String.valueOf(columnIndex));
+		return isElementDisplayed(driver, CompareProductPageUI.PRICCE_BY_PRODUCT_NAME, String.valueOf(columnIndex));
 	}
 
 	public void clickToClearListButton() {

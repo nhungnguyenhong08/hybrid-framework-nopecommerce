@@ -203,12 +203,12 @@ public class User_06_Wishlist_Compare_Recently_Viewed_Product extends BaseTest {
 
 		log.info("Wishlist_Compare_View_04: Step 13: Verify information on compare list displayed");
 		verifyTrue(compareProductPage.isProductNameBytextDisplayed(driver, noteBooksProduct));
-		verifyTrue(compareProductPage.isRemoveButtonByProductNameDisplayed(driver, noteBooksProduct, 2));
-		verifyTrue(compareProductPage.isPriceTextByProductNameAtRowNameDisplayed(driver, noteBooksProduct, 2));
+		verifyTrue(compareProductPage.isRemoveButtonByProductNameDisplayed(driver, noteBooksProduct));
+		verifyTrue(compareProductPage.isPriceTextByProductNameAtRowNameDisplayed(driver, noteBooksProduct));
 
 		verifyTrue(compareProductPage.isProductNameBytextDisplayed(driver, desktopsProduct));
-		verifyTrue(compareProductPage.isRemoveButtonByProductNameDisplayed(driver, desktopsProduct, 3));
-		verifyTrue(compareProductPage.isPriceTextByProductNameAtRowNameDisplayed(driver, desktopsProduct, 3));
+		verifyTrue(compareProductPage.isRemoveButtonByProductNameDisplayed(driver, desktopsProduct));
+		verifyTrue(compareProductPage.isPriceTextByProductNameAtRowNameDisplayed(driver, desktopsProduct));
 
 		log.info("Wishlist_Compare_View_04: Step 14: Click to 'Clear list' button");
 		compareProductPage.clickToClearListButton();
