@@ -26,7 +26,15 @@ public class GlobalConstants {
 	public static final String DB_TEST_PASS = "P@sswOrld1@";
 
 	public static final long SHORT_TIME_OUT = 5;
-	public static final long LONG_TIME_OUT = 30;
+	public static final long LONG_TIME_OUT = 15;
 	public static final long RETRY_TEST_FAIL = 3;
+
+	public static final String BROWSER_UERNAME = "nhungnguyen_9rLsbA";
+	public static final String BROWSER_AUTOMATE_KEY = "UevjakxKzz38VqX9KH8h";
+	public static final String BROWSER_STACK_URL = "https://" + BROWSER_UERNAME + ":" + BROWSER_AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+
+	public static final String SAUCE_UERNAME = "oauth-nhungnth8.neu-16f5f";
+	public static final String SAUCE_AUTOMATE_KEY = "d8137b9f-f381-475c-8fa8-279e8a5aed2e";
+	public static final String SAUCE_URL = "https://" + SAUCE_UERNAME + ":" + SAUCE_AUTOMATE_KEY + "@ondemand.eu-central-1.saucelabs.com:443/wd/hub";
 
 }

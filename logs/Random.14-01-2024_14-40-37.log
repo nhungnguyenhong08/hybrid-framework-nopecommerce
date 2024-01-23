@@ -1,0 +1,50 @@
+[14-01-2024 14:40:40.075 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[14-01-2024 14:40:41.061 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Astrid'
+[14-01-2024 14:40:41.186 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Schimmel'
+[14-01-2024 14:40:41.296 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'delmar.mcglynn@hotmail.com'
+[14-01-2024 14:40:41.430 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '#^6M8e7e'
+[14-01-2024 14:40:41.557 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '#^6M8e7e'
+[14-01-2024 14:40:41.686 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[14-01-2024 14:40:42.364 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[14-01-2024 14:40:42.415 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:40:42.415 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[14-01-2024 14:40:42.798 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[14-01-2024 14:40:43.489 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'delmar.mcglynn@hotmail.com'
+[14-01-2024 14:40:43.615 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '#^6M8e7e'
+[14-01-2024 14:40:43.711 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[14-01-2024 14:40:44.402 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Pre-Condition - Step 01: Open browser 'CHROME'
+[14-01-2024 14:40:46.245 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Pre-condition - Step 02: Navigate to Login page
+[14-01-2024 14:40:47.217 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Pre-condition - Step 03: Set cookie and reload page
+[14-01-2024 14:40:50.609 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Pre-Condition - Step 04: Verify Home page Displayed
+[14-01-2024 14:40:50.746 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_01_ - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[14-01-2024 14:40:54.197 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_01_: Step 02: Click to product name with value is 'Apple MacBook Pro 13-inch'
+[14-01-2024 14:40:57.339 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_01_: Step 03: Click To 'Add to wishlist' button
+[14-01-2024 14:40:57.468 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_01_: Step 04: Verify add to wishlist success message displayed
+[14-01-2024 14:40:57.861 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:40:57.861 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_01_: Step 05: Close success message
+[14-01-2024 14:41:01.024 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_01_: Step 06: Navigate to 'Wishlist' page
+[14-01-2024 14:41:03.672 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_01_: Step 07: Verify Wishlist page Displayed
+[14-01-2024 14:41:03.700 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:41:03.796 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:41:03.796 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_01_: Step 08: Click to link 'Your wishlist URL for sharing'
+[14-01-2024 14:41:04.397 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_01_: Step 09: Verify Wishlist share page is displayed
+[14-01-2024 14:41:04.433 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:41:04.495 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:41:04.642 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_02: Step 01: Click To HomePage icon
+[14-01-2024 14:41:05.349 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_02: Step 02: Navigate to 'Wishlist' page
+[14-01-2024 14:41:05.918 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_02: Step 03: Click to 'Add to cart' checkbox
+[14-01-2024 14:41:06.013 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_02: Step 04: Click to 'Add to cart' button
+[14-01-2024 14:41:08.119 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_02: Step 05: Verify Shopping cart page is displayed
+[14-01-2024 14:41:08.205 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:41:08.205 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_02: Step 06: Verify Wishlist quantity is updated (0)
+[14-01-2024 14:41:08.265 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:41:08.266 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_02: Step 07: Verify Shopping cart quantity is updated (2)
+[14-01-2024 14:41:09.356 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:41:09.432 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:41:09.448 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_03: Step 01: Click To HomePage icon
+[14-01-2024 14:41:09.965 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_03: Step 02: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[14-01-2024 14:41:13.344 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_03: Step 03: Click to product name with value is 'Apple MacBook Pro 13-inch'
+[14-01-2024 14:41:14.001 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_03: Step 04: Click To 'Add to wishlist' button
+[14-01-2024 14:41:14.081 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Wishlist_Compare_View_03: Step 05: Verify add to wishlist success message displayed
+[14-01-2024 14:41:14.672 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] -  -------------------------- PASSED -------------------------- 
+[14-01-2024 14:41:14
