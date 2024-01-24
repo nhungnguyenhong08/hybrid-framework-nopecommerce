@@ -17,11 +17,6 @@ public class UserShoppingCartPageObject extends BasePage {
 		return isElementDisplayed(driver, ShoppingCartPageUI.PAGE_TITLE, pageTitle);
 	}
 
-	public String getQuantityAtHeaderPage(WebDriver driver, String headeText) {
-		waitForElementVisible(driver, ShoppingCartPageUI.SECOND_PAGE_HEADER_QUANTITY_BY_TEXT, headeText);
-		return getElementText(driver, ShoppingCartPageUI.SECOND_PAGE_HEADER_QUANTITY_BY_TEXT, headeText);
-	}
-
 	public void openHomePage() {
 		waitForElementClickable(driver, ShoppingCartPageUI.HEADER_LOGO);
 		clickToElement(driver, ShoppingCartPageUI.HEADER_LOGO);

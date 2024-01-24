@@ -154,4 +154,9 @@ public class UserProductPageObject extends BasePage {
 		return getElementText(driver, ProductPageUI.PRODUCT_DETAIL_NAME);
 	}
 
+	public String getPriceOfProduct(WebDriver driver) {
+		waitForElementVisible(driver, ProductPageUI.PRODUCT_PRICE);
+		return getElementText(driver, ProductPageUI.PRODUCT_PRICE);
+	}
+
 }

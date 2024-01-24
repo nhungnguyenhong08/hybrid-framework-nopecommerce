@@ -681,9 +681,9 @@ public class BasePage {
 		return getElementAttribute(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
 	}
 
-	public void openHeaderUpperPageByName(WebDriver driver, String pageName) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.HEADER_UPPER_PAGE_BY_NAME, pageName);
-		clickToElement(driver, BasePageNopCommerceUI.HEADER_UPPER_PAGE_BY_NAME, pageName);
+	public void openHeaderUpperPageByText(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.HEADER_UPPER_PAGE_BY_TEXT, pageName);
+		clickToElement(driver, BasePageNopCommerceUI.HEADER_UPPER_PAGE_BY_TEXT, pageName);
 	}
 
 	public void openFooterPageByText(WebDriver driver, String pageName) {
@@ -724,9 +724,19 @@ public class BasePage {
 		clickToElementByJS(driver, BasePageNopCommerceUI.DYNAMIC_TOP_SUB_MENU_BY_TEXT, menuText, sublistText);
 	}
 
+	public String getQuantityAtHeaderPage(WebDriver driver, String headeText) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.SECOND_PAGE_HEADER_QUANTITY_BY_TEXT, headeText);
+		return getElementText(driver, BasePageNopCommerceUI.SECOND_PAGE_HEADER_QUANTITY_BY_TEXT, headeText);
+	}
+
 	public void selectItemInDefaultDropdownByTextLabel(WebDriver driver, String dropdownLabel, String textItem) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_TEXT, dropdownLabel);
 		selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_TEXT, textItem, dropdownLabel);
+	}
+
+	public void selectItemInDefaultDropdownByName(WebDriver driver, String attributeValue, String textItem) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, attributeValue);
+		selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, textItem, attributeValue);
 	}
 
 	public void uncheckToRadioButtonByLabelText(WebDriver driver, String checkboxLabel) {
@@ -738,6 +748,32 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, checkboxLabel);
 		checkToDefaultCheckboxOrRadio(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, checkboxLabel);
 
+	}
+
+	public void hoverToHeaderLinkByText(WebDriver driver, String pageText) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_HEADER_LINK_BY_TEXT, pageText);
+		hoverMouseToElement(driver, BasePageNopCommerceUI.DYNAMIC_HEADER_LINK_BY_TEXT, pageText);
+		sleepInSecond(3);
+	}
+
+	public String getDescriptionInMiniShoppingCartByAttribute(WebDriver driver, String attributeValue) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_DESCRIPTION_OF_PRODUCT_BY_ATTRIBUTE, attributeValue);
+		return getElementText(driver, BasePageNopCommerceUI.DYNAMIC_DESCRIPTION_OF_PRODUCT_BY_ATTRIBUTE, attributeValue);
+	}
+
+	public String getInforProductByProductName(WebDriver driver, String productName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.INFOR_PRODUCT_BY_PRODUCT_NAME, productName);
+		return getElementText(driver, BasePageNopCommerceUI.INFOR_PRODUCT_BY_PRODUCT_NAME, productName);
+	}
+
+	public String getInforProductByProductNameAndAttributeValue(WebDriver driver, String productName, String attributeValue) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_CHARACTERISTIC_BY_PRODUCT_NAME_AND_ATTRIBUTE, productName, attributeValue);
+		return getElementText(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_CHARACTERISTIC_BY_PRODUCT_NAME_AND_ATTRIBUTE, productName, attributeValue);
+	}
+
+	public String getSubTotalPriceByAttributeValue(WebDriver driver, String attributeValue) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.SUB_TOTAL_PRICE_BY_ATTRIBUTE, attributeValue);
+		return getElementText(driver, BasePageNopCommerceUI.SUB_TOTAL_PRICE_BY_ATTRIBUTE, attributeValue);
 	}
 
 	// Switch role Level_08_Switch_Role

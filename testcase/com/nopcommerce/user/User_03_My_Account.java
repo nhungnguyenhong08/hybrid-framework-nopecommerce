@@ -115,7 +115,7 @@ public class User_03_My_Account extends BaseTest {
 	@Test
 	public void MyAccount_01__Update_Customer_Infor() {
 		log.info("MyAccount_01 - Step 01: Click to My account link");
-		homePage.openHeaderUpperPageByName(driver, "My account");
+		homePage.openHeaderUpperPageByText(driver, "My account");
 		customerInforPage = PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 
 		log.info("MyAccount_01 - Step 02: Update gender with value is'" + gender + "'");
@@ -260,11 +260,11 @@ public class User_03_My_Account extends BaseTest {
 		changePasswordPage.closeBarNotification(driver);
 
 		log.info("MyAccount_03 - Step 08: Click to 'Log out' link");
-		changePasswordPage.openHeaderUpperPageByName(driver, "Log out");
+		changePasswordPage.openHeaderUpperPageByText(driver, "Log out");
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 		log.info("MyAccount_03 - Step 09: Click to 'Log in' link");
-		homePage.openHeaderUpperPageByName(driver, "Log in");
+		homePage.openHeaderUpperPageByText(driver, "Log in");
 		loginPage = PageGeneratorManagerNopCommerce.getUserLoginPage(driver);
 
 		log.info("MyAccount_03 - Step 10: Enter to Email textbox with value is '" + editEmail + "'");
@@ -280,7 +280,7 @@ public class User_03_My_Account extends BaseTest {
 		verifyEquals(loginPage.getErrorMessageUnsucessful(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
 
 		log.info("MyAccount_03 - Step 14: Click to 'Log in' link again");
-		loginPage.openHeaderUpperPageByName(driver, "Log in");
+		loginPage.openHeaderUpperPageByText(driver, "Log in");
 
 		log.info("MyAccount_03 - Step 15: Enter to Email textbox with value is '" + editEmail + "'");
 		loginPage.inputToEmailTextbox(editEmail);
@@ -299,7 +299,7 @@ public class User_03_My_Account extends BaseTest {
 	@Test
 	public void MyAccount_04__Add_My_Product_Review() {
 		log.info("MyAccount_04 - Step 18: Open 'My account link' at header upper page");
-		homePage.openHeaderUpperPageByName(driver, "My account");
+		homePage.openHeaderUpperPageByText(driver, "My account");
 
 		log.info("MyAccount_04 - Step 18: Click To Product Catelogies on Top Menu: Computers/Notebooks");
 		homePage.clickToSublistAtTopMenuByText(driver, "Computers", "Notebooks");
@@ -330,7 +330,7 @@ public class User_03_My_Account extends BaseTest {
 		verifyTrue(productPage.isSuccessMessageDisplayed());
 
 		log.info("MyAccount_04 - Step 10: Click To My Account Link");
-		productPage.openHeaderUpperPageByName(driver, "My account");
+		productPage.openHeaderUpperPageByText(driver, "My account");
 		customerInforPage = PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 
 		log.info("MyAccount_04 - Step 11: Click to 'My product reviews' page at list box menu");

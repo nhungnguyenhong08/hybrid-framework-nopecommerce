@@ -82,7 +82,7 @@ public class User_02_Login extends BaseTest {
 	@Test
 	public void Login_02_Invalid_Email() {
 		log.info("Login_02 - Step 01: Click to Login link");
-		loginPage.openHeaderUpperPageByName(driver, "Log in");
+		loginPage.openHeaderUpperPageByText(driver, "Log in");
 		// loginPage = PageGeneratorManagerNopCommerce.getUserLoginPage(driver);
 
 		log.info("Login_02 - Step 02: Enter to Email textbox with value is '" + invalidEmail + "'");
@@ -98,7 +98,7 @@ public class User_02_Login extends BaseTest {
 	@Test
 	public void Login_03_Email_Not_Found() {
 		log.info("Login_03 - Step 01: Click to Login link");
-		loginPage.openHeaderUpperPageByName(driver, "Log in");
+		loginPage.openHeaderUpperPageByText(driver, "Log in");
 
 		log.info("Login_03 - Step 02: Enter to Email textbox with value is '" + notFoundEmail + "'");
 		loginPage.inputToEmailTextbox(notFoundEmail);
@@ -114,7 +114,7 @@ public class User_02_Login extends BaseTest {
 	@Test
 	public void Login_04_Existing_Email_Empty_Password() {
 		log.info("Login_04 - Step 01: Click to Login link");
-		loginPage.openHeaderUpperPageByName(driver, "Log in");
+		loginPage.openHeaderUpperPageByText(driver, "Log in");
 
 		log.info("Login_04 - Step 02: Enter to Email textbox with value is '" + existingEmail + "'");
 		loginPage.inputToEmailTextbox(existingEmail);
@@ -133,7 +133,7 @@ public class User_02_Login extends BaseTest {
 	@Test
 	public void Login_05_Existing_Email_Incorrect_Password() {
 		log.info("Login_05 - Step 01: Click to Login link");
-		loginPage.openHeaderUpperPageByName(driver, "Log in");
+		loginPage.openHeaderUpperPageByText(driver, "Log in");
 
 		log.info("Login_05 - Step 02: Enter to Email textbox with value is '" + existingEmail + "'");
 		loginPage.inputToEmailTextbox(existingEmail);
@@ -152,7 +152,7 @@ public class User_02_Login extends BaseTest {
 	@Test
 	public void Login_06_Valid_Email_Password() {
 		log.info("Login_06 - Step 01: Click to Login link");
-		loginPage.openHeaderUpperPageByName(driver, "Log in");
+		loginPage.openHeaderUpperPageByText(driver, "Log in");
 
 		log.info("Login_06 - Step 02: Enter to Email textbox with value is '" + existingEmail + "'");
 		loginPage.inputToEmailTextbox(existingEmail);

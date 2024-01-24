@@ -5854,3 +5854,704 @@ Driver info: driver.version: RemoteWebDriver
 [14-01-2024 14:52:00.045 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Post-Condition: Close browser
 [14-01-2024 14:52:00.045 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - OS name = windows 11
 [14-01-2024 14:52:00.046 INFO com.nopcommerce.user.User_06_Wishlist_Compare_Recently_Viewed_Product] - Driver instance name = chromedriver: chrome on windows (3154fe9f523c47113fa08b8f873d49aa)
+[23-01-2024 21:49:56.785 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 21:49:56.791 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Driver instance name = remotewebdriver: firefox on windows (b9f0fa34719899a5d77e5e1dd1992f7e0daec83f)
+[23-01-2024 21:50:07.801 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 21:50:07.801 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Driver instance name = remotewebdriver: chrome on mac (c00d21588542eedc5950aaaeb14cff1bdca1c304)
+[23-01-2024 21:53:01.128 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 21:53:01.133 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Driver instance name = remotewebdriver: firefox on windows (663d1a3367e46b9540c79e08781b2d29456ba437)
+[23-01-2024 21:53:12.438 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 21:53:12.439 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Driver instance name = remotewebdriver: chrome on mac (d9c2a0a676e292679f48e75c7d63b195da873342)
+[23-01-2024 21:54:25.971 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 21:54:25.975 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - null
+[23-01-2024 21:54:26.042 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 21:54:26.043 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - null
+[23-01-2024 21:55:31.376 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 21:55:33.483 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 21:55:35.592 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 21:55:37.712 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 21:55:39.229 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 21:55:42.402 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 21:55:45.165 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 21:55:48.137 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 08: Enter to Email textbox with value is 'automationfc4599@fakemail.com'
+[23-01-2024 21:55:51.124 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 21:55:52.728 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 21:55:54.281 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 21:55:56.761 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 12: Verify success message is displayed
+[23-01-2024 21:55:59.318 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 13: Click to Logout link
+[23-01-2024 21:56:01.085 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to Login page
+[23-01-2024 21:56:04.608 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Enter to Email textbox with value is 'automationfc4599@fakemail.com'
+[23-01-2024 21:56:06.448 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 21:56:09.751 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Click to Login button
+[23-01-2024 21:56:11.736 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 21:56:12.986 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 21:56:14.734 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 21:56:16.881 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 21:56:18.281 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Verify 'Lase Name' value is correctly
+[23-01-2024 21:56:20.331 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 21:56:21.735 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 21:56:21.735 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Driver instance name = remotewebdriver: firefox on windows (963c9e41ce7b8b8e1e9f79ed8a39779100103d5f)
+[23-01-2024 21:56:45.351 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 21:56:48.002 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 21:56:50.483 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 21:56:53.537 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 21:56:55.622 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 21:56:59.037 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 21:57:02.293 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 21:57:04.941 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 08: Enter to Email textbox with value is 'automationfc6136@fakemail.com'
+[23-01-2024 21:57:08.104 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 21:57:09.860 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 21:57:11.712 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 21:57:13.713 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 12: Verify success message is displayed
+[23-01-2024 21:57:15.405 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 13: Click to Logout link
+[23-01-2024 21:57:17.178 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to Login page
+[23-01-2024 21:57:20.595 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Enter to Email textbox with value is 'automationfc6136@fakemail.com'
+[23-01-2024 21:57:22.241 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 21:57:26.421 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Click to Login button
+[23-01-2024 21:57:28.463 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 21:57:30.109 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 21:57:32.047 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 21:57:33.449 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 21:57:36.023 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Verify 'Lase Name' value is correctly
+[23-01-2024 21:57:37.749 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 21:57:39.490 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 21:57:39.491 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Driver instance name = remotewebdriver: chrome on mac (ae097018a615bfc8093abce9b58f15f34b0ef2c6)
+[23-01-2024 22:34:38.077 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 22:34:42.314 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 22:34:49.110 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 22:34:54.905 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 22:34:58.278 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 22:35:03.087 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 22:35:08.301 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 22:35:13.199 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 08: Enter to Email textbox with value is 'automationfc5028@fakemail.com'
+[23-01-2024 22:35:22.207 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 22:35:27.220 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 22:35:31.382 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 22:35:39.728 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 12: Verify success message is displayed
+[23-01-2024 22:35:44.735 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 13: Click to Logout link
+[23-01-2024 22:35:53.858 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to Login page
+[23-01-2024 22:36:04.473 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Enter to Email textbox with value is 'automationfc5028@fakemail.com'
+[23-01-2024 22:36:07.435 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 22:36:11.317 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Click to Login button
+[23-01-2024 22:36:14.538 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 22:36:17.927 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 22:36:24.639 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 22:36:30.583 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 22:36:40.700 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Verify 'Lase Name' value is correctly
+[23-01-2024 22:36:44.512 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 22:36:51.260 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[23-01-2024 22:36:51.260 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Driver instance name = remotewebdriver: firefox on mac (2757132d169b48e4aacea25d9ea7c965)
+[23-01-2024 22:36:54.886 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[23-01-2024 22:36:54.886 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - null
+[23-01-2024 22:44:30.134 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 22:44:38.566 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 22:44:42.701 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 22:44:49.065 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 22:44:52.557 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 22:44:57.017 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 22:45:07.784 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 22:45:43.364 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 08: Enter to Email textbox with value is 'automationfc7313@fakemail.com'
+[23-01-2024 22:45:52.718 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 22:45:55.781 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 22:45:58.404 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 22:46:02.384 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 12: Verify success message is displayed
+[23-01-2024 22:46:05.245 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 13: Click to Logout link
+[23-01-2024 22:46:11.052 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to Login page
+[23-01-2024 22:46:19.579 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Enter to Email textbox with value is 'automationfc7313@fakemail.com'
+[23-01-2024 22:46:23.707 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 22:46:28.571 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Click to Login button
+[23-01-2024 22:46:34.185 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 22:46:38.348 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 22:46:41.076 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 22:47:04.437 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 22:47:25.860 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Verify 'Lase Name' value is correctly
+[23-01-2024 22:48:37.005 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 22:48:46.155 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[23-01-2024 22:48:46.156 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Driver instance name = remotewebdriver: firefox on mac (0cb91c81d8a44c0db9ef6ae17a2aa6b1)
+[23-01-2024 22:48:50.121 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[23-01-2024 22:48:50.122 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - null
+[23-01-2024 22:57:20.588 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 22:57:24.793 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 22:57:35.642 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 22:57:38.360 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 22:57:40.719 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 22:57:44.635 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 22:57:49.191 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 22:57:53.126 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 08: Enter to Email textbox with value is 'automationfc7426@fakemail.com'
+[23-01-2024 22:57:59.468 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 22:58:02.188 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 22:58:05.753 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 22:58:11.499 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 12: Verify success message is displayed
+[23-01-2024 22:58:19.068 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 13: Click to Logout link
+[23-01-2024 22:58:25.101 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to Login page
+[23-01-2024 22:58:35.842 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Enter to Email textbox with value is 'automationfc7426@fakemail.com'
+[23-01-2024 22:58:44.046 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 22:58:47.303 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Click to Login button
+[23-01-2024 22:58:50.337 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 22:58:52.346 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 22:58:54.889 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 22:58:56.613 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 22:59:01.157 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Verify 'Last Name' value is correctly
+[23-01-2024 22:59:02.742 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 22:59:04.533 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[23-01-2024 22:59:04.534 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Driver instance name = remotewebdriver: firefox on mac (6c7683a5c9144a4a974d8036387d3eaf)
+[23-01-2024 22:59:08.167 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[23-01-2024 22:59:08.168 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - null
+[23-01-2024 23:10:03.757 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 23:10:07.069 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 23:10:09.511 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 23:10:20.641 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 23:10:29.938 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 23:10:35.660 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 23:10:42.126 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 23:10:49.943 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 08: Enter to Email textbox with value is 'automationfc467@fakemail.com'
+[23-01-2024 23:11:05.177 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 23:11:07.359 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 23:11:10.828 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 23:11:13.478 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 12: Verify success message is displayed
+[23-01-2024 23:11:19.732 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 13: Click to Logout link
+[23-01-2024 23:11:29.823 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to Login page
+[23-01-2024 23:11:37.625 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Enter to Email textbox with value is 'automationfc467@fakemail.com'
+[23-01-2024 23:11:39.724 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 23:11:45.127 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Click to Login button
+[23-01-2024 23:11:47.758 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 23:11:49.117 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 23:11:50.806 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 23:11:52.029 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 23:11:54.247 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Verify 'Lase Name' value is correctly
+[23-01-2024 23:11:57.933 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 23:12:27.988 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 23:12:27.988 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Driver instance name = remotewebdriver: firefox on windows (c00eefc666bd1a812eb269ebdbcac5127e90ed2b)
+[23-01-2024 23:12:33.047 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 23:12:33.049 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - null
+[23-01-2024 23:14:14.999 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 23:14:17.570 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 23:14:21.072 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 23:14:23.316 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 23:14:27.224 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 23:14:30.331 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 23:14:42.759 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 23:14:50.827 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 08: Enter to Email textbox with value is 'automationfc5895@fakemail.com'
+[23-01-2024 23:15:01.988 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 23:15:06.654 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 23:15:09.209 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 23:15:14.330 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 12: Verify success message is displayed
+[23-01-2024 23:15:19.026 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 13: Click to Logout link
+[23-01-2024 23:15:24.921 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to Login page
+[23-01-2024 23:15:29.834 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Enter to Email textbox with value is 'automationfc5895@fakemail.com'
+[23-01-2024 23:15:31.815 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 23:15:35.809 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Click to Login button
+[23-01-2024 23:15:49.192 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 23:16:08.376 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 23:16:11.064 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 23:16:13.597 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 23:16:14.846 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Verify 'Last Name' value is correctly
+[23-01-2024 23:16:16.202 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 23:16:21.796 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[23-01-2024 23:16:21.797 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Driver instance name = remotewebdriver: chrome on windows (b6462d8061d84cafb306d66487300885)
+[23-01-2024 23:16:41.667 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 23:17:08.450 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 23:17:18.251 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 23:17:21.015 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 23:17:23.313 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 23:17:27.576 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 23:17:31.771 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 23:17:44.059 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 08: Enter to Email textbox with value is 'automationfc6067@fakemail.com'
+[23-01-2024 23:17:55.294 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 23:17:58.799 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 23:18:01.516 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 23:18:08.700 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 12: Verify success message is displayed
+[23-01-2024 23:18:14.692 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 13: Click to Logout link
+[23-01-2024 23:18:18.173 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to Login page
+[23-01-2024 23:18:30.764 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Enter to Email textbox with value is 'automationfc6067@fakemail.com'
+[23-01-2024 23:18:37.219 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 23:18:42.896 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Click to Login button
+[23-01-2024 23:18:49.841 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 23:18:54.220 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 23:19:01.749 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 23:19:04.326 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 23:19:07.725 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Verify 'Last Name' value is correctly
+[23-01-2024 23:19:18.092 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 23:19:24.212 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[23-01-2024 23:19:24.213 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Driver instance name = remotewebdriver: firefox on windows (2decb9d223ec429bb8a01a6dab4ca4e7)
+[23-01-2024 23:20:38.478 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 23:20:41.438 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 23:20:44.076 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 23:20:45.537 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 23:20:48.452 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 23:20:52.583 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 23:21:00.346 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 23:21:06.152 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 08: Enter to Email textbox with value is 'automationfc792@fakemail.com'
+[23-01-2024 23:21:10.074 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 23:21:11.616 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 23:21:13.631 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 23:21:21.647 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 12: Verify success message is displayed
+[23-01-2024 23:21:24.624 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 13: Click to Logout link
+[23-01-2024 23:21:31.260 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to Login page
+[23-01-2024 23:21:43.568 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Enter to Email textbox with value is 'automationfc792@fakemail.com'
+[23-01-2024 23:21:47.017 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 23:21:48.922 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Click to Login button
+[23-01-2024 23:21:51.906 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 23:21:55.586 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 23:21:58.479 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 23:22:02.143 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 23:22:03.487 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Verify 'Lase Name' value is correctly
+[23-01-2024 23:22:06.010 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 23:22:08.501 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 23:22:08.502 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Driver instance name = remotewebdriver: firefox on windows (c4b649b13e8e5de6ef89aac692f69b063fbe1c85)
+[23-01-2024 23:22:21.016 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 01: Navigate to 'Register' page
+[23-01-2024 23:22:24.473 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 02: Click to radio button 'Male'
+[23-01-2024 23:22:27.721 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[23-01-2024 23:22:30.275 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[23-01-2024 23:22:31.967 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[23-01-2024 23:22:34.526 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[23-01-2024 23:22:40.002 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[23-01-2024 23:22:43.785 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 08: Enter to Email textbox with value is 'automationfc9585@fakemail.com'
+[23-01-2024 23:22:47.613 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 09: Enter to Password textbox with value is '123456'
+[23-01-2024 23:22:49.691 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[23-01-2024 23:22:51.208 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 11: Enter to 'Register' button
+[23-01-2024 23:22:54.953 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 12: Verify success message is displayed
+[23-01-2024 23:22:58.384 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Register - Step 13: Click to Logout link
+[23-01-2024 23:23:00.364 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to Login page
+[23-01-2024 23:23:04.892 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Enter to Email textbox with value is 'automationfc9585@fakemail.com'
+[23-01-2024 23:23:08.720 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Enter to Password textbox with value is '123456'
+[23-01-2024 23:23:11.644 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Click to Login button
+[23-01-2024 23:23:13.591 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'My Account' link is displayed
+[23-01-2024 23:23:23.783 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 01: Navigate to 'My Account' link
+[23-01-2024 23:23:33.275 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[23-01-2024 23:23:37.973 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 03: Verify 'First Name' value is correctly
+[23-01-2024 23:23:39.791 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 04: Verify 'Lase Name' value is correctly
+[23-01-2024 23:23:45.446 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Login - Step 05: Verify 'Email' value is correctly
+[23-01-2024 23:23:47.822 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[23-01-2024 23:23:47.823 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - Driver instance name = remotewebdriver: chrome on mac (7ba82d1fb9f7bb8e2ba52232ee24c3c6116865a0)
+[24-01-2024 23:10:29.269 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:10:29.894 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Ileen'
+[24-01-2024 23:10:30.017 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Mitchell'
+[24-01-2024 23:10:30.125 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'lise.metz@gmail.com'
+[24-01-2024 23:10:30.253 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '7q1FoP@n%6'
+[24-01-2024 23:10:30.377 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '7q1FoP@n%6'
+[24-01-2024 23:10:30.509 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:10:31.178 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:10:31.227 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:10:31.227 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:10:31.619 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:10:32.424 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'lise.metz@gmail.com'
+[24-01-2024 23:10:32.555 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '7q1FoP@n%6'
+[24-01-2024 23:10:32.665 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:10:33.501 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:10:35.323 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:10:36.608 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:10:40.041 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:10:40.178 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:10:42.985 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:10:44.228 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:10:44.414 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:10:44.681 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:10:44.883 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:10:45.094 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:10:45.595 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price
+[24-01-2024 23:10:45.722 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:10:45.908 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:10:46.310 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:10:46.310 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:10:49.474 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:10:49.535 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:10:49.664 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:10:49.666 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:10:54.986 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:10:55.040 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:10:55.100 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:10:55.241 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:10:55.318 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- FAILED -------------------------- 
+[24-01-2024 23:11:10.683 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:11:10.683 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:11:10.683 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (5d48108473eaa4ec3b2f6309019f95eb)
+[24-01-2024 23:13:28.096 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:13:29.116 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Emmanuel'
+[24-01-2024 23:13:29.242 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Graham'
+[24-01-2024 23:13:29.365 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'anthony.schiller@yahoo.com'
+[24-01-2024 23:13:29.479 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '^5#4zM$&0*'
+[24-01-2024 23:13:29.606 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '^5#4zM$&0*'
+[24-01-2024 23:13:29.736 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:13:30.389 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:13:30.446 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:13:30.447 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:13:30.837 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:13:31.682 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'anthony.schiller@yahoo.com'
+[24-01-2024 23:13:31.820 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '^5#4zM$&0*'
+[24-01-2024 23:13:31.947 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:13:32.716 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:13:34.627 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:13:35.562 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:13:38.970 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:13:39.061 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:13:42.050 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:13:43.279 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:13:43.376 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:13:43.513 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:13:43.592 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:13:43.675 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:13:43.942 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price
+[24-01-2024 23:13:44.008 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:13:44.109 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:13:44.443 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:13:44.443 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:13:47.538 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:13:47.599 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:13:47.698 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:13:47.698 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:13:52.959 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:13:53.038 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:13:53.098 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:13:53.145 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:13:53.194 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- FAILED -------------------------- 
+[24-01-2024 23:14:08.575 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:14:08.575 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:14:08.575 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (dc5c48d37ae9664fd160de14c4989ad0)
+[24-01-2024 23:14:55.708 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:14:56.318 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Kenyetta'
+[24-01-2024 23:14:56.454 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Wiegand'
+[24-01-2024 23:14:56.584 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'kelsey.schiller@yahoo.com'
+[24-01-2024 23:14:56.709 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '3^^1pJ7*5'
+[24-01-2024 23:14:56.854 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '3^^1pJ7*5'
+[24-01-2024 23:14:56.978 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:14:57.681 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:14:57.736 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:14:57.737 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:14:58.272 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:14:59.097 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'kelsey.schiller@yahoo.com'
+[24-01-2024 23:14:59.243 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '3^^1pJ7*5'
+[24-01-2024 23:14:59.350 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:15:00.319 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:15:06.307 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:15:08.148 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:15:12.167 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:15:12.246 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:15:16.201 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:15:19.014 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:15:19.089 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:15:19.269 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:15:19.358 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:15:19.453 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:15:19.738 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price
+[24-01-2024 23:15:19.801 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:15:19.919 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:15:20.983 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:15:20.983 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:15:24.062 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:15:24.094 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:15:24.153 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:15:24.153 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:15:45.740 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:15:45.740 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:15:45.740 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (7a07f4ce60df6c3f93f41343c1cae736)
+[24-01-2024 23:16:02.095 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:16:04.851 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Tashia'
+[24-01-2024 23:16:04.971 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Armstrong'
+[24-01-2024 23:16:05.073 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'matilda.mcglynn@hotmail.com'
+[24-01-2024 23:16:05.211 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '#UD2wnG%%'
+[24-01-2024 23:16:05.348 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '#UD2wnG%%'
+[24-01-2024 23:16:05.477 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:16:06.636 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:16:06.694 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:16:06.694 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:16:07.259 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:16:08.253 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'matilda.mcglynn@hotmail.com'
+[24-01-2024 23:16:08.387 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '#UD2wnG%%'
+[24-01-2024 23:16:08.531 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:16:09.862 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:16:14.933 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:16:16.350 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:16:19.772 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:16:19.859 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:16:22.922 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:16:24.534 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:16:24.622 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:16:24.740 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:16:24.829 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:16:24.909 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:16:25.227 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price
+[24-01-2024 23:16:25.283 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:16:25.361 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:16:25.747 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:16:25.747 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:16:28.843 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:16:28.888 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:16:28.947 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:16:28.947 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:16:35.221 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:16:35.275 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:16:35.382 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:16:35.428 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:16:35.480 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- FAILED -------------------------- 
+[24-01-2024 23:16:50.853 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:16:50.853 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:16:50.853 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (39195272244288f048fca65f83651199)
+[24-01-2024 23:17:23.795 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:17:24.901 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Dewitt'
+[24-01-2024 23:17:25.015 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'MacGyver'
+[24-01-2024 23:17:25.143 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'marge.hilll@yahoo.com'
+[24-01-2024 23:17:25.272 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is 'zGoFIfs!uM'
+[24-01-2024 23:17:25.391 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is 'zGoFIfs!uM'
+[24-01-2024 23:17:25.517 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:17:26.224 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:17:26.281 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:17:26.283 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:17:26.648 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:17:27.440 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'marge.hilll@yahoo.com'
+[24-01-2024 23:17:27.571 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is 'zGoFIfs!uM'
+[24-01-2024 23:17:27.673 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:17:28.446 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:17:32.261 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:17:33.289 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:17:36.934 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:17:37.026 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:17:39.799 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:17:40.435 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:17:40.528 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:17:40.681 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:17:40.845 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:17:41.046 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:17:41.525 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price
+[24-01-2024 23:17:41.643 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:17:41.792 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:17:42.142 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:17:42.143 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:17:45.260 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:17:45.308 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:17:45.450 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:17:45.450 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:17:51.820 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:17:51.885 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:17:51.952 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:17:51.994 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:18:07.462 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:18:07.462 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:18:07.462 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (466a7437feed8ccee5e395f4e874bf04)
+[24-01-2024 23:20:01.207 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:20:01.679 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Rosario'
+[24-01-2024 23:20:01.804 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Steuber'
+[24-01-2024 23:20:01.935 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'reed.gusikowski@hotmail.com'
+[24-01-2024 23:20:02.045 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '^!$RX77ma'
+[24-01-2024 23:20:02.165 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '^!$RX77ma'
+[24-01-2024 23:20:02.297 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:20:02.958 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:20:03.007 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:20:03.009 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:20:03.363 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:20:19.052 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:20:19.052 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:20:19.052 INFO com.nopcommerce.user.User_07_Order] - null
+[24-01-2024 23:20:28.313 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:20:28.818 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Oren'
+[24-01-2024 23:20:28.932 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Volkman'
+[24-01-2024 23:20:29.041 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'william.grimes@gmail.com'
+[24-01-2024 23:20:29.160 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '124frOJ2X!'
+[24-01-2024 23:20:29.284 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '124frOJ2X!'
+[24-01-2024 23:20:29.402 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:20:30.049 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:20:30.111 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:20:30.111 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:20:30.481 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:20:31.201 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'william.grimes@gmail.com'
+[24-01-2024 23:20:31.318 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '124frOJ2X!'
+[24-01-2024 23:20:31.437 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:20:32.410 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:20:34.571 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:20:35.543 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:20:38.941 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:20:39.017 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:20:42.545 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:20:43.708 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:20:43.891 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:20:44.126 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:20:44.340 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:20:44.502 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:20:44.924 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price
+[24-01-2024 23:20:45.047 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:20:45.190 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:20:45.524 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:20:45.533 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:20:48.648 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:20:48.685 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:20:48.755 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:20:48.755 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:20:55.066 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:20:55.123 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:20:55.218 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:20:55.329 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:20:55.455 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- FAILED -------------------------- 
+[24-01-2024 23:21:10.932 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:21:10.932 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:21:10.932 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (26cb88392858a77faa50c8399b475c56)
+[24-01-2024 23:22:32.602 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:22:33.167 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Myrtle'
+[24-01-2024 23:22:33.287 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Wintheiser'
+[24-01-2024 23:22:33.416 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'yong.rice@yahoo.com'
+[24-01-2024 23:22:33.545 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '^o#2G$Q2'
+[24-01-2024 23:22:33.640 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '^o#2G$Q2'
+[24-01-2024 23:22:33.769 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:22:34.445 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:22:34.493 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:22:34.494 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:22:34.833 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:22:35.521 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'yong.rice@yahoo.com'
+[24-01-2024 23:22:35.633 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '^o#2G$Q2'
+[24-01-2024 23:22:35.755 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:22:36.532 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:22:38.382 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:22:39.430 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:22:42.840 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:22:42.924 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:22:45.741 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:22:46.400 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:22:46.509 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:22:46.682 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:22:46.821 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:22:46.982 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:22:47.458 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price
+[24-01-2024 23:22:50.595 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:22:50.776 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:22:51.137 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:22:51.137 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:22:54.253 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:22:54.285 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:22:54.349 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:22:54.351 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:23:00.662 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:23:00.718 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:23:00.834 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:23:00.885 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:23:00.930 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:23:16.419 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:23:16.419 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:23:16.419 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (9e28b64d7900b2d5823434330f3dcb08)
+[24-01-2024 23:30:14.873 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:30:15.999 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Cindie'
+[24-01-2024 23:30:16.121 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Schumm'
+[24-01-2024 23:30:16.250 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'teodoro.padberg@gmail.com'
+[24-01-2024 23:30:16.385 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is 'CZz2@Wi@8Po'
+[24-01-2024 23:30:16.515 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is 'CZz2@Wi@8Po'
+[24-01-2024 23:30:16.642 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:30:17.353 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:30:17.413 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:30:17.413 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:30:17.776 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:30:18.581 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'teodoro.padberg@gmail.com'
+[24-01-2024 23:30:18.706 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is 'CZz2@Wi@8Po'
+[24-01-2024 23:30:18.853 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:30:19.865 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:30:23.615 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:30:24.681 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:30:29.531 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:30:29.691 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:30:35.728 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:30:37.250 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:30:37.436 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:30:37.616 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:30:37.700 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:30:37.883 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:30:38.420 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price
+[24-01-2024 23:30:41.524 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:30:41.660 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:30:43.722 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:30:43.722 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:30:46.826 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:30:46.883 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:30:47.021 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:30:47.021 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:30:47.435 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:30:47.521 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:30:47.647 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:30:47.781 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:30:47.899 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- FAILED -------------------------- 
+[24-01-2024 23:30:48.032 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- FAILED -------------------------- 
+[24-01-2024 23:30:48.444 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:30:48.444 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:30:48.444 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (42fb565d6aebfbef07f02de18a0bcd78)
+[24-01-2024 23:31:14.648 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:31:16.383 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Florida'
+[24-01-2024 23:31:16.514 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Rempel'
+[24-01-2024 23:31:16.622 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'winnie.kozey@gmail.com'
+[24-01-2024 23:31:16.735 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '*RBVxmMC$'
+[24-01-2024 23:31:16.865 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '*RBVxmMC$'
+[24-01-2024 23:31:17.006 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:31:18.062 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:31:18.131 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:31:18.133 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:31:19.614 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:31:21.270 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'winnie.kozey@gmail.com'
+[24-01-2024 23:31:21.382 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '*RBVxmMC$'
+[24-01-2024 23:31:21.499 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:31:25.228 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:31:28.451 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:31:29.529 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:31:32.936 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:31:33.032 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:31:37.906 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:31:40.634 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:31:40.734 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:31:40.842 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:31:40.925 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:31:41.000 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:31:41.199 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price
+[24-01-2024 23:31:44.331 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:31:44.428 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:31:44.830 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:31:44.830 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:31:47.914 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:31:47.974 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:31:48.091 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:31:48.091 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:31:48.480 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:31:48.606 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:31:48.727 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:31:48.841 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:31:48.970 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- FAILED -------------------------- 
+[24-01-2024 23:31:49.073 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- FAILED -------------------------- 
+[24-01-2024 23:31:49.589 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:31:49.590 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:31:49.590 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (227f19c5cf2ab64a1f9e82267426e984)
+[24-01-2024 23:33:21.951 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[24-01-2024 23:33:22.494 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Jay'
+[24-01-2024 23:33:22.611 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Torp'
+[24-01-2024 23:33:22.717 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'joseph.rath@gmail.com'
+[24-01-2024 23:33:22.836 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is 'Uo&%o0g@o'
+[24-01-2024 23:33:22.960 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is 'Uo&%o0g@o'
+[24-01-2024 23:33:23.083 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[24-01-2024 23:33:23.732 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[24-01-2024 23:33:23.797 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:23.797 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[24-01-2024 23:33:24.173 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[24-01-2024 23:33:24.867 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'joseph.rath@gmail.com'
+[24-01-2024 23:33:24.998 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is 'Uo&%o0g@o'
+[24-01-2024 23:33:25.115 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[24-01-2024 23:33:25.813 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[24-01-2024 23:33:27.480 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[24-01-2024 23:33:27.926 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[24-01-2024 23:33:31.299 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[24-01-2024 23:33:31.395 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[24-01-2024 23:33:34.013 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[24-01-2024 23:33:34.498 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[24-01-2024 23:33:34.588 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[24-01-2024 23:33:34.694 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[24-01-2024 23:33:34.774 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[24-01-2024 23:33:34.849 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[24-01-2024 23:33:35.079 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price is null
+[24-01-2024 23:33:38.172 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[24-01-2024 23:33:38.297 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[24-01-2024 23:33:38.602 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:38.602 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[24-01-2024 23:33:41.685 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[24-01-2024 23:33:41.721 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:41.774 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:41.774 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[24-01-2024 23:33:45.048 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:45.093 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:45.147 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:45.241 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:45.296 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:45.346 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[24-01-2024 23:33:45.389 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[24-01-2024 23:33:45.389 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[24-01-2024 23:33:45.389 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (8fe28eb8207665ea72a411136066d342)
