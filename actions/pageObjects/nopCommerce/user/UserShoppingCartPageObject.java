@@ -21,4 +21,14 @@ public class UserShoppingCartPageObject extends BasePage {
 		waitForElementClickable(driver, ShoppingCartPageUI.HEADER_LOGO);
 		clickToElement(driver, ShoppingCartPageUI.HEADER_LOGO);
 	}
+
+	public UserProductPageObject clickToEditProduct(WebDriver driver) {
+		waitForElementClickable(driver, ShoppingCartPageUI.EDIT_LINK);
+		clickToElement(driver, ShoppingCartPageUI.EDIT_LINK);
+		// 2
+		return new UserProductPageObject(driver);
+
+		// 3
+		// return PageGeneratorManagerNopCommerce.getUserProductPage(driver);
+	}
 }

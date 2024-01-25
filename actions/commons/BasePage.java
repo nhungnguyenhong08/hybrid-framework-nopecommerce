@@ -739,7 +739,7 @@ public class BasePage {
 		selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, textItem, attributeValue);
 	}
 
-	public void uncheckToRadioButtonByLabelText(WebDriver driver, String checkboxLabel) {
+	public void uncheckToDefaultCheckboxOrRadioButtonByLabelText(WebDriver driver, String checkboxLabel) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, checkboxLabel);
 		uncheckToDefaultCheckboxOrRadio(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, checkboxLabel);
 	}
@@ -754,6 +754,12 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_HEADER_LINK_BY_TEXT, pageText);
 		hoverMouseToElement(driver, BasePageNopCommerceUI.DYNAMIC_HEADER_LINK_BY_TEXT, pageText);
 		sleepInSecond(3);
+	}
+
+	public void OpenToHeaderLinkByText(WebDriver driver, String pageText) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_HEADER_LINK_BY_TEXT, pageText);
+		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_HEADER_LINK_BY_TEXT, pageText);
+
 	}
 
 	public String getDescriptionInMiniShoppingCartByAttribute(WebDriver driver, String attributeValue) {

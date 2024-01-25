@@ -14,12 +14,14 @@ import commons.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserProductPageObject;
+import pageObjects.nopCommerce.user.UserShoppingCartPageObject;
 
 public class User_07_Order extends BaseTest {
 	private WebDriver driver;
 	private UserHomePageObject homePage;
 	private UserProductPageObject productPage;
 	private UserLoginPageObject loginPage;
+	private UserShoppingCartPageObject shoppingCartPage;
 	private String desktopsProduct, priceProduct;
 
 	@Parameters("browser")
@@ -90,16 +92,76 @@ public class User_07_Order extends BaseTest {
 		log.info("Order_01: Step 13: Verify the product is displayed in mini shopping cart");
 		productPage.hoverToHeaderLinkByText(driver, "Shopping cart");
 		verifyEquals(productPage.getDescriptionInMiniShoppingCartByAttribute(driver, "count"), "1 item(s)");
-		verifyEquals(productPage.getDescriptionInMiniShoppingCartByAttribute(driver, "name"), "Build your own computer");
-		verifyEquals(productPage.getInforProductByProductName(driver, "Build your own computer"), "Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]\n" + "RAM: 8GB [+$60.00]\n" + "HDD: 400 GB [+$100.00]\n"
-				+ "OS: Vista Premium [+$60.00]\n" + "Software: Microsoft Office [+$50.00]\n" + "Software: Acrobat Reader [+$10.00]\n" + "Software: Total Commander [+$5.00]");
-		verifyEquals(productPage.getInforProductByProductNameAndAttributeValue(driver, "Build your own computer", "quantity"), "Quantity: 1");
-		verifyEquals(productPage.getInforProductByProductNameAndAttributeValue(driver, "Build your own computer", "price"), "Unit price: " + priceProduct);
+		verifyEquals(productPage.getDescriptionInMiniShoppingCartByAttribute(driver, "name"), desktopsProduct);
+		verifyEquals(productPage.getInforProductByProductName(driver, desktopsProduct), "Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]\n" + "RAM: 8GB [+$60.00]\n" + "HDD: 400 GB [+$100.00]\n" + "OS: Vista Premium [+$60.00]\n"
+				+ "Software: Microsoft Office [+$50.00]\n" + "Software: Acrobat Reader [+$10.00]\n" + "Software: Total Commander [+$5.00]");
+		verifyEquals(productPage.getInforProductByProductNameAndAttributeValue(driver, desktopsProduct, "quantity"), "Quantity: 1");
+		verifyEquals(productPage.getInforProductByProductNameAndAttributeValue(driver, desktopsProduct, "price"), "Unit price: " + priceProduct);
 		verifyEquals(productPage.getSubTotalPriceByAttributeValue(driver, "totals"), "Sub-Total: " + priceProduct);
 	}
 
 	@Test
-	public void Wishlist_Compare_View_02_Add_Product_To_Cart() {
+	public void Order_02_Edit_Product_In_Shopping_Cart() {
+		log.info("Order_02: Step 01: Open Shopping cart at header");
+		productPage.OpenToHeaderLinkByText(driver, "Shopping cart");
+
+		log.info("Order_02: Step 02: Verify Shopping cart page is displayed");
+		shoppingCartPage = PageGeneratorManagerNopCommerce.getUserShoppingCartPage(driver);
+		verifyTrue(shoppingCartPage.isRequestedPageDisplayed(driver, "Shopping cart"));
+
+		log.info("Order_02: Step 03: Click to 'Edit' link");
+		shoppingCartPage = PageGeneratorManagerNopCommerce.getUserShoppingCartPage(driver);
+		productPage = shoppingCartPage.clickToEditProduct(driver);
+
+		log.info("Order_02: Step 04: Select item in 'Processor' dropdown is '2.2 GHz Intel Pentium Dual-Core E2200'");
+		productPage.selectItemInDefaultDropdownByName(driver, "product_attribute_1", "2.2 GHz Intel Pentium Dual-Core E2200");
+
+		log.info("Order_02: Step 05: Select item in 'RAM' dropdown is '4GB [+$20.00]'");
+		productPage.selectItemInDefaultDropdownByName(driver, "product_attribute_2", "4GB [+$20.00]");
+
+		log.info("Order_02: Step 06: Select item in 'HDD' radio button is '320 GB'");
+		productPage.checkToRadioButtonByLabelText(driver, "320 GB");
+
+		log.info("Order_02: Step 07: Select item in 'OS' radio button is 'Vista Home [+$50.00]'");
+		productPage.checkToRadioButtonByLabelText(driver, "Vista Home [+$50.00]");
+
+		log.info("Order_02: Step 08: Select item all value at 'Software' checkbox");
+		productPage.checkToRadioButtonByLabelText(driver, "Microsoft Office [+$50.00]");
+		productPage.uncheckToDefaultCheckboxOrRadioButtonByLabelText(driver, "Acrobat Reader [+$10.00]");
+		productPage.uncheckToDefaultCheckboxOrRadioButtonByLabelText(driver, "Total Commander [+$5.00]");
+
+		log.info("Order_02: Step 09: Verify product price is updated with value '$1,320.00'");
+		productPage.sleepInSecond(3);
+		verifyEquals(productPage.getPriceOfProduct(driver), "$1,320.00");
+
+		log.info("Order_02: Step 10: Get value of price is " + priceProduct);
+		priceProduct = productPage.getPriceOfProduct(driver);
+
+		log.info("Order_02: Step 11: Edit product quantiny is 2");
+		productPage.enterToProductQuantityTextbox(driver, "2");
+
+		log.info("Order_02: Step 12: Click to 'Update' button");
+		productPage.clickToButtonByText(driver, "Update");
+
+		log.info("Order_02: Step 13: Verify add to cart success message displayed");
+		verifyEquals(productPage.getSuccessMessageAtBarNotification(driver), "The product has been added to your shopping cart");
+
+		log.info("Order_02: Step 14: Close success message");
+		productPage.closeBarNotification(driver);
+
+		log.info("Order_02: Step 15: Verify Shopping cart quantity is updated (2)");
+		verifyTrue(productPage.areJQueryAndJSLoadedSuccess(driver));
+		verifyEquals(productPage.getQuantityAtHeaderPage(driver, "Shopping cart"), "(2)");
+
+		log.info("Order_02: Step 16: Verify the product is displayed in mini shopping cart");
+		productPage.hoverToHeaderLinkByText(driver, "Shopping cart");
+		verifyEquals(productPage.getDescriptionInMiniShoppingCartByAttribute(driver, "count"), "2 item(s)");
+		verifyEquals(productPage.getDescriptionInMiniShoppingCartByAttribute(driver, "name"), desktopsProduct);
+		verifyEquals(productPage.getInforProductByProductName(driver, desktopsProduct),
+				"Processor: 2.2 GHz Intel Pentium Dual-Core E2200\n" + "RAM: 4GB [+$20.00]\n" + "HDD: 320 GB\n" + "OS: Vista Home [+$50.00]\n" + "Software: Microsoft Office [+$50.00]");
+		verifyEquals(productPage.getInforProductByProductNameAndAttributeValue(driver, desktopsProduct, "quantity"), "Quantity: 2");
+		verifyEquals(productPage.getInforProductByProductNameAndAttributeValue(driver, desktopsProduct, "price"), "Unit price: " + priceProduct);
+		verifyEquals(productPage.getSubTotalPriceByAttributeValue(driver, "totals"), "Sub-Total: " + "$2,640.00");
 
 	}
 

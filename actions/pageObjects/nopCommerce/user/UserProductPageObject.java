@@ -159,4 +159,9 @@ public class UserProductPageObject extends BasePage {
 		return getElementText(driver, ProductPageUI.PRODUCT_PRICE);
 	}
 
+	public void enterToProductQuantityTextbox(WebDriver driver, String productQuantity) {
+		waitForElementClickable(driver, ProductPageUI.PRODUCT_QUANTITY_TEXT_BOX);
+		sendkeyToElement(driver, ProductPageUI.PRODUCT_QUANTITY_TEXT_BOX, productQuantity);
+	}
+
 }

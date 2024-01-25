@@ -17,5 +17,6 @@ public class ProductPageUI {
 	public static final String PRODUCT_BY_ORDER = "xpath=//div[@class='item-grid']/div[%s]";
 	public static final String PRODUCT_DETAIL_NAME = "xpath=//div[@class='product-name']//h1";
 	public static final String PRODUCT_PRICE = "xpath=//div[@class='product-price']//span";
+	public static final String PRODUCT_QUANTITY_TEXT_BOX = "css=input#product_enteredQuantity_1";
 
 }

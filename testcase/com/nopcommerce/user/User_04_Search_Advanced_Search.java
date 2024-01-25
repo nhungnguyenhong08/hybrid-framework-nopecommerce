@@ -179,7 +179,7 @@ public class User_04_Search_Advanced_Search extends BaseTest {
 		searchPage.selectItemInDefaultDropdownByTextLabel(driver, "Category", categoryValue);
 
 		log.info("Search_05 - Step 05: Uncheck to 'Automatically search sub categories' checkbox");
-		searchPage.uncheckToRadioButtonByLabelText(driver, "Automatically search sub categories");
+		searchPage.uncheckToDefaultCheckboxOrRadioButtonByLabelText(driver, "Automatically search sub categories");
 
 		log.info("Search_05 - Step 06: Click to 'Search' button");
 		searchPage.clickToSearchButton();
