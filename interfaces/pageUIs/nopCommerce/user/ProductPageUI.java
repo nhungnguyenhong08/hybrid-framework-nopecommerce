@@ -18,5 +18,6 @@ public class ProductPageUI {
 	public static final String PRODUCT_DETAIL_NAME = "xpath=//div[@class='product-name']//h1";
 	public static final String PRODUCT_PRICE = "xpath=//div[@class='product-price']//span";
 	public static final String PRODUCT_QUANTITY_TEXT_BOX = "css=input#product_enteredQuantity_1";
+	public static final String DYNAMIC_BUTTON_BY_PRODUCT_NAME_AND_TEXT = "xpath=//a[text()='%s']//parent::h2//following-sibling::div[@class='add-info']//button[text()='%s']";
 
 }

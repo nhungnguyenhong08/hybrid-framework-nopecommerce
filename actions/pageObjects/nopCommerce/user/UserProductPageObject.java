@@ -164,4 +164,9 @@ public class UserProductPageObject extends BasePage {
 		sendkeyToElement(driver, ProductPageUI.PRODUCT_QUANTITY_TEXT_BOX, productQuantity);
 	}
 
+	public void clickToButtonByProductNameandText(WebDriver driver, String productName, String buttonText) {
+		waitForElementClickable(driver, ProductPageUI.DYNAMIC_BUTTON_BY_PRODUCT_NAME_AND_TEXT, productName, buttonText);
+		clickToElement(driver, ProductPageUI.DYNAMIC_BUTTON_BY_PRODUCT_NAME_AND_TEXT, productName, buttonText);
+	}
+
 }

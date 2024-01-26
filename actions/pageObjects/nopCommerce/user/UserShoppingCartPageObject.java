@@ -31,4 +31,29 @@ public class UserShoppingCartPageObject extends BasePage {
 		// 3
 		// return PageGeneratorManagerNopCommerce.getUserProductPage(driver);
 	}
+
+	public void clickToRemoveButtonByProductName(WebDriver driver, String productName) {
+		waitForElementClickable(driver, ShoppingCartPageUI.REMOVE_BUTTON, productName);
+		clickToElement(driver, ShoppingCartPageUI.REMOVE_BUTTON, productName);
+	}
+
+	public String getMessageDisplayed(WebDriver driver) {
+		waitForElementVisible(driver, ShoppingCartPageUI.MESSAGE_AT_SHOPPING_CART);
+		return getElementText(driver, ShoppingCartPageUI.MESSAGE_AT_SHOPPING_CART);
+	}
+
+	public boolean isProductUndisplayedInShoppingCart(WebDriver driver, String productName) {
+		waitForElementInvisible(driver, ShoppingCartPageUI.PRODUCT_NAME_IN_LIST, productName);
+		return isElementUndisplayed(driver, ShoppingCartPageUI.PRODUCT_NAME_IN_LIST, productName);
+	}
+
+	public void inputToQuantityTextboxByProductName(WebDriver driver, String secondDesktopsProduct, String productNumber) {
+		waitForElementClickable(driver, ShoppingCartPageUI.PRODUCT_QUANTITY_BY_PRODUCT_NAME, secondDesktopsProduct);
+		sendkeyToElement(driver, ShoppingCartPageUI.PRODUCT_QUANTITY_BY_PRODUCT_NAME, productNumber, secondDesktopsProduct);
+	}
+
+	public String getProductPriceByProductName(WebDriver driver, String productName) {
+		waitForElementVisible(driver, ShoppingCartPageUI.PRODUCT_PRICE_BY_PRODUCT_NAME, productName);
+		return getElementText(driver, ShoppingCartPageUI.PRODUCT_PRICE_BY_PRODUCT_NAME, productName);
+	}
 }
