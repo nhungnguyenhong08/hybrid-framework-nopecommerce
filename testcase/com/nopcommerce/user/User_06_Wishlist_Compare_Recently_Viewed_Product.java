@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -30,14 +31,12 @@ public class User_06_Wishlist_Compare_Recently_Viewed_Product extends BaseTest {
 	private UserRecentlyViewedProductPageObject recentlyViewedProduct;
 	private String noteBooksProduct, desktopsProduct, viewedProductName03, viewedProductName04, viewedProductName05;
 
-	@Parameters("browser")
+	@Parameters({ "envName", "serverName", "browserName", "osName", "osVersion", "ipAddress", "portNumber" })
 	@BeforeClass
-	public void beforeClass(String browserName) {
-		noteBooksProduct = "Apple MacBook Pro 13-inch";
-		desktopsProduct = "Lenovo IdeaCentre 600 All-in-One PC";
-
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("11") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
 		log.info("Pre-Condition - Step 01: Open browser '" + browserName + "'");
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriver(envName, serverName, browserName, osName, osVersion, ipAddress, portNumber);
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 		log.info("Pre-condition - Step 02: Navigate to Login page");
@@ -50,6 +49,9 @@ public class User_06_Wishlist_Compare_Recently_Viewed_Product extends BaseTest {
 		log.info("Pre-Condition - Step 04: Verify Home page Displayed");
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
+
+		noteBooksProduct = "Apple MacBook Pro 13-inch";
+		desktopsProduct = "Lenovo IdeaCentre 600 All-in-One PC";
 	}
 
 	@Test

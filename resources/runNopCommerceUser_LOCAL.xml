@@ -10,16 +10,18 @@
   </listeners>
   
   <!-- Global: Best-->
- <!-- <parameter name = "environment" value = "testing" /> -->
   <!-- <parameter name = "url" value = "https://..." />-->
-  <parameter name = "browser" value = "CHROME" />
+  <!-- <parameter name = "browser" value = "CHROME" />-->
+  <parameter name = "envName" value = "local" />
+  <parameter name = "serverName" value = "dev" />
 
   
   <test name="Run on Chrome"> 
+    <parameter name = "browser" value = "CHROME" />
     <classes>
    <!--Trigger Common Register run first --> 
-     <class name="com.nopcommerce.common.Common_01_Register_Cookies"/> 
-      <class name="com.nopcommerce.user.User_07_Order"/>
+      <class name="com.nopcommerce.common.Common_01_Register_Cookies"/>
+     <class name="com.nopcommerce.user.User_05_Sort_Display_Paging"/>
     </classes>
   </test> 
  

@@ -22,7 +22,7 @@ public class Level_20_Sort_Asc_Desc extends BaseTest {
 	@Parameters({ "browser", "appUrl" })
 	@BeforeClass
 	public void beforeClass(String browserName, String saucelabUrl) {
-		driver = getBrowserDriver(browserName, saucelabUrl);
+		driver = getBrowserDriverLocal(browserName, saucelabUrl);
 
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 

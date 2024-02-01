@@ -7212,3 +7212,739 @@ Driver info: driver.version: RemoteWebDriver
 [26-01-2024 22:23:50.727 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
 [26-01-2024 22:23:50.727 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
 [26-01-2024 22:23:50.727 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = chromedriver: chrome on windows (73a5b8b8b8fcd82cd66ddd0ac12ce788)
+[31-01-2024 22:21:16.853 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 22:21:16.860 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 22:33:54.705 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 22:33:54.708 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 22:35:45.357 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 22:35:45.360 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 22:48:06.301 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 22:48:06.304 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 22:48:37.594 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 22:48:41.638 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 22:52:13.456 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 22:52:13.628 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 22:53:31.231 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 22:53:31.234 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 22:57:56.664 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 22:57:58.126 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:00:28.087 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:00:28.091 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:00:36.245 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:00:36.250 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:10:39.919 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:10:39.921 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:13:31.949 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:13:31.953 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:14:11.482 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:14:11.485 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:17:24.638 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:17:24.641 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:19:01.266 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:19:01.270 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:20:14.369 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[31-01-2024 23:20:15.341 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[31-01-2024 23:20:15.428 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[31-01-2024 23:20:15.553 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[31-01-2024 23:20:15.670 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[31-01-2024 23:20:15.801 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[31-01-2024 23:20:15.902 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[31-01-2024 23:20:15.994 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc1601@fakemail.com'
+[31-01-2024 23:20:16.179 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[31-01-2024 23:20:16.280 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[31-01-2024 23:20:16.389 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[31-01-2024 23:20:16.978 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[31-01-2024 23:20:17.029 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[31-01-2024 23:20:17.425 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[31-01-2024 23:20:18.132 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc1601@fakemail.com'
+[31-01-2024 23:20:18.262 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[31-01-2024 23:20:18.384 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[31-01-2024 23:20:19.007 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[31-01-2024 23:20:19.084 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[31-01-2024 23:20:19.462 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[31-01-2024 23:20:19.530 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[31-01-2024 23:20:19.592 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[31-01-2024 23:20:19.652 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[31-01-2024 23:20:19.717 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:20:19.717 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = chromedriver: chrome on windows (84e76950880efc13c604a1e5ffee786b)
+[31-01-2024 23:26:56.173 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - OS name = windows 11
+[31-01-2024 23:26:56.176 INFO com.nopcommerce.cloud.Level_24_Cloud_Browserstack] - null
+[31-01-2024 23:26:58.767 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[31-01-2024 23:26:59.733 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[31-01-2024 23:26:59.832 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[31-01-2024 23:26:59.955 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[31-01-2024 23:27:00.067 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[31-01-2024 23:27:00.184 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[31-01-2024 23:27:00.304 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[31-01-2024 23:27:00.416 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc9831@fakemail.com'
+[31-01-2024 23:27:00.608 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[31-01-2024 23:27:00.728 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[31-01-2024 23:27:00.850 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[31-01-2024 23:27:01.514 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[31-01-2024 23:27:01.566 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[31-01-2024 23:27:01.959 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[31-01-2024 23:27:02.678 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc9831@fakemail.com'
+[31-01-2024 23:27:02.812 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[31-01-2024 23:27:02.930 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[31-01-2024 23:27:03.528 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[31-01-2024 23:27:03.601 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[31-01-2024 23:27:03.987 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[31-01-2024 23:27:04.056 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[31-01-2024 23:27:04.127 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[31-01-2024 23:27:04.189 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[31-01-2024 23:27:04.260 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:27:04.260 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = chromedriver: chrome on windows (a76466bd34c49f92b32bef0b48cc8163)
+[31-01-2024 23:29:37.470 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[31-01-2024 23:29:41.761 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[31-01-2024 23:29:42.904 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[31-01-2024 23:29:43.925 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[31-01-2024 23:29:44.883 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[31-01-2024 23:29:46.486 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[31-01-2024 23:29:48.156 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[31-01-2024 23:29:49.780 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc7429@fakemail.com'
+[31-01-2024 23:29:51.631 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[31-01-2024 23:29:52.667 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[31-01-2024 23:29:53.701 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[31-01-2024 23:29:55.127 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[31-01-2024 23:29:55.863 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[31-01-2024 23:29:57.105 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[31-01-2024 23:29:59.422 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc7429@fakemail.com'
+[31-01-2024 23:30:00.403 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[31-01-2024 23:30:02.289 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[31-01-2024 23:30:03.665 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[31-01-2024 23:30:04.656 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[31-01-2024 23:30:05.871 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[31-01-2024 23:30:06.625 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[31-01-2024 23:30:07.350 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[31-01-2024 23:30:08.080 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[31-01-2024 23:30:08.820 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:30:08.821 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (f538e3d564e94d61b2677718ff3df6747a06047d)
+[31-01-2024 23:30:19.236 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[31-01-2024 23:30:20.703 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[31-01-2024 23:30:21.877 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[31-01-2024 23:30:23.885 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[31-01-2024 23:30:24.813 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[31-01-2024 23:30:26.395 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[31-01-2024 23:30:27.956 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[31-01-2024 23:30:29.509 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc9139@fakemail.com'
+[31-01-2024 23:30:31.331 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[31-01-2024 23:30:32.401 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[31-01-2024 23:30:33.433 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[31-01-2024 23:30:34.898 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[31-01-2024 23:30:35.648 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[31-01-2024 23:30:36.847 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[31-01-2024 23:30:39.111 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc9139@fakemail.com'
+[31-01-2024 23:30:40.061 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[31-01-2024 23:30:41.884 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[31-01-2024 23:30:43.317 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[31-01-2024 23:30:44.098 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[31-01-2024 23:30:45.274 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[31-01-2024 23:30:46.005 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[31-01-2024 23:30:46.712 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[31-01-2024 23:30:47.404 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[31-01-2024 23:30:48.104 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:30:48.105 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on mac (65496d9453e0346e779107dd0e63e5c3d21336a0)
+[31-01-2024 23:33:26.983 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[31-01-2024 23:33:26.985 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - null
+[31-01-2024 23:33:27.032 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[31-01-2024 23:33:27.032 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - null
+[31-01-2024 23:34:09.814 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[31-01-2024 23:34:12.482 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[31-01-2024 23:34:14.753 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[31-01-2024 23:34:17.058 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[31-01-2024 23:34:19.343 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[31-01-2024 23:34:22.671 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[31-01-2024 23:34:25.929 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[31-01-2024 23:34:29.220 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc6009@fakemail.com'
+[31-01-2024 23:34:33.202 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[31-01-2024 23:34:35.419 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[31-01-2024 23:34:37.710 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[31-01-2024 23:34:40.199 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[31-01-2024 23:34:41.697 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[31-01-2024 23:34:43.904 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[31-01-2024 23:34:48.329 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc6009@fakemail.com'
+[31-01-2024 23:34:50.544 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[31-01-2024 23:34:52.884 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[31-01-2024 23:34:55.465 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[31-01-2024 23:34:56.951 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[31-01-2024 23:34:59.635 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[31-01-2024 23:35:01.116 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[31-01-2024 23:35:02.640 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[31-01-2024 23:35:04.057 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[31-01-2024 23:35:05.557 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:35:05.558 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (fe98e0e529ce40af8fc7b5fd10f92ae7)
+[31-01-2024 23:35:08.591 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:35:08.591 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:48:56.634 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[31-01-2024 23:49:00.780 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[31-01-2024 23:49:03.064 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[31-01-2024 23:49:05.108 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[31-01-2024 23:49:07.325 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[31-01-2024 23:49:10.833 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[31-01-2024 23:49:14.339 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[31-01-2024 23:49:17.773 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc5842@fakemail.com'
+[31-01-2024 23:49:21.876 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[31-01-2024 23:49:24.104 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[31-01-2024 23:49:26.174 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[31-01-2024 23:49:28.923 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[31-01-2024 23:49:30.485 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[31-01-2024 23:49:32.712 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[31-01-2024 23:49:37.024 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc5842@fakemail.com'
+[31-01-2024 23:49:39.187 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[31-01-2024 23:49:41.447 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[31-01-2024 23:49:44.013 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[31-01-2024 23:49:45.580 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[31-01-2024 23:49:48.151 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[31-01-2024 23:49:49.732 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[31-01-2024 23:49:51.212 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[31-01-2024 23:49:52.676 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[31-01-2024 23:49:54.143 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:49:54.144 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (f5e406d3a2f148cdbbe3c8eb1c42e463)
+[31-01-2024 23:49:56.561 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:49:56.562 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:50:17.197 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[31-01-2024 23:50:20.129 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[31-01-2024 23:50:22.954 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[31-01-2024 23:50:25.383 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[31-01-2024 23:50:27.723 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[31-01-2024 23:50:31.889 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[31-01-2024 23:50:35.520 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[31-01-2024 23:50:39.073 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc876@fakemail.com'
+[31-01-2024 23:50:43.606 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[31-01-2024 23:50:45.945 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[31-01-2024 23:50:48.444 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[31-01-2024 23:50:51.821 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[31-01-2024 23:50:53.343 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[31-01-2024 23:50:55.853 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[31-01-2024 23:51:00.732 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc876@fakemail.com'
+[31-01-2024 23:51:03.233 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[31-01-2024 23:51:05.797 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[31-01-2024 23:51:08.787 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[31-01-2024 23:51:10.286 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[31-01-2024 23:51:13.465 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[31-01-2024 23:51:14.953 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[31-01-2024 23:51:16.426 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[31-01-2024 23:51:17.943 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[31-01-2024 23:51:19.511 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:51:19.512 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (524a3c5ebab94fa996af7b36d8c22162)
+[31-01-2024 23:51:22.616 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:51:22.616 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:57:56.176 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[31-01-2024 23:57:58.787 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[31-01-2024 23:58:00.615 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[31-01-2024 23:58:02.284 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[31-01-2024 23:58:04.493 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[31-01-2024 23:58:06.879 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[31-01-2024 23:58:09.227 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[31-01-2024 23:58:11.596 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc2684@fakemail.com'
+[31-01-2024 23:58:14.566 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[31-01-2024 23:58:16.261 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[31-01-2024 23:58:17.932 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[31-01-2024 23:58:19.987 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[31-01-2024 23:58:21.013 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[31-01-2024 23:58:22.677 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[31-01-2024 23:58:26.143 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc2684@fakemail.com'
+[31-01-2024 23:58:27.795 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[31-01-2024 23:58:29.432 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[31-01-2024 23:58:31.393 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[31-01-2024 23:58:32.472 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[31-01-2024 23:58:34.414 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[31-01-2024 23:58:35.465 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[31-01-2024 23:58:36.447 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[31-01-2024 23:58:37.468 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[31-01-2024 23:58:38.438 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:58:38.439 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (4aaf6b120b214946bde9bd6fd66a6f86)
+[31-01-2024 23:58:40.668 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[31-01-2024 23:58:40.669 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[31-01-2024 23:59:47.398 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[31-01-2024 23:59:52.455 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[31-01-2024 23:59:54.601 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[31-01-2024 23:59:56.496 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[31-01-2024 23:59:58.302 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[01-02-2024 00:00:00.822 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[01-02-2024 00:00:03.203 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[01-02-2024 00:00:05.545 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc4392@fakemail.com'
+[01-02-2024 00:00:08.502 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[01-02-2024 00:00:10.171 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[01-02-2024 00:00:11.791 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[01-02-2024 00:00:13.777 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[01-02-2024 00:00:14.767 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[01-02-2024 00:00:16.595 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[01-02-2024 00:00:19.980 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc4392@fakemail.com'
+[01-02-2024 00:00:21.883 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[01-02-2024 00:00:23.766 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[01-02-2024 00:00:25.747 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[01-02-2024 00:00:26.829 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[01-02-2024 00:00:28.711 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[01-02-2024 00:00:29.737 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[01-02-2024 00:00:30.737 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[01-02-2024 00:00:31.745 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[01-02-2024 00:00:32.715 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[01-02-2024 00:00:32.716 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (95c6f1abf56a4ef7a15a95634d8a099f)
+[01-02-2024 00:00:35.689 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[01-02-2024 00:00:35.689 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[01-02-2024 00:02:43.782 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[01-02-2024 00:02:45.758 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[01-02-2024 00:02:47.448 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[01-02-2024 00:02:49.032 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[01-02-2024 00:02:50.634 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[01-02-2024 00:02:52.931 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[01-02-2024 00:02:55.106 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[01-02-2024 00:02:57.357 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc1680@fakemail.com'
+[01-02-2024 00:03:00.048 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[01-02-2024 00:03:01.571 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[01-02-2024 00:03:03.045 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[01-02-2024 00:03:04.863 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[01-02-2024 00:03:05.825 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[01-02-2024 00:03:07.314 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[01-02-2024 00:03:10.260 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc1680@fakemail.com'
+[01-02-2024 00:03:11.747 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[01-02-2024 00:03:13.197 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[01-02-2024 00:03:14.985 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[01-02-2024 00:03:15.967 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[01-02-2024 00:03:17.573 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[01-02-2024 00:03:18.566 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[01-02-2024 00:03:19.511 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[01-02-2024 00:03:20.455 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[01-02-2024 00:03:21.419 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[01-02-2024 00:03:21.419 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (e330f343cfbc46b4ad22f64bc4ff9067)
+[01-02-2024 00:03:23.605 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[01-02-2024 00:03:23.605 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[01-02-2024 00:04:20.298 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[01-02-2024 00:04:23.003 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[01-02-2024 00:04:25.311 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[01-02-2024 00:04:27.536 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[01-02-2024 00:04:30.056 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[01-02-2024 00:04:33.403 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[01-02-2024 00:04:36.924 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[01-02-2024 00:04:40.305 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc4465@fakemail.com'
+[01-02-2024 00:04:44.008 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[01-02-2024 00:04:46.101 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[01-02-2024 00:04:48.215 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[01-02-2024 00:04:50.660 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[01-02-2024 00:04:52.145 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[01-02-2024 00:04:54.079 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[01-02-2024 00:04:58.368 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc4465@fakemail.com'
+[01-02-2024 00:05:00.553 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[01-02-2024 00:05:02.685 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[01-02-2024 00:05:05.149 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[01-02-2024 00:05:06.630 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[01-02-2024 00:05:08.981 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[01-02-2024 00:05:10.351 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[01-02-2024 00:05:11.806 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[01-02-2024 00:05:13.158 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[01-02-2024 00:05:14.526 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[01-02-2024 00:05:14.526 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (8d8eaa369cb348e996081bbe0cedbe04)
+[01-02-2024 00:06:13.370 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[01-02-2024 00:06:16.406 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[01-02-2024 00:06:18.830 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[01-02-2024 00:06:21.230 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[01-02-2024 00:06:23.615 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[01-02-2024 00:06:27.197 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[01-02-2024 00:06:30.829 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[01-02-2024 00:06:34.506 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc8579@fakemail.com'
+[01-02-2024 00:06:38.988 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[01-02-2024 00:06:41.581 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[01-02-2024 00:06:44.958 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[01-02-2024 00:06:48.600 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[01-02-2024 00:06:50.230 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[01-02-2024 00:06:52.695 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[01-02-2024 00:06:57.636 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc8579@fakemail.com'
+[01-02-2024 00:07:00.073 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[01-02-2024 00:07:02.574 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[01-02-2024 00:07:05.498 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[01-02-2024 00:07:07.148 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[01-02-2024 00:07:10.246 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[01-02-2024 00:07:11.907 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[01-02-2024 00:07:13.393 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[01-02-2024 00:07:14.824 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[01-02-2024 00:07:16.340 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[01-02-2024 00:07:16.341 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (ebbfabe1444141b0b8d06e336c1353af)
+[01-02-2024 00:08:51.412 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 01: Navigate to 'Register' page
+[01-02-2024 00:08:54.617 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 02: Click to radio button 'Male'
+[01-02-2024 00:08:57.011 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[01-02-2024 00:08:59.457 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[01-02-2024 00:09:01.637 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[01-02-2024 00:09:04.958 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[01-02-2024 00:09:08.312 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[01-02-2024 00:09:11.604 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 08: Enter to Email textbox with value is 'automationfc7214@fakemail.com'
+[01-02-2024 00:09:15.460 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 09: Enter to Password textbox with value is '123456'
+[01-02-2024 00:09:17.559 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[01-02-2024 00:09:19.882 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 11: Enter to 'Register' button
+[01-02-2024 00:09:22.393 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 12: Verify success message is displayed
+[01-02-2024 00:09:23.865 INFO com.nopcommerce.cloud.Level_24_ALL] - Register - Step 13: Click to Logout link
+[01-02-2024 00:09:26.181 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to Login page
+[01-02-2024 00:09:30.515 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Enter to Email textbox with value is 'automationfc7214@fakemail.com'
+[01-02-2024 00:09:32.636 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Enter to Password textbox with value is '123456'
+[01-02-2024 00:09:34.758 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Click to Login button
+[01-02-2024 00:09:37.291 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'My Account' link is displayed
+[01-02-2024 00:09:39.348 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 01: Navigate to 'My Account' link
+[01-02-2024 00:09:41.685 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[01-02-2024 00:09:43.195 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 03: Verify 'First Name' value is correctly
+[01-02-2024 00:09:44.735 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 04: Verify 'Last Name' value is correctly
+[01-02-2024 00:09:46.141 INFO com.nopcommerce.cloud.Level_24_ALL] - Login - Step 05: Verify 'Email' value is correctly
+[01-02-2024 00:09:47.580 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[01-02-2024 00:09:47.582 INFO com.nopcommerce.cloud.Level_24_ALL] - Driver instance name = remotewebdriver: chrome on windows (99257e5887424286925a7b843c54f70b)
+[01-02-2024 00:09:51.029 INFO com.nopcommerce.cloud.Level_24_ALL] - OS name = windows 11
+[01-02-2024 00:09:51.029 INFO com.nopcommerce.cloud.Level_24_ALL] - null
+[01-02-2024 21:10:37.232 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 01: Navigate to 'Register' page
+[01-02-2024 21:10:40.216 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 02: Click to radio button 'Male'
+[01-02-2024 21:10:42.087 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[01-02-2024 21:10:43.780 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[01-02-2024 21:10:45.417 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[01-02-2024 21:10:48.001 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[01-02-2024 21:10:50.511 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[01-02-2024 21:10:53.010 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 08: Enter to Email textbox with value is 'automationfc5614@fakemail.com'
+[01-02-2024 21:10:55.952 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 09: Enter to Password textbox with value is '123456'
+[01-02-2024 21:10:57.733 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[01-02-2024 21:10:59.429 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 11: Enter to 'Register' button
+[01-02-2024 21:11:01.720 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 12: Verify success message is displayed
+[01-02-2024 21:11:02.787 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Register - Step 13: Click to Logout link
+[01-02-2024 21:11:04.688 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to Login page
+[01-02-2024 21:11:09.190 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Enter to Email textbox with value is 'automationfc5614@fakemail.com'
+[01-02-2024 21:11:10.869 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Enter to Password textbox with value is '123456'
+[01-02-2024 21:11:12.571 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Click to Login button
+[01-02-2024 21:11:14.645 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'My Account' link is displayed
+[01-02-2024 21:11:15.752 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 01: Navigate to 'My Account' link
+[01-02-2024 21:11:17.718 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[01-02-2024 21:11:18.752 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 03: Verify 'First Name' value is correctly
+[01-02-2024 21:11:19.800 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 04: Verify 'Last Name' value is correctly
+[01-02-2024 21:11:20.863 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Login - Step 05: Verify 'Email' value is correctly
+[01-02-2024 21:11:21.885 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[01-02-2024 21:11:21.887 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - Driver instance name = remotewebdriver: firefox on windows (59753ce133084007b4f6d25bda61d796)
+[01-02-2024 21:11:24.773 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - OS name = windows 11
+[01-02-2024 21:11:24.773 INFO com.nopcommerce.cloud.Level_24_Cloud_SauceLab] - null
+[01-02-2024 21:19:04.295 INFO com.facebook.register.Level_13_Element_Undisplayed] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 21:19:07.510 INFO com.facebook.register.Level_13_Element_Undisplayed] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 21:19:10.878 INFO com.facebook.register.Level_13_Element_Undisplayed] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 21:19:24.253 INFO com.facebook.register.Level_13_Element_Undisplayed] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 21:21:41.263 INFO com.facebook.register.Level_13_Element_Undisplayed] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 21:21:44.484 INFO com.facebook.register.Level_13_Element_Undisplayed] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 21:21:47.819 INFO com.facebook.register.Level_13_Element_Undisplayed] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 21:22:01.171 INFO com.facebook.register.Level_13_Element_Undisplayed] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:21:29.800 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - OS name = windows 11
+[01-02-2024 22:21:29.802 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - null
+[01-02-2024 22:24:35.157 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - OS name = windows 11
+[01-02-2024 22:24:35.160 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - null
+[01-02-2024 22:26:22.026 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - OS name = windows 11
+[01-02-2024 22:26:22.029 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - null
+[01-02-2024 22:27:48.161 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - OS name = windows 11
+[01-02-2024 22:27:48.164 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - null
+[01-02-2024 22:29:51.064 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - OS name = windows 11
+[01-02-2024 22:29:51.068 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_II] - null
+[01-02-2024 22:31:29.206 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 01: Navigate to 'Register' page
+[01-02-2024 22:31:29.687 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 02: Click to radio button 'Male'
+[01-02-2024 22:31:29.783 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 03: Enter to Firstname textbox with value is 'Karie'
+[01-02-2024 22:31:29.906 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 04: Enter to Lastname textbox with value is 'Klein'
+[01-02-2024 22:31:30.007 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[01-02-2024 22:31:30.106 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[01-02-2024 22:31:30.210 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1996'
+[01-02-2024 22:31:30.321 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 08: Enter to Email textbox with value is 'deshawn.konopelski@gmail.com'
+[01-02-2024 22:31:30.502 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 09: Enter to Password textbox with value is '$0yV%qP7b2m'
+[01-02-2024 22:31:30.607 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 10: Enter to Confirm password textbox with value is '$0yV%qP7b2m'
+[01-02-2024 22:31:30.737 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 11: Enter to 'Register' button
+[01-02-2024 22:31:31.437 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 12: Verify success message is displayed
+[01-02-2024 22:31:31.490 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Register - Step 13: Click to Logout link
+[01-02-2024 22:31:31.917 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Login - Step 01: Navigate to Login page
+[01-02-2024 22:31:47.942 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Login - Step 01: Navigate to 'My Account' link
+[01-02-2024 22:31:48.402 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[01-02-2024 22:31:48.475 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Login - Step 03: Verify 'First Name' value is correctly
+[01-02-2024 22:31:48.550 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Login - Step 04: Verify 'Lase Name' value is correctly
+[01-02-2024 22:31:48.610 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Login - Step 05: Verify 'Email' value is correctly
+[01-02-2024 22:31:48.704 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - OS name = windows 11
+[01-02-2024 22:31:48.705 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_I] - Driver instance name = chromedriver: chrome on windows (29f786ca8139543c241d585565ea6769)
+[01-02-2024 22:33:13.544 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 01: Navigate to 'Register' page
+[01-02-2024 22:33:14.007 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 02: Click to radio button 'Male'
+[01-02-2024 22:33:14.098 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[01-02-2024 22:33:14.230 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[01-02-2024 22:33:14.326 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[01-02-2024 22:33:14.428 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[01-02-2024 22:33:14.531 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[01-02-2024 22:33:14.641 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 08: Enter to Email textbox with value is 'automationfc4792@fakemail.com'
+[01-02-2024 22:33:14.835 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 09: Enter to Password textbox with value is '123456'
+[01-02-2024 22:33:14.932 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[01-02-2024 22:33:15.025 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 11: Enter to 'Register' button
+[01-02-2024 22:33:15.684 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 12: Verify success message is displayed
+[01-02-2024 22:33:15.741 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Register - Step 13: Click to Logout link
+[01-02-2024 22:33:16.155 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 01: Navigate to Login page
+[01-02-2024 22:33:17.119 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 02: Enter to Email textbox with value is 'automationfc4792@fakemail.com'
+[01-02-2024 22:33:17.248 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 03: Enter to Password textbox with value is '123456'
+[01-02-2024 22:33:17.372 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 04: Click to Login button
+[01-02-2024 22:33:18.063 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 05: Verify 'My Account' link is displayed
+[01-02-2024 22:33:18.127 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 01: Navigate to 'My Account' link
+[01-02-2024 22:33:18.713 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[01-02-2024 22:33:18.780 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 03: Verify 'First Name' value is correctly
+[01-02-2024 22:33:18.841 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 04: Verify 'Lase Name' value is correctly
+[01-02-2024 22:33:18.898 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Login - Step 05: Verify 'Email' value is correctly
+[01-02-2024 22:33:18.967 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - OS name = windows 11
+[01-02-2024 22:33:18.967 INFO com.nopcommerce.user.Level_21_Manage_Data_Part_IV] - Driver instance name = chromedriver: chrome on windows (92b86b7039937d09f35184ed620d50a2)
+[01-02-2024 22:41:55.372 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - OS name = windows 11
+[01-02-2024 22:41:55.375 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - null
+[01-02-2024 22:42:12.322 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - OS name = windows 11
+[01-02-2024 22:42:12.324 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - null
+[01-02-2024 22:45:16.468 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 01: Navigate to 'Register' page
+[01-02-2024 22:45:17.420 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 02: Click to radio button 'Male'
+[01-02-2024 22:45:17.508 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 03: Enter to Firstname textbox with value is 'Automation'
+[01-02-2024 22:45:17.628 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 04: Enter to Lastname textbox with value is 'FC'
+[01-02-2024 22:45:17.722 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 05: Select DateOfBirthDay dropdown with value is '10'
+[01-02-2024 22:45:17.844 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 06: Select DateOfBirthMonth dropdown with value is 'August'
+[01-02-2024 22:45:17.979 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 07: Select DateOfBirthYear dropdown with value is '1995'
+[01-02-2024 22:45:18.127 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 08: Enter to Email textbox with value is 'automationfc4393@fakemail.com'
+[01-02-2024 22:45:18.309 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 09: Enter to Password textbox with value is '123456'
+[01-02-2024 22:45:18.431 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 10: Enter to Confirm password textbox with value is '123456'
+[01-02-2024 22:45:18.534 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 11: Enter to 'Register' button
+[01-02-2024 22:45:19.149 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 12: Verify success message is displayed
+[01-02-2024 22:45:19.201 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Register - Step 13: Click to Logout link
+[01-02-2024 22:45:19.576 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 01: Navigate to Login page
+[01-02-2024 22:45:20.283 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 02: Enter to Email textbox with value is 'automationfc4393@fakemail.com'
+[01-02-2024 22:45:20.419 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 03: Enter to Password textbox with value is '123456'
+[01-02-2024 22:45:20.534 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 04: Click to Login button
+[01-02-2024 22:45:21.134 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 05: Verify 'My Account' link is displayed
+[01-02-2024 22:45:21.210 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 01: Navigate to 'My Account' link
+[01-02-2024 22:45:21.634 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 02: Verify 'Customer Infor' link is displayed
+[01-02-2024 22:45:21.708 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 03: Verify 'First Name' value is correctly
+[01-02-2024 22:45:21.787 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 04: Verify 'Lase Name' value is correctly
+[01-02-2024 22:45:21.878 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Login - Step 05: Verify 'Email' value is correctly
+[01-02-2024 22:45:21.959 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - OS name = windows 11
+[01-02-2024 22:45:21.960 INFO com.nopcommerce.user.Level_22_Multiple_Environment_Owner] - Driver instance name = chromedriver: chrome on windows (e1d7234a196d46a14f1df865eaeb659c)
+[01-02-2024 22:53:05.791 INFO com.nopcommerce.user.User_01_Register] - Pre-Condition - Step 01: Open browser 'chrome'
+[01-02-2024 22:53:08.719 INFO com.nopcommerce.user.User_01_Register] - Register_01 - Step 01: Click to Register link
+[01-02-2024 22:53:09.230 INFO com.nopcommerce.user.User_01_Register] - Register_01 - Step 02: Click to Register button
+[01-02-2024 22:53:09.316 INFO com.nopcommerce.user.User_01_Register] - Register_01 - Step 03: Verify Error Message at First Name textbox
+[01-02-2024 22:53:09.365 INFO com.nopcommerce.user.User_01_Register] - Register_01 - Step 04: Verify Error Message at Last Name textbox
+[01-02-2024 22:53:09.410 INFO com.nopcommerce.user.User_01_Register] - Register_01 - Step 05: Verify Error Message at Email textbox
+[01-02-2024 22:53:09.452 INFO com.nopcommerce.user.User_01_Register] - Register_01 - Step 06: Verify Error Message at Password textbox
+[01-02-2024 22:53:09.499 INFO com.nopcommerce.user.User_01_Register] - Register_01 - Step 07: Verify Error Message at Confirm password Name textbox
+[01-02-2024 22:53:09.581 INFO com.nopcommerce.user.User_01_Register] - Register_02 - Step 01: Click to Register link
+[01-02-2024 22:53:09.977 INFO com.nopcommerce.user.User_01_Register] - Register_02 - Step 02: Enter to Firstname textbox with value is 'Tashina'
+[01-02-2024 22:53:10.104 INFO com.nopcommerce.user.User_01_Register] - Register_02 - Step 03: Enter to Lastname textbox with value is 'Corwin'
+[01-02-2024 22:53:10.226 INFO com.nopcommerce.user.User_01_Register] - Register_02 - Step 04: Enter to Email textbox with value is '12345@56#%'
+[01-02-2024 22:53:10.350 INFO com.nopcommerce.user.User_01_Register] - Register_02 - Step 05: Enter to Password textbox with value is 'lk$Kq%#H174'
+[01-02-2024 22:53:10.474 INFO com.nopcommerce.user.User_01_Register] - Register_02 - Step 06: Enter to Confirm Password textbox with value is 'lk$Kq%#H174'
+[01-02-2024 22:53:10.605 INFO com.nopcommerce.user.User_01_Register] - Register_02 - Step 07: Click to Register button
+[01-02-2024 22:53:10.684 INFO com.nopcommerce.user.User_01_Register] - Register_02 - Step 08: Verify error message displayed
+[01-02-2024 22:53:10.733 INFO com.nopcommerce.user.User_01_Register] - Register_03 - Step 01: Click to Register link
+[01-02-2024 22:53:11.073 INFO com.nopcommerce.user.User_01_Register] - Register_03 - Step 02: Enter to Firstname textbox with value is 'Tashina'
+[01-02-2024 22:53:11.167 INFO com.nopcommerce.user.User_01_Register] - Register_03 - Step 03: Enter to Lastname textbox with value is 'Corwin'
+[01-02-2024 22:53:11.292 INFO com.nopcommerce.user.User_01_Register] - Register_03 - Step 04: Enter to Email textbox with value is 'benito.brown@gmail.com'
+[01-02-2024 22:53:11.416 INFO com.nopcommerce.user.User_01_Register] - Register_03 - Step 05: Enter to Password textbox with value is 'lk$Kq%#H174'
+[01-02-2024 22:53:11.514 INFO com.nopcommerce.user.User_01_Register] - Register_03 - Step 06: Enter to Confirm Password textbox with value is 'lk$Kq%#H174'
+[01-02-2024 22:53:11.652 INFO com.nopcommerce.user.User_01_Register] - Register_03 - Step 07: Click to Register button
+[01-02-2024 22:53:12.316 INFO com.nopcommerce.user.User_01_Register] - Register_03 - Step 08: Verify sucessful message displayed
+[01-02-2024 22:53:12.372 INFO com.nopcommerce.user.User_01_Register] - Register_03 - Step 09: Click to home link
+[01-02-2024 22:53:12.736 INFO com.nopcommerce.user.User_01_Register] - Register_04 - Step 01: Click to Register link
+[01-02-2024 22:53:13.093 INFO com.nopcommerce.user.User_01_Register] - Register_04 - Step 02: Enter to Firstname textbox with value is 'Tashina'
+[01-02-2024 22:53:13.208 INFO com.nopcommerce.user.User_01_Register] - Register_04 - Step 03: Enter to Lastname textbox with value is 'Corwin'
+[01-02-2024 22:53:13.318 INFO com.nopcommerce.user.User_01_Register] - Register_04 - Step 04: Enter to Email textbox with value is 'benito.brown@gmail.com'
+[01-02-2024 22:53:13.442 INFO com.nopcommerce.user.User_01_Register] - Register_04 - Step 05: Enter to Password textbox with value is 'lk$Kq%#H174'
+[01-02-2024 22:53:13.556 INFO com.nopcommerce.user.User_01_Register] - Register_04 - Step 06: Enter to Confirm Password textbox with value is 'lk$Kq%#H174'
+[01-02-2024 22:53:13.679 INFO com.nopcommerce.user.User_01_Register] - Register_04 - Step 07: Click to Register button
+[01-02-2024 22:53:14.153 INFO com.nopcommerce.user.User_01_Register] - Register_04 - Step 08: Verify error existing email message displayed
+[01-02-2024 22:53:14.205 INFO com.nopcommerce.user.User_01_Register] - Register_05 - Step 01: Click to Register link
+[01-02-2024 22:53:14.610 INFO com.nopcommerce.user.User_01_Register] - Register_05 - Step 02: Enter to Firstname textbox with value is 'Tashina'
+[01-02-2024 22:53:14.731 INFO com.nopcommerce.user.User_01_Register] - Register_05 - Step 03: Enter to Lastname textbox with value is 'Corwin'
+[01-02-2024 22:53:14.847 INFO com.nopcommerce.user.User_01_Register] - Register_05 - Step 04: Enter to Email textbox with value is 'benito.brown@gmail.com'
+[01-02-2024 22:53:14.985 INFO com.nopcommerce.user.User_01_Register] - Register_05 - Step 05: Enter to Password textbox with value is '123'
+[01-02-2024 22:53:15.124 INFO com.nopcommerce.user.User_01_Register] - Register_05 - Step 06: Enter to Confirm Password textbox with value is '123'
+[01-02-2024 22:53:15.331 INFO com.nopcommerce.user.User_01_Register] - Register_05 - Step 07: Click to Register button
+[01-02-2024 22:53:15.466 INFO com.nopcommerce.user.User_01_Register] - Register_05 - Step 08: Verify error message displayed
+[01-02-2024 22:53:15.524 INFO com.nopcommerce.user.User_01_Register] - Register_06 - Step 01: Click to Register link
+[01-02-2024 22:53:15.912 INFO com.nopcommerce.user.User_01_Register] - Register_06 - Step 02: Enter to Firstname textbox with value is 'Tashina'
+[01-02-2024 22:53:16.042 INFO com.nopcommerce.user.User_01_Register] - Register_06 - Step 03: Enter to Lastname textbox with value is 'Corwin'
+[01-02-2024 22:53:16.167 INFO com.nopcommerce.user.User_01_Register] - Register_06 - Step 04: Enter to Email textbox with value is 'benito.brown@gmail.com'
+[01-02-2024 22:53:16.310 INFO com.nopcommerce.user.User_01_Register] - Register_06 - Step 05: Enter to Password textbox with value is 'lk$Kq%#H174'
+[01-02-2024 22:53:16.461 INFO com.nopcommerce.user.User_01_Register] - Register_06 - Step 06: Enter to Confirm Password textbox with value is 'benito.brown@gmail.com'
+[01-02-2024 22:53:16.656 INFO com.nopcommerce.user.User_01_Register] - Register_06 - Step 07: Click to Register button
+[01-02-2024 22:53:16.749 INFO com.nopcommerce.user.User_01_Register] - Register_06 - Step 08: Verify error message displayed
+[01-02-2024 22:53:16.813 INFO com.nopcommerce.user.User_01_Register] - Post-Condition: Close browser
+[01-02-2024 22:53:16.814 INFO com.nopcommerce.user.User_01_Register] - OS name = windows 11
+[01-02-2024 22:53:16.814 INFO com.nopcommerce.user.User_01_Register] - Driver instance name = chromedriver: chrome on windows (4c23a85ee1ac8c58939ec09861677398)
+[01-02-2024 22:55:50.126 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[01-02-2024 22:55:50.599 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Yuonne'
+[01-02-2024 22:55:50.720 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Mann'
+[01-02-2024 22:55:50.844 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'latasha.renner@gmail.com'
+[01-02-2024 22:55:50.962 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is 'bR8WKW0YdlM'
+[01-02-2024 22:55:51.080 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is 'bR8WKW0YdlM'
+[01-02-2024 22:55:51.208 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[01-02-2024 22:55:51.865 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[01-02-2024 22:55:51.931 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:55:51.931 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[01-02-2024 22:55:52.356 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[01-02-2024 22:55:53.088 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'latasha.renner@gmail.com'
+[01-02-2024 22:55:53.231 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is 'bR8WKW0YdlM'
+[01-02-2024 22:55:53.351 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[01-02-2024 22:55:54.099 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-Condition - Step 01: Open browser 'chrome'
+[01-02-2024 22:55:56.152 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-condition - Step 02: Navigate to Login page
+[01-02-2024 22:55:57.127 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-condition - Step 03: Set cookie and reload page
+[01-02-2024 22:56:00.546 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-Condition - Step 04: Verify Home page Displayed
+[01-02-2024 22:56:00.623 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 22:56:03.937 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 02: Click To 'Sort by' dropdown
+[01-02-2024 22:56:04.045 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 03: Click To 'Display per page' dropdown
+[01-02-2024 22:56:04.179 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 04: Products names are sorted in ascending Order
+[01-02-2024 22:56:04.226 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:04.273 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 22:56:06.862 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 02: Click To 'Sort by' dropdown
+[01-02-2024 22:56:06.965 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 03: Click To 'Display per page' dropdown
+[01-02-2024 22:56:07.060 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 04: Products names are sorted in ascending Order
+[01-02-2024 22:56:07.612 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:07.669 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:07.677 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 22:56:10.231 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 02: Click To 'Sort by' dropdown
+[01-02-2024 22:56:10.338 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 03: Click To 'Display per page' dropdown
+[01-02-2024 22:56:10.432 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 04: Products price is sorted in ascending Order
+[01-02-2024 22:56:10.982 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:11.052 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:11.055 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 22:56:13.661 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 02: Click To 'Sort by' dropdown
+[01-02-2024 22:56:13.843 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 03: Click To 'Display per page' dropdown
+[01-02-2024 22:56:13.964 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 04: Products price is sorted in descending Order
+[01-02-2024 22:56:14.524 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:14.606 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:14.621 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 22:56:17.240 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 02: Click To 'Display per page' dropdown
+[01-02-2024 22:56:17.354 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 03: Verify Product page size is correct
+[01-02-2024 22:56:17.914 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:18.020 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:18.021 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 04: Verify pagination is dispalyed
+[01-02-2024 22:56:18.156 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:18.157 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 05: Verify pagination next icon is dispalyed
+[01-02-2024 22:56:18.260 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:18.260 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - TC_05_Display: Step 06: Click To Page 2 link
+[01-02-2024 22:56:18.391 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - TC_05_Display: Step 07: Verify pagination Previous icon is dispalyed
+[01-02-2024 22:56:18.949 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:19.099 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:19.108 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_06 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 22:56:21.783 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_06: Step 02: Click To 'Display per page' dropdown
+[01-02-2024 22:56:21.888 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_06: Step 03: Verify product number displayed is correct
+[01-02-2024 22:56:21.930 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:22.147 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:22.147 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_06: Step 04: Verify pagination is undispalyed
+[01-02-2024 22:56:42.294 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:42.311 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_07 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 22:56:44.908 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_07: Step 02: Click To 'Display per page' dropdown
+[01-02-2024 22:56:45.049 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_07: Step 03: Verify product number displayed is correct
+[01-02-2024 22:56:47.357 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:56:47.358 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_07: Step 04: Verify pagination is undispalyed
+[01-02-2024 22:57:07.460 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 22:57:07.470 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Post-Condition: Close browser
+[01-02-2024 22:57:07.471 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - OS name = windows 11
+[01-02-2024 22:57:07.472 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Driver instance name = chromedriver: chrome on windows (3ec18f53d5ec7ae6a7912a172b8a0a95)
+[01-02-2024 23:02:43.088 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 01: Navigate to 'Register' page
+[01-02-2024 23:02:44.041 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Georgie'
+[01-02-2024 23:02:44.161 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'MacGyver'
+[01-02-2024 23:02:44.287 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 04: Enter to Email textbox with value is 'clement.greenfelder@hotmail.com'
+[01-02-2024 23:02:44.412 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 05: Enter to Password textbox with value is 'Zu@2i*&6om'
+[01-02-2024 23:02:44.537 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is 'Zu@2i*&6om'
+[01-02-2024 23:02:44.640 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 07: Enter to 'Register' button
+[01-02-2024 23:02:45.259 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 08: Verify success message is displayed
+[01-02-2024 23:02:45.310 INFO com.nopcommerce.common.Common_01_Register_End_User] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:02:45.311 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 09: Click to Logout link
+[01-02-2024 23:04:46.892 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 01: Navigate to 'Register' page
+[01-02-2024 23:04:47.933 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Antonia'
+[01-02-2024 23:04:48.058 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Christiansen'
+[01-02-2024 23:04:48.186 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 04: Enter to Email textbox with value is 'arron.johns@gmail.com'
+[01-02-2024 23:04:48.289 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 05: Enter to Password textbox with value is '%iU27MF@7r'
+[01-02-2024 23:04:48.413 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '%iU27MF@7r'
+[01-02-2024 23:04:48.535 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 07: Enter to 'Register' button
+[01-02-2024 23:04:49.191 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 08: Verify success message is displayed
+[01-02-2024 23:04:49.242 INFO com.nopcommerce.common.Common_01_Register_End_User] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:04:49.242 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 09: Click to Logout link
+[01-02-2024 23:06:33.624 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 01: Navigate to 'Register' page
+[01-02-2024 23:06:34.749 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Jae'
+[01-02-2024 23:06:34.860 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Kozey'
+[01-02-2024 23:06:34.974 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 04: Enter to Email textbox with value is 'roberto.yundt@gmail.com'
+[01-02-2024 23:06:35.108 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 05: Enter to Password textbox with value is '1!!88&9F@%F'
+[01-02-2024 23:06:35.206 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '1!!88&9F@%F'
+[01-02-2024 23:06:35.332 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 07: Enter to 'Register' button
+[01-02-2024 23:06:36.028 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 08: Verify success message is displayed
+[01-02-2024 23:06:36.095 INFO com.nopcommerce.common.Common_01_Register_End_User] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:06:36.095 INFO com.nopcommerce.common.Common_01_Register_End_User] - Pre-Condition - Step 09: Click to Logout link
+[01-02-2024 23:08:18.582 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[01-02-2024 23:08:19.066 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Sasha'
+[01-02-2024 23:08:19.185 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Funk'
+[01-02-2024 23:08:19.287 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'cleo.cormier@yahoo.com'
+[01-02-2024 23:08:19.394 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is 'cABO^48dhz'
+[01-02-2024 23:08:19.512 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is 'cABO^48dhz'
+[01-02-2024 23:08:19.614 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[01-02-2024 23:08:20.268 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[01-02-2024 23:08:20.327 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:20.327 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[01-02-2024 23:08:20.725 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[01-02-2024 23:08:21.459 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'cleo.cormier@yahoo.com'
+[01-02-2024 23:08:21.564 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is 'cABO^48dhz'
+[01-02-2024 23:08:21.689 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[01-02-2024 23:08:22.433 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-Condition - Step 01: Open browser 'chrome'
+[01-02-2024 23:08:24.447 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-condition - Step 02: Navigate to Login page
+[01-02-2024 23:08:26.219 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-condition - Step 03: Set cookie and reload page
+[01-02-2024 23:08:29.839 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Pre-Condition - Step 04: Verify Home page Displayed
+[01-02-2024 23:08:29.915 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 23:08:33.230 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 02: Click To 'Sort by' dropdown
+[01-02-2024 23:08:33.330 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 03: Click To 'Display per page' dropdown
+[01-02-2024 23:08:33.433 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_01: Step 04: Products names are sorted in ascending Order
+[01-02-2024 23:08:33.478 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:33.513 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 23:08:36.181 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 02: Click To 'Sort by' dropdown
+[01-02-2024 23:08:36.282 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 03: Click To 'Display per page' dropdown
+[01-02-2024 23:08:36.375 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_02: Step 04: Products names are sorted in ascending Order
+[01-02-2024 23:08:36.926 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:36.973 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:36.977 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 23:08:39.525 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 02: Click To 'Sort by' dropdown
+[01-02-2024 23:08:39.619 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 03: Click To 'Display per page' dropdown
+[01-02-2024 23:08:39.713 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_03: Step 04: Products price is sorted in ascending Order
+[01-02-2024 23:08:40.268 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:40.312 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:40.315 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 23:08:42.910 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 02: Click To 'Sort by' dropdown
+[01-02-2024 23:08:43.009 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 03: Click To 'Display per page' dropdown
+[01-02-2024 23:08:43.102 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_04: Step 04: Products price is sorted in descending Order
+[01-02-2024 23:08:43.656 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:43.700 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:43.703 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 23:08:46.277 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 02: Click To 'Display per page' dropdown
+[01-02-2024 23:08:46.400 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 03: Verify Product page size is correct
+[01-02-2024 23:08:46.962 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:47.038 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:47.038 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 04: Verify pagination is dispalyed
+[01-02-2024 23:08:47.104 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:47.104 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_05: Step 05: Verify pagination next icon is dispalyed
+[01-02-2024 23:08:47.166 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:47.166 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - TC_05_Display: Step 06: Click To Page 2 link
+[01-02-2024 23:08:47.245 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - TC_05_Display: Step 07: Verify pagination Previous icon is dispalyed
+[01-02-2024 23:08:47.807 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:47.870 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:47.873 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_06 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 23:08:50.985 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_06: Step 02: Click To 'Display per page' dropdown
+[01-02-2024 23:08:51.067 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_06: Step 03: Verify product number displayed is correct
+[01-02-2024 23:08:51.092 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:51.219 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:08:51.219 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_06: Step 04: Verify pagination is undispalyed
+[01-02-2024 23:09:11.337 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:09:11.341 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_07 - Step 01: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[01-02-2024 23:09:14.051 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_07: Step 02: Click To 'Display per page' dropdown
+[01-02-2024 23:09:14.233 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_07: Step 03: Verify product number displayed is correct
+[01-02-2024 23:09:16.478 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:09:16.479 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Sort_Display_07: Step 04: Verify pagination is undispalyed
+[01-02-2024 23:09:36.614 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] -  -------------------------- PASSED -------------------------- 
+[01-02-2024 23:09:36.617 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Post-Condition: Close browser
+[01-02-2024 23:09:36.617 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - OS name = windows 11
+[01-02-2024 23:09:36.617 INFO com.nopcommerce.user.User_05_Sort_Display_Paging] - Driver instance name = chromedriver: chrome on windows (61c487c93268e9a42b2139b60ce6a959)
+[01-02-2024 23:13:03.666 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 01: Navigate to 'Register' page
+[01-02-2024 23:13:04.214 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+[01-02-2024 23:13:04.342 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 03: Enter to Lastname textbox with value is 'FC'
+[01-02-2024 23:13:04.459 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 04: Enter to Email textbox with value is 'afc2541@gmail.com'
+[01-02-2024 23:13:04.588 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 05: Enter to Password textbox with value is '123456'
+[01-02-2024 23:13:04.690 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 06: Enter to Confirm password textbox with value is '123456'
+[01-02-2024 23:13:04.809 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 07: Enter to 'Register' button
+[01-02-2024 23:13:05.461 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 08: Verify success message is displayed
+[01-02-2024 23:13:05.515 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[01-02-2024 23:13:05.515 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Register - Step 09: Click to Logout link
+[01-02-2024 23:13:05.947 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 01: Navigate to Login page
+[01-02-2024 23:13:06.312 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 02: Enter to Email textbox with value is 'afc2541@gmail.com'
+[01-02-2024 23:13:06.432 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 03: Enter to Password textbox with value is '123456'
+[01-02-2024 23:13:06.551 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 04: Click to Login button
+[01-02-2024 23:13:07.236 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 05: Verify 'My Account' link is displayed
+[01-02-2024 23:13:07.303 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 
+[01-02-2024 23:13:07.303 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 06: Navigate to 'My Account' link
+[01-02-2024 23:13:07.698 INFO com.nopcommerce.user.Level_14_Log_ReportNG] - Login - Step 07: Verify 'Customer Infor' link is displayed
+[01-02-2024 23:13:07.770 INFO com.nopcommerce.user.Level_14_Log_ReportNG] -  -------------------------- FAILED -------------------------- 

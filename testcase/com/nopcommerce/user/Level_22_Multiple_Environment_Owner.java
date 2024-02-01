@@ -36,7 +36,7 @@ public class Level_22_Multiple_Environment_Owner extends BaseTest {
 		ConfigFactory.setProperty("env", environmentName);
 		environment = ConfigFactory.create(Environment.class);
 
-		driver = getBrowserDriver(browserName, environment.appUrl());
+		driver = getBrowserDriverLocal(browserName, environment.appUrl());
 
 		System.out.println(environment.appUrl());
 		System.out.println(environment.appPassword());

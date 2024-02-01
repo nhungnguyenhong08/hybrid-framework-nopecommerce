@@ -32,7 +32,7 @@ public class Level_10_DataTable_DataGrid_LiveGuru extends BaseTest {
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+		driver = getBrowserDriverLocal(browserName, appUrl);
 		userHomePage = PageGeneratorManagerLiveGuru.getUserHomePage(driver);
 
 		email = "phonixtranho26051994" + generateFakeNumber() + "@mail.vn";

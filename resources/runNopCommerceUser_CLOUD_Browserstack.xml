@@ -11,7 +11,9 @@
   
   <!-- Global: Best-->
   <!-- <parameter name = "environment" value = "testing" /> -->
-  <parameter name = "appUrl" value = "https://demo.nopcommerce.com/" />
+  <!-- <parameter name = "appUrl" value = "https://demo.nopcommerce.com/" />-->
+    <parameter name = "envName" value = "browserStack" />
+    <parameter name = "serverName" value = "dev" />
 
 
    <test name="Run on Firefox">
@@ -19,7 +21,7 @@
         <parameter name="osName" value="Windows" />
         <parameter name="osVersion" value="10" />
         <classes>
-            <class name="com.nopcommerce.cloud.Level_24_Cloud_Browserstack" />
+            <class name="com.nopcommerce.cloud.Level_24_ALL" />
         </classes>
    </test>
    
@@ -28,7 +30,7 @@
         <parameter name="osName" value="OS X" />
         <parameter name="osVersion" value="Big Sur" />
         <classes>
-            <class name="com.nopcommerce.cloud.Level_24_Cloud_Browserstack" />
+            <class name="com.nopcommerce.cloud.Level_24_ALL" />
         </classes>
    </test>
     

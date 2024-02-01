@@ -2,33 +2,31 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.joda.time.DateTime;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 
+import factoryEnvironment.BrowserList;
+import factoryEnvironment.BrowserstackFactory;
+import factoryEnvironment.EnvironmentList;
+import factoryEnvironment.GridFactory;
+import factoryEnvironment.LocalFactory;
+import factoryEnvironment.SaucelabFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
@@ -39,7 +37,7 @@ public class BaseTest {
 	@BeforeSuite
 	public void deleteFileInReport() {
 		// Remove all file in ReportNG screenshot (image)
-		deleteAllFileInFolder("reportNGImage");
+		deleteAllFileInFolder("ReportNGScreenShots");
 
 		// Remove all file in Allure attachment (json file)
 		deleteAllFileInFolder("allure-json");
@@ -116,7 +114,31 @@ public class BaseTest {
 		return driver;
 	}
 
-	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
+	protected WebDriver getBrowserDriver(String envName, String serverName, String browserName, String osName, String osVersion, String ipAddress, String portNumber) {
+		switch (envName) {
+		case "local":
+			driver = new LocalFactory(browserName).createDriver();
+			break;
+		case "grid":
+			driver = new GridFactory(browserName, osName, ipAddress, portNumber).createDriver();
+			break;
+		case "browserStack":
+			driver = new BrowserstackFactory(browserName, osName, osVersion).createDriver();
+			break;
+		case "sauceLab":
+			driver = new SaucelabFactory(browserName, osName).createDriver();
+			break;
+		default:
+			driver = new LocalFactory(browserName).createDriver();
+			break;
+		}
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(getEnvironmentUrl(serverName));
+		return driver;
+	}
+
+	protected WebDriver getBrowserDriverLocal(String browserName, String appUrl) {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		switch (browserList) {
 		case CHROME:
@@ -183,110 +205,13 @@ public class BaseTest {
 		return driver;
 	}
 
-	protected WebDriver getBrowserDriverGrid(String browserName, String appUrl, String osName, String ipAddress, String portNumber) {
-		DesiredCapabilities capability = null;
-		Platform platform = null;
-
-		if (osName.contains("windows")) {
-			platform = Platform.WINDOWS;
-		} else {
-			platform = Platform.MAC;
-		}
-
-		switch (browserName) {
-		case "firefox":
-			capability = DesiredCapabilities.firefox();
-			capability.setBrowserName("firefox");
-			capability.setPlatform(platform);
-
-			FirefoxOptions fOptions = new FirefoxOptions();
-			fOptions.merge(capability);
-			break;
-		case "chrome":
-			capability = DesiredCapabilities.chrome();
-			capability.setBrowserName("chrome");
-			capability.setPlatform(platform);
-
-			ChromeOptions cOptions = new ChromeOptions();
-			cOptions.merge(capability);
-			break;
-		case "edge":
-			capability = DesiredCapabilities.edge();
-			capability.setBrowserName("edge");
-			capability.setPlatform(platform);
-
-			EdgeOptions eOptions = new EdgeOptions();
-			eOptions.merge(capability);
-			break;
-		default:
-			throw new RuntimeException("Browser is not valid!");
-		}
-
-		try {
-			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(appUrl);
-		return driver;
-	}
-
-	protected WebDriver getBrowserDriverBrowserstack(String browserName, String appUrl, String osName, String osVersion) {
-		DesiredCapabilities capability = new DesiredCapabilities();
-		capability.setCapability("os", osName);
-		capability.setCapability("osVersion", osVersion);
-		capability.setCapability("browser", browserName);
-		capability.setCapability("browserVersion", "latest");
-		capability.setCapability("resolution", "1920x1080");
-		capability.setCapability("browserstack.debug", "true");
-		capability.setCapability("name", "Run on " + osName + " | " + osVersion + " | " + browserName);
-
-		try {
-			driver = new RemoteWebDriver(new URL(GlobalConstants.BROWSER_STACK_URL), capability);
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(appUrl);
-		return driver;
-	}
-
-	protected WebDriver getBrowserDriverSaucelab(String browserName, String appUrl, String osName) {
-		DesiredCapabilities capability = new DesiredCapabilities();
-		capability.setCapability("platformName", osName);
-		capability.setCapability("browserName", browserName);
-		capability.setCapability("browserVersion", "latest");
-		capability.setCapability("name", "Run on " + osName + " | " + browserName);
-
-		Map<String, Object> sauceOptions = new HashMap<>();
-		if (osName.contains("Windows")) {
-			sauceOptions.put("screenResolution", "1920x1080");
-		} else {
-			sauceOptions.put("screenResolution", "1920x1440");
-		}
-		capability.setCapability("sauce:option", sauceOptions);
-
-		try {
-			driver = new RemoteWebDriver(new URL(GlobalConstants.SAUCE_URL), capability);
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(appUrl);
-		return driver;
-	}
-
 	public WebDriver getDriver() {
 		return this.driver;
 	}
 
-	protected String getEnvironmentUrl(String environmentName) {
+	protected String getEnvironmentUrl(String serverName) {
 		String envUrl = null;
-		EnvironmentList environment = EnvironmentList.valueOf(environmentName.toUpperCase());
+		EnvironmentList environment = EnvironmentList.valueOf(serverName.toUpperCase());
 		switch (environment) {
 		case DEV:
 			envUrl = "https://demo.nopcommerce.com/";

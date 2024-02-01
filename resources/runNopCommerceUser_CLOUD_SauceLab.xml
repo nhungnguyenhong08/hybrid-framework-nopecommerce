@@ -11,24 +11,26 @@
   
   <!-- Global: Best-->
   <!-- <parameter name = "environment" value = "testing" /> -->
-  <parameter name = "appUrl" value = "https://demo.nopcommerce.com/" />
+  <!-- <parameter name = "appUrl" value = "https://demo.nopcommerce.com/" /> -->
+    <parameter name = "envName" value = "sauceLab" />
+    <parameter name = "serverName" value = "dev" />
 
 
-   <test name="Run on Chrome">
-        <parameter name="browser" value="Chrome" />
-        <parameter name="osName" value="Windows 11" />
-        <classes>
-            <class name="com.nopcommerce.cloud.Level_24_Cloud_SauceLab" />
-        </classes>
-   </test>
-   
    <test name="Run on Firefox">
         <parameter name="browser" value="Firefox" />
         <parameter name="osName" value="Windows 11" />
         <classes>
-            <class name="com.nopcommerce.cloud.Level_24_Cloud_SauceLab" />
+            <class name="com.nopcommerce.cloud.Level_24_ALL" />
         </classes>
    </test>
-    
+   
+      <test name="Run on Chrome">
+        <parameter name="browser" value="Chrome" />
+        <parameter name="osName" value="Windows 11" />
+        <classes>
+            <class name="com.nopcommerce.cloud.Level_24_ALL" />
+        </classes>
+   </test>
+   
  
 </suite> 

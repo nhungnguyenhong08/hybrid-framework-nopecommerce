@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -33,11 +34,12 @@ public class User_03_My_Account extends BaseTest {
 	private UserMyProductReviewPageObject myProductReviewPage;
 	private DataHelper dataFaker;
 
-	@Parameters("browser")
+	@Parameters({ "envName", "serverName", "browserName", "osName", "osVersion", "ipAddress", "portNumber" })
 	@BeforeClass
-	public void beforeClass(String browserName) {
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("11") String osVersion,
+			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
 		log.info("Pre-Condition - Step 01: Open browser '" + browserName + "'");
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriver(envName, serverName, browserName, osName, osVersion, ipAddress, portNumber);
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 		dataFaker = DataHelper.gerDataHelper();
 
