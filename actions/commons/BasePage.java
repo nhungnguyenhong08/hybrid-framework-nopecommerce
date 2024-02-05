@@ -581,6 +581,8 @@ public class BasePage {
 			return PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 		case "Change password":
 			return PageGeneratorManagerNopCommerce.getUserChangPasswordPage(driver);
+		case "Orders":
+			return PageGeneratorManagerNopCommerce.getUserOrderPage(driver);
 		default:
 			throw new RuntimeException("Invalid page name at My Account area.");
 		}

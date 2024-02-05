@@ -56,4 +56,15 @@ public class UserShoppingCartPageObject extends BasePage {
 		waitForElementVisible(driver, ShoppingCartPageUI.PRODUCT_PRICE_BY_PRODUCT_NAME, productName);
 		return getElementText(driver, ShoppingCartPageUI.PRODUCT_PRICE_BY_PRODUCT_NAME, productName);
 	}
+
+	public void selectItemInGiftWrappingDropdownBytext(WebDriver driver, String itemText) {
+		waitForElementVisible(driver, ShoppingCartPageUI.GIFT_WRAPING_DROP_DOWN_BY_TEXT);
+		selectItemInDefaultDropdown(driver, ShoppingCartPageUI.GIFT_WRAPING_DROP_DOWN_BY_TEXT, itemText);
+
+	}
+
+	public void checkToTermsOfServiceCheckbox(WebDriver driver) {
+		waitForElementClickable(driver, ShoppingCartPageUI.TERM_OF_SERVICE_CHECKBOX);
+		checkToDefaultCheckboxOrRadio(driver, ShoppingCartPageUI.TERM_OF_SERVICE_CHECKBOX);
+	}
 }

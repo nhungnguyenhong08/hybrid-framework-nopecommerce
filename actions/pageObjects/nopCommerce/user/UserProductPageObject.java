@@ -169,4 +169,9 @@ public class UserProductPageObject extends BasePage {
 		clickToElement(driver, ProductPageUI.DYNAMIC_BUTTON_BY_PRODUCT_NAME_AND_TEXT, productName, buttonText);
 	}
 
+	public void clickToAddToCartButtonAtProductDetailPage(WebDriver driver) {
+		waitForElementClickable(driver, ProductPageUI.ADD_TO_CART_BUTTON_AT_PRODUCT_DETAIL_PAGE);
+		clickToElement(driver, ProductPageUI.ADD_TO_CART_BUTTON_AT_PRODUCT_DETAIL_PAGE);
+	}
+
 }

@@ -2,6 +2,9 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -360,6 +363,12 @@ public class BaseTest {
 
 	protected String getCurrentDay() {
 		return getCurrentDate() + "/" + getCurrentMonth() + "/" + getCurrentYear();
+	}
+
+	protected String getCurrentDayFormatted() {
+		LocalDate currentDay = LocalDate.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL);
+		return currentDay.format(formatter);
 	}
 
 	protected void showBrowserConsoleLogs(WebDriver driver) {
