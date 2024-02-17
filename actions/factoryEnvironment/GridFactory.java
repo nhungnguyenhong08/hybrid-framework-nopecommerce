@@ -17,32 +17,23 @@ public class GridFactory {
 	private String browserName;
 	private String ipAddress;
 	private String portNumber;
-	private String osName;
 	private WebDriver driver;
 
-	public GridFactory(String browserName, String osName, String ipAddress, String portNumber) {
+	public GridFactory(String browserName, String ipAddress, String portNumber) {
 		this.browserName = browserName;
 		this.ipAddress = ipAddress;
 		this.portNumber = portNumber;
-		this.osName = osName;
 	}
 
 	public WebDriver createDriver() {
 		DesiredCapabilities capability = null;
-		Platform platform = null;
-
-		if (osName.contains("windows")) {
-			platform = Platform.WINDOWS;
-		} else {
-			platform = Platform.MAC;
-		}
 
 		switch (browserName) {
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
 			capability = DesiredCapabilities.firefox();
 			capability.setBrowserName("firefox");
-			capability.setPlatform(platform);
+			capability.setPlatform(Platform.ANY);
 
 			FirefoxOptions fOptions = new FirefoxOptions();
 			fOptions.merge(capability);
@@ -51,7 +42,7 @@ public class GridFactory {
 			WebDriverManager.chromedriver().setup();
 			capability = DesiredCapabilities.chrome();
 			capability.setBrowserName("chrome");
-			capability.setPlatform(platform);
+			capability.setPlatform(Platform.ANY);
 
 			ChromeOptions cOptions = new ChromeOptions();
 			cOptions.merge(capability);
@@ -60,7 +51,7 @@ public class GridFactory {
 			driver = WebDriverManager.edgedriver().create();
 			capability = DesiredCapabilities.edge();
 			capability.setBrowserName("edge");
-			capability.setPlatform(platform);
+			capability.setPlatform(Platform.ANY);
 
 			EdgeOptions eOptions = new EdgeOptions();
 			eOptions.merge(capability);

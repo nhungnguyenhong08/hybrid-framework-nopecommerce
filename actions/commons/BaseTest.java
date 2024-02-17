@@ -123,7 +123,7 @@ public class BaseTest {
 			driver = new LocalFactory(browserName).createDriver();
 			break;
 		case "grid":
-			driver = new GridFactory(browserName, osName, ipAddress, portNumber).createDriver();
+			driver = new GridFactory(browserName, ipAddress, portNumber).createDriver();
 			break;
 		case "browserStack":
 			driver = new BrowserstackFactory(browserName, osName, osVersion).createDriver();
