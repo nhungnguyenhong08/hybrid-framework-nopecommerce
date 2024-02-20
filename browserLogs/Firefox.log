@@ -1,36 +1,13 @@
-1708360634940	geckodriver	INFO	Listening on 127.0.0.1:14907
-1708360634975	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\thaiv\\AppData\\Local\\Temp\\rust_mozprofileqpVO6D"
+1708445508092	geckodriver	INFO	Listening on 127.0.0.1:52307
+1708445508266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\thaiv\\AppData\\Local\\Temp\\rust_mozprofileQBVLFm"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1708360635194	Marionette	INFO	Marionette enabled
+1708445508656	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1708360635242	Marionette	INFO	Listening on port 55049
-Read port: 55049
-1708360635354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://demo.nopcommerce.com/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js?v=nkJnAFgIzTVz5JJR5Ig5gsy7Gs0, line 1: ReferenceError: jQuery is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: AjaxCart is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
-JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+1708445508954	Marionette	INFO	Listening on port 63015
+Read port: 63015
+1708445509065	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-1708360665217	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
-1708360743003	Marionette	INFO	Stopped listening on port 55049
+1708445517535	Marionette	INFO	Stopped listening on port 63015
 Dynamically enable window occlusion 1

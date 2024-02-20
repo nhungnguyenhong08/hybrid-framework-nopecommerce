@@ -31,9 +31,10 @@ import factoryEnvironment.GridFactory;
 import factoryEnvironment.LocalFactory;
 import factoryEnvironment.SaucelabFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utilities.PropertiesConfig;
 
 public class BaseTest {
-	private WebDriver driver;
+	private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 
 	protected final Logger log;
 
@@ -48,7 +49,7 @@ public class BaseTest {
 
 	public void deleteAllFileInFolder(String folderName) {
 		try {
-			String pathFolderDownload = GlobalConstants.PROJECT_PATH + File.separator + folderName;
+			String pathFolderDownload = GlobalConstants.getGlobalConstants().getProjectPath() + File.separator + folderName;
 			File file = new File(pathFolderDownload);
 			File[] listOfFiles = file.listFiles();
 			if (listOfFiles.length != 0) {
@@ -74,71 +75,72 @@ public class BaseTest {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options1 = new ChromeOptions();
 			options1.setAcceptInsecureCerts(true);
-			driver = new ChromeDriver(options1);
+			driver.set(new ChromeDriver(options1));
 			break;
 		case FIREFOX:
 			WebDriverManager.firefoxdriver().setup();
 			// Add extention to Firefox
 			FirefoxProfile profile = new FirefoxProfile();
-			File translate = new File(GlobalConstants.PROJECT_PATH + "\\browserExtensions\\to_google_translate-4.2.0.xpi");
+			File translate = new File(GlobalConstants.getGlobalConstants().getProjectPath() + "\\browserExtensions\\to_google_translate-4.2.0.xpi");
 			profile.addExtension(translate);
 			profile.setAcceptUntrustedCertificates(true);
 			profile.setAssumeUntrustedCertificateIssuer(false);
 			FirefoxOptions options2 = new FirefoxOptions();
 			options2.setProfile(profile);
 
-			driver = new FirefoxDriver(options2);
+			driver.set(new FirefoxDriver(options2));
 			break;
 		case EDGE:
-			driver = WebDriverManager.edgedriver().create();
+			driver.set(WebDriverManager.edgedriver().create());
 			break;
 		case OPERA:
-			driver = WebDriverManager.operadriver().create();
+			driver.set(WebDriverManager.operadriver().create());
 			break;
 		case COCCOC:
 			// Cốc cốc browser trừ đi 5-6 version ra chromdriver (lấy version của trình duyệt cốc cốc - 5/6)
 			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
 			ChromeOptions options = new ChromeOptions();
 
-			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
+			if (GlobalConstants.getGlobalConstants().getOsName().startsWith("Windows")) {
 				options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
 
 			} else {
 				options.setBinary("...");
 			}
-			driver = new ChromeDriver(options);
+			driver.set(new ChromeDriver(options));
 			break;
 		default:
 			throw new RuntimeException("Please enter the correct Browser name");
 		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(GlobalConstants.PORTAL_PAGE_URL);
-		return driver;
+		driver.get().manage().timeouts().implicitlyWait(GlobalConstants.getGlobalConstants().getLongTimeout(), TimeUnit.SECONDS);
+		driver.get().manage().window().maximize();
+		driver.get().get(GlobalConstants.getGlobalConstants().getPortalPageUrl());
+		return driver.get();
 	}
 
 	protected WebDriver getBrowserDriver(String envName, String serverName, String browserName, String osName, String osVersion, String ipAddress, String portNumber) {
 		switch (envName) {
 		case "local":
-			driver = new LocalFactory(browserName).createDriver();
+			driver.set(new LocalFactory(browserName).createDriver());
 			break;
 		case "grid":
-			driver = new GridFactory(browserName, ipAddress, portNumber).createDriver();
+			driver.set(new GridFactory(browserName, ipAddress, portNumber).createDriver());
 			break;
 		case "browserStack":
-			driver = new BrowserstackFactory(browserName, osName, osVersion).createDriver();
+			driver.set(new BrowserstackFactory(browserName, osName, osVersion).createDriver());
 			break;
 		case "sauceLab":
-			driver = new SaucelabFactory(browserName, osName).createDriver();
+			driver.set(new SaucelabFactory(browserName, osName).createDriver());
 			break;
 		default:
-			driver = new LocalFactory(browserName).createDriver();
+			driver.set(new LocalFactory(browserName).createDriver());
 			break;
 		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(getEnvironmentUrl(serverName));
-		return driver;
+		// driver.get().manage().timeouts().implicitlyWait(GlobalConstants.getGlobalConstants().getLongTimeout(), TimeUnit.SECONDS);
+		driver.get().manage().timeouts().implicitlyWait(PropertiesConfig.getFileConfigReader().getLongTimeout(), TimeUnit.SECONDS);
+		driver.get().manage().window().maximize();
+		driver.get().get(getEnvironmentUrl(serverName));
+		return driver.get();
 	}
 
 	protected WebDriver getBrowserDriverLocal(String browserName, String appUrl) {
@@ -146,70 +148,70 @@ public class BaseTest {
 		switch (browserList) {
 		case CHROME:
 			WebDriverManager.chromedriver().setup();
-			File file = new File(GlobalConstants.PROJECT_PATH + "\\browserExtensions\\Google-Dịch.crx");
+			File file = new File(GlobalConstants.getGlobalConstants().getProjectPath() + "\\browserExtensions\\Google-Dịch.crx");
 			ChromeOptions options = new ChromeOptions();
 			options.addExtensions(file);
 			options.setAcceptInsecureCerts(true);
-			driver = new ChromeDriver(options);
+			driver.set(new ChromeDriver(options));
 			break;
 		case H_CHROME:
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options1 = new ChromeOptions();
 			options1.addArguments("--headless");
 			options1.addArguments("window-size=1920x1080");
-			driver = new ChromeDriver(options1);
+			driver.set(new ChromeDriver(options1));
 			break;
 		case FIREFOX:
 			WebDriverManager.firefoxdriver().setup();
 
 			// Add extention to Firefox
 			FirefoxProfile profile = new FirefoxProfile();
-			File translate = new File(GlobalConstants.PROJECT_PATH + "\\browserExtensions\\to_google_translate-4.2.0.xpi");
+			File translate = new File(GlobalConstants.getGlobalConstants().getProjectPath() + "\\browserExtensions\\to_google_translate-4.2.0.xpi");
 			profile.addExtension(translate);
 			profile.setAcceptUntrustedCertificates(true);
 			profile.setAssumeUntrustedCertificateIssuer(false);
 			FirefoxOptions options4 = new FirefoxOptions();
 			options4.setProfile(profile);
 
-			driver = new FirefoxDriver(options4);
+			driver.set(new FirefoxDriver(options4));
 			break;
 		case H_FIREFOX:
 			WebDriverManager.chromedriver().setup();
 			FirefoxOptions options2 = new FirefoxOptions();
 			options2.addArguments("--headless");
 			options2.addArguments("window-size=1920x1080");
-			driver = new FirefoxDriver(options2);
+			driver.set(new FirefoxDriver(options2));
 			break;
 		case EDGE:
-			driver = WebDriverManager.edgedriver().create();
+			driver.set(WebDriverManager.edgedriver().create());
 			break;
 		case OPERA:
-			driver = WebDriverManager.operadriver().create();
+			driver.set(WebDriverManager.operadriver().create());
 			break;
 		case COCCOC:
 			// Cốc cốc browser trừ đi 5-6 version ra chromdriver (lấy version của trình duyệt cốc cốc - 5/6)
 			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
 			ChromeOptions options3 = new ChromeOptions();
 
-			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
+			if (GlobalConstants.getGlobalConstants().getOsName().startsWith("Windows")) {
 				options3.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
 
 			} else {
 				options3.setBinary("...");
 			}
-			driver = new ChromeDriver(options3);
+			driver.set(new ChromeDriver(options3));
 			break;
 		default:
 			throw new RuntimeException("Please enter the correct Browser name");
 		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(appUrl);
-		return driver;
+		driver.get().manage().timeouts().implicitlyWait(GlobalConstants.getGlobalConstants().getLongTimeout(), TimeUnit.SECONDS);
+		driver.get().manage().window().maximize();
+		driver.get().get(appUrl);
+		return driver.get();
 	}
 
 	public WebDriver getDriver() {
-		return this.driver;
+		return driver.get();
 	}
 
 	protected String getEnvironmentUrl(String serverName) {
@@ -293,7 +295,7 @@ public class BaseTest {
 			String osName = System.getProperty("os.name").toLowerCase();
 			log.info("OS name = " + osName);
 
-			String driverInstanceName = driver.toString().toLowerCase();
+			String driverInstanceName = driver.get().toString().toLowerCase();
 			log.info("Driver instance name = " + driverInstanceName);
 
 			String browserDriverName = null;
@@ -319,8 +321,9 @@ public class BaseTest {
 			}
 
 			if (driver != null) {
-				driver.manage().deleteAllCookies();
-				driver.quit();
+				driver.get().manage().deleteAllCookies();
+				driver.get().quit();
+				driver.remove();
 			}
 		} catch (Exception e) {
 			log.info(e.getMessage());

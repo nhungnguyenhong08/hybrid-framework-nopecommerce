@@ -33,6 +33,10 @@ public class Level_24_ALL extends BaseTest {
 	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("11") String osVersion,
 			@Optional("localhost") String ipAddress, @Optional("4444") String portNumber) {
 		driver = getBrowserDriver(envName, serverName, browserName, osName, osVersion, ipAddress, portNumber);
+
+		System.out.println("Thread ID =" + Thread.currentThread().getId() + " with browser = " + browserName);
+		System.out.println("Thread ID =" + Thread.currentThread().getId() + " with driver = " + driver.toString());
+
 		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 		userData = UserDataMapper.getUserData();
 

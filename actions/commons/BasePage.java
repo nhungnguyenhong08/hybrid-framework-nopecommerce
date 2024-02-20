@@ -540,7 +540,7 @@ public class BasePage {
 
 	public void uploadMultipleFile(WebDriver driver, String... fileNames) {
 		// Đường dẫn chưa thư mục uploadFiles
-		String filePath = GlobalConstants.UPLOAD_FILE;
+		String filePath = GlobalConstants.getGlobalConstants().getUploadFile();
 		String fullFileName = "";
 		for (String file : fileNames) {
 			fullFileName = fullFileName + filePath + file + "\n";
@@ -812,6 +812,6 @@ public class BasePage {
 		return PageGeneratorManager.getAdminDashboardPage(driver);
 	}
 
-	private long longTimeout = GlobalConstants.LONG_TIME_OUT;
-	private long shortTimeout = GlobalConstants.SHORT_TIME_OUT;
+	private long longTimeout = GlobalConstants.getGlobalConstants().getLongTimeout();
+	private long shortTimeout = GlobalConstants.getGlobalConstants().getShortTimeout();
 }

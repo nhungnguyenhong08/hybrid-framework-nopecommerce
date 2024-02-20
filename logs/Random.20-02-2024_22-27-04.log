@@ -1,0 +1,373 @@
+[20-02-2024 22:27:07.475 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[20-02-2024 22:27:08.135 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[20-02-2024 22:27:08.487 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Carlo'
+[20-02-2024 22:27:08.617 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Keeling'
+[20-02-2024 22:27:08.746 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'sherri.runte@yahoo.com'
+[20-02-2024 22:27:08.886 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is 'p7nB!#H4'
+[20-02-2024 22:27:09.015 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is 'p7nB!#H4'
+[20-02-2024 22:27:09.148 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[20-02-2024 22:27:09.167 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Carlo'
+[20-02-2024 22:27:09.281 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Keeling'
+[20-02-2024 22:27:09.373 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'sherri.runte@yahoo.com'
+[20-02-2024 22:27:09.447 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is 'p7nB!#H4'
+[20-02-2024 22:27:09.521 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is 'p7nB!#H4'
+[20-02-2024 22:27:09.597 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[20-02-2024 22:27:09.890 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[20-02-2024 22:27:09.959 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[20-02-2024 22:27:09.965 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:27:09.966 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[20-02-2024 22:27:10.357 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[20-02-2024 22:27:11.158 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'sherri.runte@yahoo.com'
+[20-02-2024 22:27:11.307 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is 'p7nB!#H4'
+[20-02-2024 22:27:11.438 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[20-02-2024 22:27:12.193 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'CHROME'
+[20-02-2024 22:27:14.048 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[20-02-2024 22:27:15.070 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[20-02-2024 22:27:18.485 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[20-02-2024 22:27:18.642 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[20-02-2024 22:27:21.306 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[20-02-2024 22:27:21.983 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[20-02-2024 22:27:22.075 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[20-02-2024 22:27:22.271 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[20-02-2024 22:27:22.441 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[20-02-2024 22:27:22.584 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[20-02-2024 22:27:22.814 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price is null
+[20-02-2024 22:27:25.136 INFO com.nopcommerce.user.User_07_Order] - Post-Condition: Close browser
+[20-02-2024 22:27:25.136 INFO com.nopcommerce.user.User_07_Order] - OS name = windows 11
+[20-02-2024 22:27:25.136 INFO com.nopcommerce.user.User_07_Order] - Driver instance name = firefoxdriver: firefox on windows (0b743dde-8d07-4511-8f38-cc3ecfbb3c59)
+[20-02-2024 22:27:25.884 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[20-02-2024 22:27:25.979 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[20-02-2024 22:27:26.284 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:27:26.284 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[20-02-2024 22:27:29.372 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[20-02-2024 22:27:29.435 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:27:29.569 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:27:29.570 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[20-02-2024 22:27:51.273 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 01: Open Shopping cart at header
+[20-02-2024 22:27:51.928 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 02: Verify Shopping cart page is displayed
+[20-02-2024 22:27:52.115 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:27:52.115 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 03: Click to 'Edit' link
+[20-02-2024 22:27:52.538 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 04: Select item in 'Processor' dropdown is '2.2 GHz Intel Pentium Dual-Core E2200'
+[20-02-2024 22:27:52.741 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 05: Select item in 'RAM' dropdown is '4GB [+$20.00]'
+[20-02-2024 22:27:52.999 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 06: Select item in 'HDD' radio button is '320 GB'
+[20-02-2024 22:27:53.074 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 07: Select item in 'OS' radio button is 'Vista Home [+$50.00]'
+[20-02-2024 22:27:53.249 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 08: Select item all value at 'Software' checkbox
+[20-02-2024 22:27:53.631 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 09: Verify product price is updated with value '$1,320.00'
+[20-02-2024 22:28:03.744 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:03.745 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 10: Get value of price is $1,500.00
+[20-02-2024 22:28:03.853 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 11: Edit product quantiny is 2
+[20-02-2024 22:28:04.169 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 12: Click to 'Update' button
+[20-02-2024 22:28:04.424 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 13: Verify add to cart success message displayed
+[20-02-2024 22:28:04.847 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:04.847 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 14: Close success message
+[20-02-2024 22:28:08.031 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 15: Verify Shopping cart quantity is updated (2)
+[20-02-2024 22:28:08.074 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:08.173 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:08.173 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 16: Verify the product is displayed in mini shopping cart
+[20-02-2024 22:28:11.603 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:11.716 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:11.861 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:11.977 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:12.091 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:12.220 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:12.224 INFO com.nopcommerce.user.User_07_Order] - Order_03: Step 01: Open Shopping cart at header
+[20-02-2024 22:28:12.805 INFO com.nopcommerce.user.User_07_Order] - Order_03: Step 02: Verify Shopping cart page is displayed
+[20-02-2024 22:28:12.946 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:12.946 INFO com.nopcommerce.user.User_07_Order] - Order_03: Step 03: Click to 'Remove' button
+[20-02-2024 22:28:13.424 INFO com.nopcommerce.user.User_07_Order] - Order_03: Step 04: Verify message is 'Your Shopping Cart is empty!' displayed
+[20-02-2024 22:28:13.488 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:13.488 INFO com.nopcommerce.user.User_07_Order] - Order_03: Step 05: Verify product is not exist in Shopping cart
+[20-02-2024 22:28:33.579 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:33.582 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[20-02-2024 22:28:41.500 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 02: Click to 'Add to cart' button at Lenovo IdeaCentre 600 All-in-One PC
+[20-02-2024 22:28:41.777 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 03: Verify add to cart success message displayed
+[20-02-2024 22:28:43.898 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:43.898 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 04: Close success message
+[20-02-2024 22:28:47.076 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 05: Verify Shopping cart quantity is updated (1)
+[20-02-2024 22:28:47.115 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:47.211 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:47.211 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 06: Open Shopping cart at header
+[20-02-2024 22:28:47.672 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 07: Verify Shopping cart page is displayed
+[20-02-2024 22:28:47.770 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:47.771 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 08: Update product quantity is '5'
+[20-02-2024 22:28:47.963 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 09: Click to 'Update shopping cart' button
+[20-02-2024 22:28:48.358 INFO com.nopcommerce.user.User_07_Order] - Order_04: Step 10: Verify product price is updated with value '$2,500.00'
+[20-02-2024 22:28:48.427 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:48.431 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 01: Click to 'Remove' product 'secondDesktopsProduct'
+[20-02-2024 22:28:48.841 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 02: Verify message is 'Your Shopping Cart is empty!' displayed
+[20-02-2024 22:28:48.951 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:48.951 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 03: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[20-02-2024 22:28:55.022 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 04: Click to product name with value is 'Apple MacBook Pro 13-inch'
+[20-02-2024 22:28:55.551 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 05: Click to 'Add To Cart' button at product detail page
+[20-02-2024 22:28:55.798 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 06: Verify add to cart success message displayed
+[20-02-2024 22:28:56.128 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:28:56.129 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 07: Close success message
+[20-02-2024 22:28:59.347 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 08: Open Shopping cart at header
+[20-02-2024 22:28:59.846 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 09: Select item in 'Gift wrapping' dropdown is 'No'
+[20-02-2024 22:29:00.066 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 10: Check to 'Terms of Service' checkbox
+[20-02-2024 22:29:00.334 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 11: Click to 'Checkout' button
+[20-02-2024 22:29:01.436 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 12: Uncheck to 'ShipToSameAddress' checkbox
+[20-02-2024 22:29:01.822 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 13: Input to 'Billing address' form
+[20-02-2024 22:29:04.819 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 14: Click to 'Continue' button at billing
+[20-02-2024 22:29:05.073 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 15: Select 'Shipping address' method
+[20-02-2024 22:29:05.485 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 16: Input to 'Shipping address' form
+[20-02-2024 22:29:06.938 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 17: Click to 'Continue' button at Shipping address
+[20-02-2024 22:29:07.037 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 18: Check to Radio button in 'Shipping method' with label is 'Ground ($0.00)'
+[20-02-2024 22:29:07.420 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 19: Click to 'Continue' button at Shipping address
+[20-02-2024 22:29:07.600 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 20: Check to Radio button in 'Payment method' with label is 'Check / MoneyOrder'
+[20-02-2024 22:29:07.931 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 21: Click to 'Continue' button at Payment method
+[20-02-2024 22:29:08.086 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 22: Verify Address shipping information
+[20-02-2024 22:29:08.438 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:08.438 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 23: Click to 'Continue' button at Payment information
+[20-02-2024 22:29:08.625 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 24: Verify 'Billing Address' order infor
+[20-02-2024 22:29:09.015 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.148 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.237 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.335 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.459 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.575 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.632 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.632 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 25: Verify 'Shipping Address' order infor
+[20-02-2024 22:29:09.679 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.723 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.770 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.825 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.879 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:09.932 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.006 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.006 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 26: Verify 'Payment Method' oder infor
+[20-02-2024 22:29:10.051 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.051 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 27: Verify 'Shipping Method' oder infor
+[20-02-2024 22:29:10.102 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.102 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 27: Verify The product order infor
+[20-02-2024 22:29:10.162 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.234 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.288 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.380 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.431 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.431 INFO com.nopcommerce.user.User_07_Order] - Order_05:  Step 28: Verify The sumary price order list
+[20-02-2024 22:29:10.503 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.550 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.597 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.654 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:10.654 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 29: Click to 'Confirm' button
+[20-02-2024 22:29:10.790 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 30: Verify Product order completed infor
+[20-02-2024 22:29:12.877 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:12.980 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:13.147 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:13.147 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 31: Click to Oder Completed 'Continue' button
+[20-02-2024 22:29:13.582 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 32: Click to 'My Account' link
+[20-02-2024 22:29:14.026 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 33: Navigate to 'Orders' area at My Account page
+[20-02-2024 22:29:14.534 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 34: Verify text 'Order Number: 1033' displayed
+[20-02-2024 22:29:14.605 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 35: Click to 'Details' button
+[20-02-2024 22:29:15.036 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 36: Verify 'order-overview' infor
+[20-02-2024 22:29:15.089 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.154 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.215 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.263 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.263 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 37: Verify 'Billing Address' order infor
+[20-02-2024 22:29:15.304 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.352 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.398 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.453 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.515 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.576 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.618 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.618 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 38: Verify 'Shipping Address' order infor
+[20-02-2024 22:29:15.668 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.712 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.773 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.825 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.888 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:15.998 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:16.099 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:16.100 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 39: Verify 'Payment Method' oder infor
+[20-02-2024 22:29:16.209 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:16.342 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:16.343 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 40: Verify 'Shipping Method' oder infor
+[20-02-2024 22:29:16.469 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:16.545 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:16.545 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 41: Verify The product order infor
+[20-02-2024 22:29:16.648 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:16.751 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:16.870 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:16.987 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:17.099 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:17.099 INFO com.nopcommerce.user.User_07_Order] - Order_05: Step 42: Verify The sumary price order list
+[20-02-2024 22:29:17.206 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:17.315 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:17.421 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:17.546 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:17.554 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 01: Navigate to Homepage
+[20-02-2024 22:29:18.002 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 02: Click To Product Catelogies on Top Menu: Computers/Notebooks
+[20-02-2024 22:29:20.920 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 03: Click to product name with value is 'Apple MacBook Pro 13-inch'
+[20-02-2024 22:29:22.183 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 04: Click to 'Add To Cart' button at product detail page
+[20-02-2024 22:29:22.456 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 05: Verify add to cart success message displayed
+[20-02-2024 22:29:22.803 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:22.804 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 06: Close success message
+[20-02-2024 22:29:26.005 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 07: Open Shopping cart at header
+[20-02-2024 22:29:26.579 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 08: Select item in 'Gift wrapping' dropdown is 'No'
+[20-02-2024 22:29:26.813 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 09: Check to 'Terms of Service' checkbox
+[20-02-2024 22:29:27.065 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 10: Click to 'Checkout' button
+[20-02-2024 22:29:28.330 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 11: Uncheck to 'ShipToSameAddress' checkbox
+[20-02-2024 22:29:28.537 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 12: Click to 'Edit' button
+[20-02-2024 22:29:28.617 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 13: Input to 'Billing address' form
+[20-02-2024 22:29:31.749 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 14: Click to 'Continue' button at billing
+[20-02-2024 22:29:32.002 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 15: Select 'Shipping address' method
+[20-02-2024 22:29:32.632 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 16: Input to 'Shipping address' form
+[20-02-2024 22:29:35.595 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 17: Click to 'Continue' button at Shipping address
+[20-02-2024 22:29:35.838 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 18: Check to Radio button in 'Shipping method' with label is 'Ground ($0.00)'
+[20-02-2024 22:29:36.223 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 19: Click to 'Continue' button at Shipping address
+[20-02-2024 22:29:36.435 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 20: Check to Radio button in 'Payment method' with label is 'Credit Card'
+[20-02-2024 22:29:36.955 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 21: Click to 'Continue' button at Payment method
+[20-02-2024 22:29:37.198 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 21: Select credit card type
+[20-02-2024 22:29:37.693 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 21: Select credit card type
+[20-02-2024 22:29:37.797 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 22: Input into Cardholder name textbox with value is 'AUTOMATION FC'
+[20-02-2024 22:29:37.981 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 23: Input into Card number textbox with value is '374245455400126'
+[20-02-2024 22:29:38.161 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 24: Input into Card code textbox with value is '123'
+[20-02-2024 22:29:38.258 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 25: Select item in Expire Month dropdown with value is '05'
+[20-02-2024 22:29:38.387 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 26: Select item in Expire Year dropdown with value is '2025'
+[20-02-2024 22:29:38.676 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 27: Input into Card code textbox with value is '123'
+[20-02-2024 22:29:38.895 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 28: Click to 'Continue' button at Payment information
+[20-02-2024 22:29:39.134 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 29: Verify 'Billing Address' order infor
+[20-02-2024 22:29:39.471 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:39.623 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:39.753 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:39.886 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.012 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.120 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.237 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.238 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 30: Verify 'Shipping Address' order infor
+[20-02-2024 22:29:40.339 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.418 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.516 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.650 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.726 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.832 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.962 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:40.963 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 31: Verify 'Payment Method' oder infor
+[20-02-2024 22:29:41.090 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:41.090 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 32: Verify 'Shipping Method' oder infor
+[20-02-2024 22:29:41.227 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:41.229 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 33: Verify The product order infor
+[20-02-2024 22:29:41.382 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:41.507 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:41.621 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:41.757 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:41.883 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:41.884 INFO com.nopcommerce.user.User_07_Order] - Order_06:  Step 34: Verify The sumary price order list
+[20-02-2024 22:29:41.988 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:42.115 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:42.235 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:42.354 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:50.356 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 35: Click to 'Confirm' button
+[20-02-2024 22:29:50.574 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 36: Verify Product order completed infor
+[20-02-2024 22:29:53.692 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:53.809 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:54.078 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:54.079 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 37: Click to Oder Completed 'Continue' button
+[20-02-2024 22:29:54.544 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 38: Click to 'My Account' link
+[20-02-2024 22:29:55.176 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 39: Navigate to 'Orders' area at My Account page
+[20-02-2024 22:29:55.754 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 40: Verify text 'Order Number: 1034' displayed
+[20-02-2024 22:29:55.868 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:55.868 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 41: Click to 'Details' button
+[20-02-2024 22:29:56.429 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 42: Verify 'order-overview' infor
+[20-02-2024 22:29:56.534 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:56.648 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:56.775 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:56.830 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:56.832 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 43: Verify 'Billing Address' order infor
+[20-02-2024 22:29:56.902 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.023 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.146 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.234 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.289 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.359 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.407 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.407 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 44: Verify 'Shipping Address' order infor
+[20-02-2024 22:29:57.460 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.518 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.570 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.647 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.724 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.801 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.862 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.862 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 45: Verify 'Payment Method' oder infor
+[20-02-2024 22:29:57.921 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.968 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:57.968 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 46: Verify 'Shipping Method' oder infor
+[20-02-2024 22:29:58.017 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.065 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.066 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 47: Verify The product order infor
+[20-02-2024 22:29:58.121 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.170 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.219 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.283 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.326 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.326 INFO com.nopcommerce.user.User_07_Order] - Order_06: Step 48: Verify The sumary price order list
+[20-02-2024 22:29:58.372 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.420 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.466 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.522 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:29:58.532 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 01: Navigate to Homepage
+[20-02-2024 22:29:58.960 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 02: Click to 'My Account' link
+[20-02-2024 22:29:59.395 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 03: Navigate to 'Orders' area at My Account page
+[20-02-2024 22:29:59.979 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 04: Verify text 'Order Number: 1034' displayed
+[20-02-2024 22:30:00.060 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 05: Click to 'Details' button
+[20-02-2024 22:30:00.636 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 06: Click to 'Re-order' button
+[20-02-2024 22:30:01.501 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 07: Update product quantity is '10'
+[20-02-2024 22:30:01.818 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 08: Click to 'Update shopping cart' button
+[20-02-2024 22:30:02.285 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 09: Select item in 'Gift wrapping' dropdown is 'No'
+[20-02-2024 22:30:02.461 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 10: Check to 'Terms of Service' checkbox
+[20-02-2024 22:30:02.681 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 11: Click to 'Checkout' button
+[20-02-2024 22:30:03.676 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 12: Uncheck to 'ShipToSameAddress' checkbox
+[20-02-2024 22:30:03.919 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 13: Click to 'Edit' button
+[20-02-2024 22:30:04.170 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 14: Input to 'Billing address' form
+[20-02-2024 22:30:07.634 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 15: Click to 'Continue' button at billing
+[20-02-2024 22:30:07.908 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 16: Select 'Shipping address' method
+[20-02-2024 22:30:08.443 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 17: Input to 'Shipping address' form
+[20-02-2024 22:30:10.965 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 18: Click to 'Continue' button at Shipping address
+[20-02-2024 22:30:11.181 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 19: Check to Radio button in 'Shipping method' with label is 'Next Day Air ($0.00)'
+[20-02-2024 22:30:11.717 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 20: Click to 'Continue' button at Shipping address
+[20-02-2024 22:30:11.962 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 21: Check to Radio button in 'Payment method' with label is 'Credit Card'
+[20-02-2024 22:30:12.499 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 22: Click to 'Continue' button at Payment method
+[20-02-2024 22:30:12.684 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 23: Select credit card type
+[20-02-2024 22:30:13.118 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 24: Select credit card type
+[20-02-2024 22:30:13.299 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 25: Input into Cardholder name textbox with value is 'AUTOMATION FC'
+[20-02-2024 22:30:13.586 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 26: Input into Card number textbox with value is '374245455400126'
+[20-02-2024 22:30:13.763 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 27: Input into Card code textbox with value is '123'
+[20-02-2024 22:30:13.998 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 28: Select item in Expire Month dropdown with value is '05'
+[20-02-2024 22:30:14.222 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 29: Select item in Expire Year dropdown with value is '2025'
+[20-02-2024 22:30:14.444 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 30: Input into Card code textbox with value is '123'
+[20-02-2024 22:30:14.652 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step31: Click to 'Continue' button at Payment information
+[20-02-2024 22:30:14.728 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 32: Verify 'Billing Address' order infor
+[20-02-2024 22:30:15.085 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:15.136 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:15.195 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:15.307 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:15.420 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:15.544 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:15.655 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:15.656 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 33: Verify 'Shipping Address' order infor
+[20-02-2024 22:30:15.782 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:15.893 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:15.985 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:16.122 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:16.228 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:16.340 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:16.465 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:16.465 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 34: Verify 'Payment Method' oder infor
+[20-02-2024 22:30:16.571 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:16.572 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 35: Verify 'Shipping Method' oder infor
+[20-02-2024 22:30:16.700 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:16.700 INFO com.nopcommerce.user.User_07_Order] - Order_07: Step 36: Verify The product order infor
+[20-02-2024 22:30:16.826 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:16.931 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:17.034 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:17.149 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:17.248 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:17.248 INFO com.nopcommerce.user.User_07_Order] - Order_07:  Step 37: Verify The sumary price order list
+[20-02-2024 22:30:17.299 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:17.391 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:17.495 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[20-02-2024 22:30:17.572 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
