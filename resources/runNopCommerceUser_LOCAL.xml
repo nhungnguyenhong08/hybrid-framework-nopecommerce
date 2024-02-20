@@ -16,8 +16,8 @@
   <parameter name = "serverName" value = "dev" />
 
   
-  <test name="Run on Chrome"> 
-    <parameter name = "browser" value = "CHROME" />
+  <test name="Run on CHROME"> 
+    <parameter name = "browserName" value = "CHROME" />
     <classes>
    <!--Trigger Common Register run first --> 
       <class name="com.nopcommerce.common.Common_01_Register_Cookies"/>

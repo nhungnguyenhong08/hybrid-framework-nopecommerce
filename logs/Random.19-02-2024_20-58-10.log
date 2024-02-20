@@ -1,0 +1,61 @@
+[19-02-2024 20:58:15.529 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 01: Navigate to 'Register' page
+[19-02-2024 20:58:16.482 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 02: Enter to Firstname textbox with value is 'Luke'
+[19-02-2024 20:58:16.619 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 03: Enter to Lastname textbox with value is 'Tremblay'
+[19-02-2024 20:58:16.708 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 04: Enter to Email textbox with value is 'joe.robel@hotmail.com'
+[19-02-2024 20:58:16.783 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 05: Enter to Password textbox with value is '*Q5QQ9S!&E'
+[19-02-2024 20:58:16.858 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 06: Enter to Confirm password textbox with value is '*Q5QQ9S!&E'
+[19-02-2024 20:58:16.939 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 07: Enter to 'Register' button
+[19-02-2024 20:58:17.519 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 08: Verify success message is displayed
+[19-02-2024 20:58:17.605 INFO com.nopcommerce.common.Common_01_Register_Cookies] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:58:17.606 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 09: Click to Logout link
+[19-02-2024 20:58:17.958 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 10: Navigate to Login page
+[19-02-2024 20:58:18.676 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 11: Enter to Email textbox with value is 'joe.robel@hotmail.com'
+[19-02-2024 20:58:18.761 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 12: Enter to Password textbox with value is '*Q5QQ9S!&E'
+[19-02-2024 20:58:18.843 INFO com.nopcommerce.common.Common_01_Register_Cookies] - Pre-Condition - Step 13: Click to Login button
+[19-02-2024 20:58:22.144 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 01: Open browser 'FIREFOX'
+[19-02-2024 20:58:25.076 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 02: Navigate to Login page
+[19-02-2024 20:58:25.516 INFO com.nopcommerce.user.User_07_Order] - Pre-condition - Step 03: Set cookie and reload page
+[19-02-2024 20:58:29.598 INFO com.nopcommerce.user.User_07_Order] - Pre-Condition - Step 04: Verify Home page Displayed
+[19-02-2024 20:58:29.685 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 01: Click To Product Catelogies on Top Menu: Computers/Desktops
+[19-02-2024 20:58:31.932 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 02: Click to product name with value is 'Build your own computer'
+[19-02-2024 20:58:33.172 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 03: Select item in 'Processor' dropdown is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[19-02-2024 20:58:33.267 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 04: Select item in 'RAM' dropdown is '8GB [+$60.00]'
+[19-02-2024 20:58:33.607 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 05: Select item in 'HDD' radio button is '400 GB [+$100.00]'
+[19-02-2024 20:58:33.902 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 06: Select item in 'OS' radio button is 'Vista Premium [+$60.00]'
+[19-02-2024 20:58:34.172 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 07: Select item all value at 'Software' checkbox
+[19-02-2024 20:58:34.782 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 08: Get value of price is null
+[19-02-2024 20:58:37.883 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 09: Click to 'Add to cart' button
+[19-02-2024 20:58:38.173 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 10: Verify add to cart success message displayed
+[19-02-2024 20:58:38.297 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:58:38.298 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 11: Close success message
+[19-02-2024 20:58:41.575 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 12: Verify Shopping cart quantity is updated (1)
+[19-02-2024 20:58:41.613 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:58:41.681 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:58:41.681 INFO com.nopcommerce.user.User_07_Order] - Order_01: Step 13: Verify the product is displayed in mini shopping cart
+[19-02-2024 20:58:41.915 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 01: Open Shopping cart at header
+[19-02-2024 20:58:42.370 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 02: Verify Shopping cart page is displayed
+[19-02-2024 20:58:42.441 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:58:42.441 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 03: Click to 'Edit' link
+[19-02-2024 20:58:43.294 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 04: Select item in 'Processor' dropdown is '2.2 GHz Intel Pentium Dual-Core E2200'
+[19-02-2024 20:58:43.623 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 05: Select item in 'RAM' dropdown is '4GB [+$20.00]'
+[19-02-2024 20:58:43.936 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 06: Select item in 'HDD' radio button is '320 GB'
+[19-02-2024 20:58:44.206 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 07: Select item in 'OS' radio button is 'Vista Home [+$50.00]'
+[19-02-2024 20:58:44.493 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 08: Select item all value at 'Software' checkbox
+[19-02-2024 20:58:45.113 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 09: Verify product price is updated with value '$1,320.00'
+[19-02-2024 20:58:55.178 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:58:55.178 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 10: Get value of price is $1,500.00
+[19-02-2024 20:58:55.225 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 11: Edit product quantiny is 2
+[19-02-2024 20:58:55.303 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 12: Click to 'Update' button
+[19-02-2024 20:58:55.583 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 13: Verify add to cart success message displayed
+[19-02-2024 20:58:55.849 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:58:55.849 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 14: Close success message
+[19-02-2024 20:58:59.127 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 15: Verify Shopping cart quantity is updated (2)
+[19-02-2024 20:58:59.163 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:58:59.214 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:58:59.214 INFO com.nopcommerce.user.User_07_Order] - Order_02: Step 16: Verify the product is displayed in mini shopping cart
+[19-02-2024 20:58:59.403 INFO com.nopcommerce.user.User_07_Order] - Order_03: Step 01: Open Shopping cart at header
+[19-02-2024 20:59:00.456 INFO com.nopcommerce.user.User_07_Order] - Order_03: Step 02: Verify Shopping cart page is displayed
+[19-02-2024 20:59:00.547 INFO com.nopcommerce.user.User_07_Order] -  -------------------------- PASSED -------------------------- 
+[19-02-2024 20:59:00.547 INFO com.nopcommerce.user.User_07_Order] - Order_03: Step 03: Click to 'Remove' button
+[19-02-2024 20:59:00.978 INFO com.nopcommerce.user.User_07_Order] - Order_03: Step 04: Verify message is 'Your Shopping Cart is empty!' displayed
+[19-02-2024 20:59:01.063 INFO com.nopcommerc

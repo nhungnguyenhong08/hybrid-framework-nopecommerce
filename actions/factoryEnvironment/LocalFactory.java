@@ -1,16 +1,15 @@
 package factoryEnvironment;
 
-import java.io.File;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
 
-import commons.GlobalConstants;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import factoryBrowser.BrowserNotSupportedException;
+import factoryBrowser.ChromeDriverManager;
+import factoryBrowser.EdgeDriverManager;
+import factoryBrowser.FirefoxDriverManager;
+import factoryBrowser.HeadlessChromeDriverManager;
+import factoryBrowser.HeadlessFirefoxDriverManager;
+import factoryBrowser.IEDriverManager;
+import factoryBrowser.SafariDriverManager;
 
 public class LocalFactory {
 	private String browserName;
@@ -24,62 +23,28 @@ public class LocalFactory {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		switch (browserList) {
 		case CHROME:
-			WebDriverManager.chromedriver().setup();
-			File file = new File(GlobalConstants.PROJECT_PATH + "\\browserExtensions\\Google-Dịch.crx");
-			ChromeOptions options = new ChromeOptions();
-			options.addExtensions(file);
-			options.setAcceptInsecureCerts(true);
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriverManager().getBrowserDriver();
 			break;
 		case H_CHROME:
-			WebDriverManager.chromedriver().setup();
-			ChromeOptions options1 = new ChromeOptions();
-			options1.addArguments("--headless");
-			options1.addArguments("window-size=1920x1080");
-			driver = new ChromeDriver(options1);
+			driver = new HeadlessChromeDriverManager().getBrowserDriver();
 			break;
 		case FIREFOX:
-			WebDriverManager.firefoxdriver().setup();
-
-			// Add extention to Firefox
-			FirefoxProfile profile = new FirefoxProfile();
-			File translate = new File(GlobalConstants.PROJECT_PATH + "\\browserExtensions\\to_google_translate-4.2.0.xpi");
-			profile.addExtension(translate);
-			profile.setAcceptUntrustedCertificates(true);
-			profile.setAssumeUntrustedCertificateIssuer(false);
-			FirefoxOptions options4 = new FirefoxOptions();
-			options4.setProfile(profile);
-
-			driver = new FirefoxDriver(options4);
+			driver = new FirefoxDriverManager().getBrowserDriver();
 			break;
 		case H_FIREFOX:
-			WebDriverManager.chromedriver().setup();
-			FirefoxOptions options2 = new FirefoxOptions();
-			options2.addArguments("--headless");
-			options2.addArguments("window-size=1920x1080");
-			driver = new FirefoxDriver(options2);
+			driver = new HeadlessFirefoxDriverManager().getBrowserDriver();
 			break;
 		case EDGE:
-			driver = WebDriverManager.edgedriver().create();
+			driver = new EdgeDriverManager().getBrowserDriver();
 			break;
-		case OPERA:
-			driver = WebDriverManager.operadriver().create();
+		case IE:
+			driver = new IEDriverManager().getBrowserDriver();
 			break;
-		case COCCOC:
-			// Cốc cốc browser trừ đi 5-6 version ra chromdriver (lấy version của trình duyệt cốc cốc - 5/6)
-			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
-			ChromeOptions options3 = new ChromeOptions();
-
-			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
-				options3.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
-
-			} else {
-				options3.setBinary("...");
-			}
-			driver = new ChromeDriver(options3);
+		case SAFARI:
+			driver = new SafariDriverManager().getBrowserDriver();
 			break;
 		default:
-			throw new RuntimeException("Please enter the correct Browser name");
+			throw new BrowserNotSupportedException(browserName);
 		}
 		return driver;
 	}

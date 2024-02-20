@@ -842,7 +842,7 @@ public class User_07_Order extends BaseTest {
 		checkOutPage.clickToConfirmButton(driver);
 
 		log.info("Order_07: Step 39: Verify Product order completed infor");
-		checkOutPage.sleepInSecond(3);
+		checkOutPage.sleepInSecond(7);
 		verifyEquals(checkOutPage.getOrderedSuccessPageTittle(driver), "Thank you");
 		verifyEquals(checkOutPage.getOrderedSuccessMessage(driver), "Your order has been successfully processed!");
 		orderNumber = checkOutPage.getOrderNumber(driver);

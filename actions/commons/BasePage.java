@@ -365,13 +365,18 @@ public class BasePage {
 	}
 
 	public void hoverMouseToElement(WebDriver driver, String locatorType) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, locatorType));
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locatorType)).perform();
 	}
 
 	public void hoverMouseToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues))).perform();
+
 	}
 
 	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key) {
