@@ -164,10 +164,12 @@ public class BasePage {
 	}
 
 	public void clickToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		highlightElement(driver, locatorType, dynamicValues);
 		getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).click();
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue) {
+		highlightElement(driver, locatorType);
 		WebElement element = this.getWebElement(driver, locatorType);
 		element.clear();
 		element.sendKeys(textValue);
@@ -184,17 +186,20 @@ public class BasePage {
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue, String... dynamicValues) {
+		highlightElement(driver, locatorType, dynamicValues);
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		element.clear();
 		element.sendKeys(textValue);
 	}
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem) {
+		highlightElement(driver, locatorType);
 		Select select = new Select(getWebElement(driver, locatorType));
 		select.selectByVisibleText(textItem);
 	}
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem, String... dynamicValues) {
+		highlightElement(driver, locatorType, dynamicValues);
 		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
 		select.selectByVisibleText(textItem);
 	}
@@ -216,6 +221,7 @@ public class BasePage {
 	}
 
 	public void selectItemInCustomDropdown(WebDriver driver, String parentXpath, String childXpath, String expectedTextItem) {
+		highlightElement(driver, expectedTextItem);
 		getWebElement(driver, expectedTextItem).click();
 		sleepInSecond(1);
 
@@ -250,10 +256,12 @@ public class BasePage {
 	}
 
 	public String getElementText(WebDriver driver, String locatorType) {
+		highlightElement(driver, locatorType);
 		return getWebElement(driver, locatorType).getText();
 	}
 
 	public String getElementText(WebDriver driver, String locatorType, String... dynamicValues) {
+		highlightElement(driver, locatorType, dynamicValues);
 		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).getText();
 	}
 
@@ -274,6 +282,7 @@ public class BasePage {
 	}
 
 	public void checkToDefaultCheckboxOrRadio(WebDriver driver, String locatorType) {
+		highlightElement(driver, locatorType);
 		WebElement element = getWebElement(driver, locatorType);
 		if (!element.isSelected()) {
 			element.click();
@@ -281,6 +290,7 @@ public class BasePage {
 	}
 
 	public void checkToDefaultCheckboxOrRadio(WebDriver driver, String locatorType, String... dynamicValues) {
+		highlightElement(driver, locatorType, dynamicValues);
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		if (!element.isSelected()) {
 			element.click();
@@ -288,6 +298,7 @@ public class BasePage {
 	}
 
 	public void uncheckToDefaultCheckboxOrRadio(WebDriver driver, String locatorType) {
+		highlightElement(driver, locatorType);
 		WebElement element = getWebElement(driver, locatorType);
 		if (element.isSelected()) {
 			element.click();
@@ -295,6 +306,7 @@ public class BasePage {
 	}
 
 	public void uncheckToDefaultCheckboxOrRadio(WebDriver driver, String locatorType, String... dynamicValues) {
+		highlightElement(driver, locatorType, dynamicValues);
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		if (element.isSelected()) {
 			element.click();
@@ -306,6 +318,7 @@ public class BasePage {
 	}
 
 	public boolean isElementDisplayed(WebDriver driver, String locatorType) {
+		highlightElement(driver, locatorType);
 		try {
 			return getWebElement(driver, locatorType).isDisplayed();
 		} catch (NoSuchElementException e) {
@@ -314,6 +327,7 @@ public class BasePage {
 	}
 
 	public boolean isElementDisplayed(WebDriver driver, String locatorType, String... dynamicValues) {
+		highlightElement(driver, locatorType, dynamicValues);
 		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).isDisplayed();
 	}
 
@@ -368,6 +382,7 @@ public class BasePage {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, locatorType));
 		Actions action = new Actions(driver);
+		highlightElement(driver, locatorType);
 		action.moveToElement(getWebElement(driver, locatorType)).perform();
 	}
 
@@ -375,6 +390,7 @@ public class BasePage {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
 		Actions action = new Actions(driver);
+		highlightElement(driver, locatorType, dynamicValues);
 		action.moveToElement(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues))).perform();
 
 	}
@@ -398,7 +414,8 @@ public class BasePage {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		WebElement element = getWebElement(driver, locatorType);
 		String originalStyle = element.getAttribute("style");
-		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", "border: 2px solid red; border-style: dashed;");
+		String highlightStyle = "border: 2px solid red; border-style: dashed;";
+		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", highlightStyle);
 		sleepInSecond(1);
 		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", originalStyle);
 	}
@@ -407,8 +424,8 @@ public class BasePage {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		String originalStyle = element.getAttribute("style");
-		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", "border: 2px solid red; border-style: dashed;");
-		sleepInSecond(1);
+		String highlightStyle = "border: 2px solid red; border-style: dashed;";
+		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", highlightStyle);
 		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", originalStyle);
 	}
 
