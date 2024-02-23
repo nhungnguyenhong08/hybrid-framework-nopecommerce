@@ -28,6 +28,7 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointsPageObject;
 import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
+import pageUIs.nopCommerce.admin.AdminBasePageUI;
 import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
 
 public class BasePage {
@@ -273,7 +274,7 @@ public class BasePage {
 		return Color.fromString(rgbaValue).asHex();
 	}
 
-	public int getElementSize(WebDriver driver, String locatorType) {
+	public int Size(WebDriver driver, String locatorType) {
 		return getListWebElement(driver, locatorType).size();
 	}
 
@@ -827,6 +828,24 @@ public class BasePage {
 	public AdminDashboardPO openAdminSite(WebDriver driver, String adminUrl) {
 		openPageUrl(driver, adminUrl);
 		return PageGeneratorManager.getAdminDashboardPage(driver);
+	}
+
+	public int getQuantityItemInTableDisplayed(WebDriver driver) {
+		waitForAllElementVisible(driver, AdminBasePageUI.SEARCH_ITEM_LIST);
+		List<WebElement> searchProductsList = getListWebElement(driver, AdminBasePageUI.SEARCH_ITEM_LIST);
+		System.out.println(searchProductsList.size());
+		return searchProductsList.size();
+	}
+
+	public void clickToSubMenuByText(WebDriver driver, String menuText, String subMenuText) {
+		if (isElementUndisplayed(driver, AdminBasePageUI.SUB_MENU_DISPLAYED_BY_MENUTEXT_AND_BY_TEXT, menuText, subMenuText)) {
+			waitForElementClickable(driver, AdminBasePageUI.MENU_LINK_BY_TEXT, menuText);
+			clickToElementByJS(driver, AdminBasePageUI.MENU_LINK_BY_TEXT, menuText);
+			sleepInSecond(1);
+		}
+		waitForElementClickable(driver, AdminBasePageUI.SUB_MENU_DISPLAYED_BY_MENUTEXT_AND_BY_TEXT, menuText, subMenuText);
+		clickToElement(driver, AdminBasePageUI.SUB_MENU_DISPLAYED_BY_MENUTEXT_AND_BY_TEXT, menuText, subMenuText);
+
 	}
 
 	private long longTimeout = GlobalConstants.getGlobalConstants().getLongTimeout();
