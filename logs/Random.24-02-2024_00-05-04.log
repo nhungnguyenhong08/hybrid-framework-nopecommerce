@@ -1,0 +1,54 @@
+[24-02-2024 00:05:04.136 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Pre-Condition - Step 01: Open browser 'chrome'
+[24-02-2024 00:05:06.628 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Pre-condition - Step 02: Input to 'Email' textbox with value 'admin@yourstore.com'
+[24-02-2024 00:05:07.929 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Pre-condition - Step 03: Input to 'Password' textbox with value 'admin'
+[24-02-2024 00:05:09.125 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Pre-condition - Step 04: Click to 'Log in' button
+[24-02-2024 00:05:10.327 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Pre-condition - Step 05: Verify Admin dashboard page displayed
+[24-02-2024 00:05:12.294 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:12.373 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_01: Step 01: Click to 'Products Page' on menu: Catalog/Products
+[24-02-2024 00:05:14.486 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_01: Step 02: Input to product name textbox with value is 'Lenovo IdeaCentre 600 All-in-One PC'
+[24-02-2024 00:05:15.001 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_01: Step 03: Click to 'Search' button
+[24-02-2024 00:05:15.248 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_01: Step 14: Verify have only 1 product display in grid product with name is 'Lenovo IdeaCentre 600 All-in-One PC'
+[24-02-2024 00:05:17.363 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:17.638 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:17.832 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:17.986 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:18.122 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:18.275 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:18.320 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_02: Step 01: Click to 'Products Page' on menu: Catalog/Products
+[24-02-2024 00:05:18.917 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_02: Step 02: Input to product name textbox with value is 'Lenovo IdeaCentre 600 All-in-One PC'
+[24-02-2024 00:05:19.483 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_02: Step 03: Select item in 'Category' dropdown with value 'Computers'
+[24-02-2024 00:05:19.851 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_02: Step 04: Uncheck to 'Search subcategories' checkbox
+[24-02-2024 00:05:21.087 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_02: Step 05: Click to 'Search' button
+[24-02-2024 00:05:21.307 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_02: Step 06: Verify 'No data available in table' message is displayed
+[24-02-2024 00:05:21.823 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:21.835 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_03: Step 01: Click to 'Products Page' on menu: Catalog/Products
+[24-02-2024 00:05:22.497 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_03: Step 02: Input to product name textbox with value is 'Lenovo IdeaCentre 600 All-in-One PC'
+[24-02-2024 00:05:23.038 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_03: Step 03: Select item in 'Category' dropdown with value 'Computers'
+[24-02-2024 00:05:23.380 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_03: Step 04: Check to 'Search subcategories' checkbox
+[24-02-2024 00:05:24.663 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_03: Step 05: Click to 'Search' button
+[24-02-2024 00:05:24.828 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_03: Step 06: Verify have only 1 product display in grid product with name is 'Lenovo IdeaCentre 600 All-in-One PC'
+[24-02-2024 00:05:26.956 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:27.190 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:27.464 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:27.685 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:27.827 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:27.990 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:28.001 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_04: Step 01: Click to 'Products Page' on menu: Catalog/Products
+[24-02-2024 00:05:28.520 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_04: Step 02: Input to product name textbox with value is 'Lenovo IdeaCentre 600 All-in-One PC'
+[24-02-2024 00:05:29.110 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_04: Step 03: Select item in 'Category' dropdown with value 'Computers >> Desktops'
+[24-02-2024 00:05:29.368 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_04: Step 04: Unheck to 'Search subcategories' checkbox
+[24-02-2024 00:05:30.543 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_04: Step 05: Click to 'Search' button
+[24-02-2024 00:05:30.766 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_04: Step 06: Verify have only 1 product display in grid product with name is 'Lenovo IdeaCentre 600 All-in-One PC'
+[24-02-2024 00:05:32.892 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:33.129 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:33.382 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:33.613 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:33.798 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:33.997 INFO com.nopcommerce.admin.Admin_01_Search_Product] -  -------------------------- PASSED -------------------------- 
+[24-02-2024 00:05:34.012 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_05: Step 01: Click to 'Products Page' on menu: Catalog/Products
+[24-02-2024 00:05:34.577 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_05: Step 02: Input to product name textbox with value is 'Lenovo IdeaCentre 600 All-in-One PC'
+[24-02-2024 00:05:35.115 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_05: Step 03: Select item in 'Category' dropdown with value 'All'
+[24-02-2024 00:05:35.330 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_05: Step 04: Uncheck to 'Search subcategories' checkbox
+[24-02-2024 00:05:36.489 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_05: Step 05: Select item in 'Manufacturer' dropdown with value 'Apple'
+[24-02-2024 00:05:36.819 INFO com.nopcommerce.admin.Admin_01_Search_Product] - Admin_Search_05: Step 06: Click to 'Search' button
+[24-02-2024 00:05:36.983 INFO c
